@@ -1,9 +1,8 @@
 html {
-  height: 200%;
+  height: 100vh;
 }
 body {
-background: #bcdee7 url("assets/img/blue.jpg") no-repeat center center fixed;
-  background-size: 120% auto;
+background-color: rgb(147, 178, 190);
 padding: 0px;
 margin: 0px;
 width: 100%;
@@ -12,8 +11,31 @@ font: normal 14px/1.618em "Roboto", sans-serif;
 -webkit-font-smoothing: antialiased;
 }
 
+#fileInput{
+    height: 400px;
+    width: 400px;
+    opacity: 0;
+    display: none;
+}
+.button{
+  background-image: radial-gradient(circle, rgb(195, 195, 195), rgb(175, 175, 175), rgb(175, 175, 175));
+  height: 100px;
+  width: 400px;
+  border-radius: 15px;
+  margin: auto;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
+.button:hover{
+  height: 110px;
+  width: 440px;
+  cursor: pointer;
+  background-image: radial-gradient(circle, rgb(251, 244, 180), rgb(241, 251, 97), rgb(255, 232, 29));
+  
+}
 @media screen and (min-aspect-ratio: 4/3) {
   body {
       background-size: 100% auto;

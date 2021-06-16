@@ -14,7 +14,10 @@ import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-
+import clubs from '../assets/img/clubs.png'
+import spades from '../assets/img/spades.png'
+import diamond from '../assets/img/diamond.png'
+import heart from '../assets/img/heart.png'
 const useRowStyles = makeStyles({
   root: {
     '& > *': {
@@ -23,6 +26,48 @@ const useRowStyles = makeStyles({
   },
 });
 
+const createHand = (hand) =>{
+  if(hand && hand.length>0){
+    hand.split("")
+    if (hand[1]=="s"){
+      var icon1 = spades
+    }
+    if (hand[1]=="d"){
+      var icon1 = diamond
+    }
+    if (hand[1]=="h"){
+      var icon1 = heart
+    }
+    if (hand[1]=="c"){
+      var icon1 = clubs
+    }
+    if (hand[4]=="s"){
+      var icon2 = spades
+    }
+    if (hand[4]=="d"){
+      var icon2 = diamond
+    }
+    if (hand[4]=="h"){
+      var icon2 = heart
+    }
+    if (hand[4]=="c"){
+      var icon2 = clubs
+    }
+    return [hand[0],icon1,hand[3],icon2]
+  }
+  else{
+    return ["","","",""]
+  }
+}
+const createAction = (action) =>{
+  if(action == "win2"){
+    return "Heads up Win"
+  }
+  if(action == "win1"){
+    return "Win by Fold"
+  }
+  return action
+}
 function createData(name, calories, fat, carbs, protein, price) {
   return {
     name,
@@ -42,7 +87,6 @@ function Row(props) {
   const { row } = props;
   const [open, setOpen] = React.useState(false);
   const classes = useRowStyles();
-
   return (
     <React.Fragment >
       <TableRow className={classes.root} style={{backgroundColor:'rgb(200,200,200)'}}>
@@ -72,6 +116,7 @@ function Row(props) {
                   <TableRow>
                     <TableCell>Date</TableCell>
                     <TableCell>Chips</TableCell>
+                    <TableCell>Hand</TableCell>
                     <TableCell align="right">Action</TableCell>
                   </TableRow>
                 </TableHead>
@@ -82,7 +127,10 @@ function Row(props) {
                         {historyRow.hand}
                       </TableCell>
                       <TableCell>{historyRow.chips}</TableCell>
-                      <TableCell align="right">{historyRow.action}</TableCell>
+                      <TableCell component="th" scope="row">
+                        {createHand(historyRow.cards)[0]}<img height="10px" src={createHand(historyRow.cards)[1]}></img>{createHand(historyRow.cards)[2]}<img height="10px" src={createHand(historyRow.cards)[3]}></img>{historyRow.type? historyRow.type :" "}
+                      </TableCell>
+                      <TableCell align="right">{createAction(historyRow.action)}</TableCell>
                       
                     </TableRow>
                   ))}

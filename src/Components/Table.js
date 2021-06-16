@@ -21,7 +21,7 @@ import Row from './Row'
 
 
 function createData(name, calories, fat, carbs, protein,winFold,playerHistory) {
-  console.log(playerHistory.history)
+  //console.log(playerHistory.history)
   return {
     name,
     calories,
@@ -37,7 +37,7 @@ export default function CollapsibleTable(props) {
   var rows = []
   
   for(var i = 0;i<props.data.length;i++){
-    console.log(props.history[i].history)
+    //console.log(props.history[i].history)
     var row = createData(props.data[i].player,props.data[i].chips,props.data[i].rounds,props.data[i].seeFlop, props.data[i].preflopraise, props.data[i].winFold,props.history[i])
     rows.push(row)
   }

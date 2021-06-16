@@ -1,6 +1,7 @@
 
 
 export const tableDataCalc = (json) =>{
+    console.log(json)
     var allPlayers = []
     for(var i = 0; i<json.length;i++){
         for (var j = 0; j <json[i].players.length;j++){
@@ -27,10 +28,10 @@ export const tableDataCalc = (json) =>{
         recentPlayStatistics.push(player)
         recentPlayerHistory.push(history)
     }
-    console.log(allPlayers)
-    console.log(recentPlayers)
-    console.log(recentPlayStatistics)
-    console.log(recentPlayerHistory)
+    //console.log(allPlayers)
+    //console.log(recentPlayers)
+    //console.log(recentPlayStatistics)
+    //console.log(recentPlayerHistory)
     return [recentPlayStatistics,recentPlayerHistory]
 }
 
@@ -98,7 +99,27 @@ const PlayerHistory = (player,json) => {
                     var action = "no action"
                 }
                 
-                var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"action":action}
+                if (player == json[i].preflop.Player){
+                    var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":json[i].preflop.PlayerHand,"action":action}
+                }
+                
+                if (json[i].showDown){
+                    for(var k=0;k<json[i].showDown.length;k++){
+                        if(json[i].showDown[k].includes(player)&&json[i].showDown[k].includes("[")){
+                            var temp = json[i].showDown[k].split("[")
+                            temp = temp[1].split(']')
+                            console.log(temp)
+                            var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":temp[0],'type':temp[1],"action":action}
+                        }
+                        
+                    }
+                }
+                else{
+                    var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":"","action":action}
+                }
+                    
+                
+                
             }
             
         }
@@ -106,6 +127,7 @@ const PlayerHistory = (player,json) => {
             hand = {"hand":"-","chips":'0'.chips,"action":"--"}   
         }
         history.push(hand)
+        console.log(hand)
     }
     return {"player":player,history}
 }

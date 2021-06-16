@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import {textToJson} from './helperFunctions/fileParser'
 import {tableDataCalc} from './helperFunctions/statisticsTable'
 import './App.css'
+import add from './assets/img/add.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -79,7 +80,8 @@ function App() {
           
           </Grid>
           <Grid item xs={10}>
-            {json[0]? json.length : 0}
+            <h2>Total Hands : {json[0]? json.length : 0}</h2>
+            
           </Grid>
           <Grid item xs={1}>
             
@@ -88,23 +90,24 @@ function App() {
           
         </Grid>
         <Grid item xs={10}>
-          <Table data ={recentPlayersTable} history ={recentPlayersHistory}/>
+          <Table data={recentPlayersTable} history={recentPlayersHistory}/>
         </Grid>
         <Grid item xs={1}>
           
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={12}>
         <input
           type='file'
-          id='file'
+          id='fileInput'
           className='input-file'
           
           onChange={e => handleFileChosen(e.target.files[0])}
         />
+        <label class="button" for="fileInput"><img height="50px" src={add}></img></label>
         </Grid>
       </Grid>
       
-      <BottomNav/>
+      
     </div>
   );
 }
