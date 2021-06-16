@@ -99,10 +99,6 @@ const PlayerHistory = (player,json) => {
                     var action = "no action"
                 }
                 
-                if (player == json[i].preflop.Player){
-                    var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":json[i].preflop.PlayerHand,"action":action}
-                }
-                
                 if (json[i].showDown){
                     for(var k=0;k<json[i].showDown.length;k++){
                         if(json[i].showDown[k].includes(player)&&json[i].showDown[k].includes("[")){
@@ -117,6 +113,14 @@ const PlayerHistory = (player,json) => {
                 else{
                     var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":"","action":action}
                 }
+                if (player == json[i].preflop.Player){
+                    if (hand && hand.cards.length == 0){
+                        var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":json[i].preflop.PlayerHand,"action":action}
+                    }
+                    
+                }
+                
+                
                     
                 
                 

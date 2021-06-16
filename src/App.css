@@ -2,7 +2,7 @@ html {
   height: 100vh;
 }
 body {
-background-color: rgb(147, 178, 190);
+background-color: rgb(212, 237, 245);
 padding: 0px;
 margin: 0px;
 width: 100%;
@@ -18,7 +18,7 @@ font: normal 14px/1.618em "Roboto", sans-serif;
     display: none;
 }
 .button{
-  background-image: radial-gradient(circle, rgb(195, 195, 195), rgb(175, 175, 175), rgb(175, 175, 175));
+  background-image: radial-gradient(circle, rgb(201, 241, 248), rgb(195, 255, 255), rgb(166, 252, 247));
   height: 100px;
   width: 400px;
   border-radius: 15px;
