@@ -7,7 +7,7 @@ import {textToJson} from './helperFunctions/fileParser'
 import {tableDataCalc} from './helperFunctions/statisticsTable'
 import './App.css'
 import add from './assets/img/add.png'
-
+import NavBar from './Components/Core/NavBar'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -74,7 +74,7 @@ function App() {
 
   return (
     <div className="App">
-      
+      <NavBar/>
       <Grid container spacing={3} style={{padding:'50px'}}>
       <Grid item xs={1}>
           

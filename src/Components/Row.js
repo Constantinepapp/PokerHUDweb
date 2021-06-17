@@ -89,20 +89,20 @@ function Row(props) {
   const classes = useRowStyles();
   return (
     <React.Fragment >
-      <TableRow className={classes.root} style={{backgroundColor:'rgb(200,200,200)'}}>
-        <TableCell>
+      <TableRow className={classes.root} style={{backgroundColor:'rgb(70,70,70)',color:'rgb(255,255,255)'}}>
+        <TableCell >
           <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
             {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
           </IconButton>
         </TableCell>
-        <TableCell component="th" scope="row">
+        <TableCell component="th" scope="row" style={{color:'rgb(255,255,255)'}}>
           {row.name}
         </TableCell>
-        <TableCell align="right">{row.calories}</TableCell>
-        <TableCell align="right">{row.fat}</TableCell>
-        <TableCell align="right">{row.carbs}</TableCell>
-        <TableCell align="right">{row.protein}</TableCell>
-        <TableCell align="right">{row.winFold}</TableCell>
+        <TableCell align="right" style={{color:'rgb(255,255,255)'}}>{row.calories}</TableCell>
+        <TableCell align="right" style={{color:'rgb(255,255,255)'}}>{row.fat}</TableCell>
+        <TableCell align="right" style={{color:'rgb(255,215,80)'}}>{row.carbs}</TableCell>
+        <TableCell align="right" style={{color:'rgb(255,115,80)'}}>{row.protein}</TableCell>
+        <TableCell align="right" style={{color:'rgb(115,215,180)'}}>{row.winFold}</TableCell>
       </TableRow>
       <TableRow>
         <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>

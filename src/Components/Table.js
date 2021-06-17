@@ -54,6 +54,7 @@ export default function CollapsibleTable(props) {
         <TableHead>
           <TableRow>
             <TableCell />
+            
             <TableCell>Player</TableCell>
             <TableCell align="right">Chips</TableCell>
             <TableCell align="right">Hands</TableCell>
