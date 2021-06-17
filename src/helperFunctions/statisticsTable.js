@@ -105,17 +105,17 @@ const PlayerHistory = (player,json) => {
                             var temp = json[i].showDown[k].split("[")
                             temp = temp[1].split(']')
                             //console.log(temp)
-                            var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":temp[0],'type':temp[1],"action":action}
+                            var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":temp[0],'table':json[i].cardsDown,'type':temp[1],"action":action}
                         }
                         
                     }
                 }
                 else{
-                    var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":"","action":action}
+                    var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":"",'table':json[i].cardsDown,"action":action}
                 }
                 if (player == json[i].preflop.Player){
                     if (hand && hand.cards.length == 0){
-                        var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":json[i].preflop.PlayerHand,"action":action}
+                        var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":json[i].preflop.PlayerHand,'table':json[i].cardsDown,"action":action}
                     }
                     
                 }
@@ -130,8 +130,14 @@ const PlayerHistory = (player,json) => {
         if (!hand){
             hand = {"hand":"-","chips":'0'.chips,"action":"--"}   
         }
-        history.push(hand)
-        //console.log(hand)
+        if (history[history.length-1] && history[history.length-1].hand == hand.hand){
+            //console.log("here")
+        }
+        else{
+            history.push(hand)
+        }
+        
+        console.log(hand)
     }
     return {"player":player,history}
 }

@@ -19,8 +19,8 @@ font: normal 14px/1.618em "Roboto", sans-serif;
 }
 .button{
   background-image: radial-gradient(circle, rgb(58, 58, 58), rgb(51, 51, 51), rgb(44, 44, 44));
-  height: 100px;
-  width: 400px;
+  height: 70px;
+  width: 200px;
   border-radius: 15px;
   margin: auto;
   
@@ -30,8 +30,8 @@ font: normal 14px/1.618em "Roboto", sans-serif;
 }
 
 .button:hover{
-  height: 110px;
-  width: 440px;
+  height: 80px;
+  width: 300px;
   cursor: pointer;
   background-image: radial-gradient(circle, rgb(41, 90, 126),rgb(81, 120, 166),rgb(121, 140, 226));
   

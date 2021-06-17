@@ -1,5 +1,6 @@
 
 function SplitRounds(text){
+    //console.log(text)
     return text.split("PokerStars")
 }
 
@@ -33,8 +34,8 @@ function PreflopAnalyzer(players,preflopRound){
     var playerRaise = []
     var playerReraise = []
     var playerHand = ""
+
     for (var i=0;i<preflopRound.length;i++){
-        
         if (preflopRound[i].includes("raise")){
             
             for (var j = 0; j<players.length;j++){
@@ -75,9 +76,24 @@ function IntroAnalyzer(intro){
             players.push({"player":splited[2],"chips":chips})
             
         }
+        if (intro[i].includes("ante")){
+            var ante = intro[i].split(" ")
+            //console.log(ante)
+            ante = ante[ante.length-1].replace(/\D/g,'');
+        }
+        if (intro[i].includes("big blind")){
+            var bblind = intro[i].split(" ")
+            //console.log(ante)
+            bblind = bblind[bblind.length-1].replace(/\D/g,'');
+        }
+        if (intro[i].includes("small blind")){
+            var sblind = intro[i].split(" ")
+            //console.log(ante)
+            sblind = sblind[sblind.length-1].replace(/\D/g,'');
+        }
     }
     //console.log(players)
-    return players
+    return [players,ante,bblind,sblind]
 }
 function getPlayerList(summary){
     var players = []    
@@ -92,14 +108,21 @@ function getPlayerList(summary){
 function SummaryAnalyzer(summary){
     var players = []    
     for (var i=0;i<summary.length;i++){
+        //console.log(summary[i])
         if (summary[i].includes("Θέση")){
             var splited = summary[i].split(" ")
             var action = ActionClassifier(summary[i])
             players.push({"player":splited[2],"action":action})
             //console.log(splited)
         }
+        if (summary[i].includes('Ταμπλό')){
+            var cardsDown = summary[i].split("[")
+            cardsDown = cardsDown[1].split("]")
+            cardsDown = cardsDown[0] 
+            
+        }
     }
-    return players
+    return [players,cardsDown]
 }
 const SplitActions = (text) =>{
     
@@ -166,10 +189,10 @@ const SplitActions = (text) =>{
 
     var summaryRound = text.slice(summary)
     var players = getPlayerList(summaryRound)
-    summaryRound = SummaryAnalyzer(summaryRound)
-    preflopRound = PreflopAnalyzer(players,preflopRound)
-    introRound = IntroAnalyzer(introRound)
-    var round = {"players":players,"intro":introRound,'preflop':preflopRound,"flop":flopRound,"turn":turnRound,"river":riverRound,"showDown":showDownRound,"summary":summaryRound}
+    var [summaryRound,cardsDown] = SummaryAnalyzer(summaryRound)
+    var preflopRound = PreflopAnalyzer(players,preflopRound)
+    var [introRound,ante,bblind,sblind] = IntroAnalyzer(introRound)
+    var round = {"players":players,'ante':ante,'smallBlind':sblind,'bigBlind':bblind,'cardsDown':cardsDown,"intro":introRound,'preflop':preflopRound,"flop":flopRound,"turn":turnRound,"river":riverRound,"showDown":showDownRound,"summary":summaryRound}
     
 
     return round

@@ -18,6 +18,7 @@ import clubs from '../assets/img/clubs.png'
 import spades from '../assets/img/spades.png'
 import diamond from '../assets/img/diamond.png'
 import heart from '../assets/img/heart.png'
+import { SnackbarContent } from '@material-ui/core';
 const useRowStyles = makeStyles({
   root: {
     '& > *': {
@@ -65,6 +66,20 @@ const createHand = (hand) =>{
   }
   else{
     return ["","","",""]
+  }
+}
+const createSymbol = (symbol) =>{
+  if (symbol == "s"){
+    return spades
+  }
+  if (symbol == "c"){
+    return clubs
+  }
+  if (symbol == "h"){
+    return heart
+  }
+  if (symbol == "d"){
+    return diamond
   }
 }
 const createAction = (action) =>{
@@ -122,9 +137,10 @@ function Row(props) {
               <Table size="small" aria-label="purchases">
                 <TableHead>
                   <TableRow>
-                    <TableCell>Date</TableCell>
+                    <TableCell>No</TableCell>
                     <TableCell>Chips</TableCell>
                     <TableCell>Hand</TableCell>
+                    <TableCell>Table</TableCell>
                     <TableCell align="right">Action</TableCell>
                   </TableRow>
                 </TableHead>
@@ -137,6 +153,14 @@ function Row(props) {
                       <TableCell>{historyRow.chips}</TableCell>
                       <TableCell component="th" scope="row">
                         {createHand(historyRow.cards)[0]}<img height="10px" src={createHand(historyRow.cards)[1]}></img>{createHand(historyRow.cards)[2]}<img height="10px" src={createHand(historyRow.cards)[3]}></img>{historyRow.type? historyRow.type :" "}
+                      </TableCell>
+                      <TableCell component="th" scope="row">
+                        {historyRow.table ? historyRow.table.split(" ").map((element)=>(
+                          <>
+                            {element[0] =="T"?"10":element[0]}<img height="10px"src={createSymbol(element[1])}></img>
+                          </>
+                          
+                        )):""}
                       </TableCell>
                       <TableCell align="right">{createAction(historyRow.action)}</TableCell>
                       
