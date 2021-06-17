@@ -19,6 +19,7 @@ import spades from '../assets/img/spades.png'
 import diamond from '../assets/img/diamond.png'
 import heart from '../assets/img/heart.png'
 import { SnackbarContent } from '@material-ui/core';
+import PlayerModal from './PlayerModal'
 const useRowStyles = makeStyles({
   root: {
     '& > *': {
@@ -91,6 +92,23 @@ const createAction = (action) =>{
   }
   return action
 }
+const colorRow = (action) =>{
+  if (action == "loss"){
+    return {backgroundColor:'rgba(250,100,100,0.6)'}
+  }
+  if (action == "win2"){
+    return {backgroundColor:'rgba(100,200,100,0.99)'}
+  }
+  if (action == "preflopfold"){
+    return {backgroundColor:'rgba(80,80,80,0.6)'}
+  }
+  if (action == "win1"){
+    return {backgroundColor:'rgba(100,180,100,0.6)'}
+  }
+  else{
+    return {backgroundColor:'rgba(220,120,120,0.5)'}
+  }
+}
 function createData(name, calories, fat, carbs, protein, price) {
   return {
     name,
@@ -119,8 +137,9 @@ function Row(props) {
           </IconButton>
         </TableCell>
         <TableCell component="th" scope="row" style={{color:'rgb(255,255,255)'}}>
-          {row.name}
+          <PlayerModal row={row}/>
         </TableCell>
+        
         <TableCell align="right" style={{color:'rgb(255,255,255)'}}>{row.calories}</TableCell>
         <TableCell align="right" style={{color:'rgb(255,255,255)'}}>{row.fat}</TableCell>
         <TableCell align="right" style={{color:'rgb(255,215,80)'}}>{row.carbs}</TableCell>
@@ -146,7 +165,7 @@ function Row(props) {
                 </TableHead>
                 <TableBody>
                   {row.history.slice(0).reverse().map((historyRow) => (
-                    <TableRow key={historyRow.hand}>
+                    <TableRow key={historyRow.hand} style={colorRow(historyRow.action)}>
                       <TableCell component="th" scope="row">
                         {historyRow.hand}
                       </TableCell>
@@ -157,7 +176,7 @@ function Row(props) {
                       <TableCell component="th" scope="row">
                         {historyRow.table ? historyRow.table.split(" ").map((element)=>(
                           <>
-                            {element[0] =="T"?"10":element[0]}<img height="10px"src={createSymbol(element[1])}></img>
+                            {element[0] =="T"?"10":element[0]}<img height="10px"src={createSymbol(element[1])}></img>|
                           </>
                           
                         )):""}
