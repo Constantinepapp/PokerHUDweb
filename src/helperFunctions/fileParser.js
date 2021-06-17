@@ -29,7 +29,7 @@ function ChipsClassifier(intro){
     return chips
 }
 function PreflopAnalyzer(players,preflopRound){
-    console.log(preflopRound)
+    //console.log(preflopRound)
     var playerRaise = []
     var playerReraise = []
     var playerHand = ""

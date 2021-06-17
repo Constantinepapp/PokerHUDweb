@@ -104,7 +104,7 @@ const PlayerHistory = (player,json) => {
                         if(json[i].showDown[k].includes(player)&&json[i].showDown[k].includes("[")){
                             var temp = json[i].showDown[k].split("[")
                             temp = temp[1].split(']')
-                            console.log(temp)
+                            //console.log(temp)
                             var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":temp[0],'type':temp[1],"action":action}
                         }
                         
@@ -131,7 +131,7 @@ const PlayerHistory = (player,json) => {
             hand = {"hand":"-","chips":'0'.chips,"action":"--"}   
         }
         history.push(hand)
-        console.log(hand)
+        //console.log(hand)
     }
     return {"player":player,history}
 }

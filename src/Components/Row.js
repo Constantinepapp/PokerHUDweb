@@ -28,7 +28,15 @@ const useRowStyles = makeStyles({
 
 const createHand = (hand) =>{
   if(hand && hand.length>0){
+    var number1 = hand[0]
+    var number2 = hand[3]
     hand.split("")
+    if (hand[0]=="T"){
+      number1 = "10"
+    }
+    if (hand[3]=="T"){
+      number2 = "10"
+    }
     if (hand[1]=="s"){
       var icon1 = spades
     }
@@ -53,7 +61,7 @@ const createHand = (hand) =>{
     if (hand[4]=="c"){
       var icon2 = clubs
     }
-    return [hand[0],icon1,hand[3],icon2]
+    return [number1,icon1,number2,icon2]
   }
   else{
     return ["","","",""]
