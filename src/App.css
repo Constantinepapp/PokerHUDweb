@@ -33,7 +33,7 @@ font: normal 14px/1.618em "Roboto", sans-serif;
   height: 110px;
   width: 440px;
   cursor: pointer;
-  background-image: radial-gradient(circle, rgb(214, 198, 57), rgb(221, 199, 73), rgb(195, 180, 41));
+  background-image: radial-gradient(circle, rgb(41, 90, 126),rgb(81, 120, 166),rgb(121, 140, 226));
   
 }
 @media screen and (min-aspect-ratio: 4/3) {
