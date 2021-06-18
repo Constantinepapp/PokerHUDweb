@@ -11,6 +11,12 @@ function ActionClassifier(summary){
     if (summary.includes("fold στο Flop")){
         return 'flopfold'
     }
+    if (summary.includes("fold στο River")){
+        return 'riverfold'
+    }
+    if (summary.includes("fold στο Turn")){
+        return 'turnfold'
+    }
     if (summary.includes("απεκόμισε")){
         return 'win1'
     }
@@ -22,6 +28,9 @@ function ActionClassifier(summary){
     }
     if (summary.includes("έχασε")){
         return 'loss'
+    }
+    else{
+        return 'no data'
     }
 }
 function ChipsClassifier(intro){
@@ -65,6 +74,166 @@ function PreflopAnalyzer(players,preflopRound){
     preflopRound = {'Raise':playerRaise,'Reraise':playerReraise,"Player":playerSelf,'PlayerHand':playerHand}
     
     return preflopRound
+    
+}
+function FlopAnalyzer(players,flopRound){
+    //console.log(flopRound)
+    var playerRaise = []
+    var playerReraise = []
+    var playerCheck = []
+    var playerFold = []
+    var playerHand = ""
+
+    for (var i=0;i<flopRound.length;i++){
+        if (flopRound[i].includes("raise")||flopRound[i].includes("ποντάρει")){
+            
+            for (var j = 0; j<players.length;j++){
+                if (flopRound[i].includes(players[j])){
+                    if (playerRaise.length == 0){
+                        playerRaise.push(players[j])
+                    }
+                    else{
+                        playerReraise.push(players[j])
+                    }
+                }
+            }
+    
+        }
+        if (flopRound[i].includes("check")){
+            
+            for (var j = 0; j<players.length;j++){
+                if (flopRound[i].includes(players[j])){
+                    
+                    playerCheck.push(players[j])
+                    
+                }
+            }
+    
+        } 
+        if (flopRound[i].includes("fold")){
+            
+            for (var j = 0; j<players.length;j++){
+                if (flopRound[i].includes(players[j])){
+                    
+                    playerFold.push(players[j])
+                    
+                }
+            }
+    
+        }  
+              
+        
+    }
+    flopRound = {'Raise':playerRaise,'Reraise':playerReraise,"Check":playerCheck,'Fold':playerFold}
+    
+    return flopRound
+    
+}
+function TurnAnalyzer(players,turnRound){
+    //console.log(turnRound)
+    var playerRaise = []
+    var playerReraise = []
+    var playerCheck = []
+    var playerFold = []
+    var playerHand = ""
+
+    for (var i=0;i<turnRound.length;i++){
+        if (turnRound[i].includes("raise")||turnRound[i].includes("ποντάρει")){
+            
+            for (var j = 0; j<players.length;j++){
+                if (turnRound[i].includes(players[j])){
+                    if (playerRaise.length == 0){
+                        playerRaise.push(players[j])
+                    }
+                    else{
+                        playerReraise.push(players[j])
+                    }
+                }
+            }
+    
+        }
+        if (turnRound[i].includes("check")){
+            
+            for (var j = 0; j<players.length;j++){
+                if (turnRound[i].includes(players[j])){
+                    
+                    playerCheck.push(players[j])
+                    
+                }
+            }
+    
+        } 
+        if (turnRound[i].includes("fold")){
+            
+            for (var j = 0; j<players.length;j++){
+                if (turnRound[i].includes(players[j])){
+                    
+                    playerFold.push(players[j])
+                    
+                }
+            }
+    
+        }  
+              
+        
+    }
+    turnRound = {'Raise':playerRaise,'Reraise':playerReraise,"Check":playerCheck,'Fold':playerFold}
+    
+    return turnRound
+    
+}
+function RiverAnalyzer(players,riverRound){
+    //console.log(riverRound)
+    var playerRaise = []
+    var playerReraise = []
+    var playerCheck = []
+    var playerFold = []
+    var playerHand = ""
+
+    for (var i=0;i<riverRound.length;i++){
+        if (riverRound[i].includes("raise")||riverRound[i].includes("ποντάρει")){
+            
+            for (var j = 0; j<players.length;j++){
+                if (riverRound[i].includes(players[j])){
+                    if (playerRaise.length == 0){
+                        //console.log(players[j])
+                        playerRaise.push(players[j])
+                    }
+                    else{
+                        playerReraise.push(players[j])
+                    }
+                }
+            }
+    
+        }
+        if (riverRound[i].includes("check")){
+            //console.log(riverRound)
+            for (var j = 0; j<players.length;j++){
+                if (riverRound[i].includes(players[j])){
+                    //console.log(players[j])
+                    playerCheck.push(players[j])
+                    
+                }
+            }
+    
+        } 
+        if (riverRound[i].includes("fold")){
+            
+            for (var j = 0; j<players.length;j++){
+                if (riverRound[i].includes(players[j])){
+                    
+                    playerFold.push(players[j])
+                    
+                }
+            }
+    
+        }  
+              
+        
+    }
+    riverRound = {'Raise':playerRaise,'Reraise':playerReraise,"Check":playerCheck,'Fold':playerFold}
+    
+    return riverRound
     
 }
 function IntroAnalyzer(intro){
@@ -192,9 +361,27 @@ const SplitActions = (text) =>{
     var [summaryRound,cardsDown] = SummaryAnalyzer(summaryRound)
     var preflopRound = PreflopAnalyzer(players,preflopRound)
     var [introRound,ante,bblind,sblind] = IntroAnalyzer(introRound)
+    if (flopRound){
+        var flopRound = FlopAnalyzer(players,flopRound)
+    }
+    else{
+        var flopRound = ""
+    }
+    if (turnRound){
+        var turnRound = TurnAnalyzer(players,turnRound)
+    }
+    else{
+        var turnRound = ""
+    }
+    if (riverRound){
+        var riverRound = RiverAnalyzer(players,riverRound)
+    }
+    else{
+        var riverRound = ""
+    }
+    //console.log(flopRound)
     var round = {"players":players,'ante':ante,'smallBlind':sblind,'bigBlind':bblind,'cardsDown':cardsDown,"intro":introRound,'preflop':preflopRound,"flop":flopRound,"turn":turnRound,"river":riverRound,"showDown":showDownRound,"summary":summaryRound}
     
-
     return round
     
 }

@@ -13,7 +13,7 @@ import { Button,Row,Col, Modal, ModalHeader, ModalBody, ModalFooter ,Table} from
 
 
 const PlayerModal = (props) => {
-  console.log(props)
+  //console.log(props)
   const {
     buttonLabel,
     className

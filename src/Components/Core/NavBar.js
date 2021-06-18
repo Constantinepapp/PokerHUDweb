@@ -32,7 +32,7 @@ export default function SimpleBottomNavigation() {
         </IconButton>
         <Typography variant="h6" className={classes.title}>
         <img height="40px" src={cardstwo}></img>
-        <p style={{display:'inline',marginLeft:'10px'}}>PokerHUD</p>
+        <p style={{display:'inline',marginLeft:'10px'}}>PokerStats</p>
         </Typography>
         <Toolbar>
             <Button color="inherit"></Button>

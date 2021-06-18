@@ -18,6 +18,10 @@ import clubs from '../assets/img/clubs.png'
 import spades from '../assets/img/spades.png'
 import diamond from '../assets/img/diamond.png'
 import heart from '../assets/img/heart.png'
+import check from "../assets/img/check.png"
+import raise from '../assets/img/increase.png'
+import reraise from '../assets/img/double-up-arrow.png'
+import fold from '../assets/img/close.png'
 import { SnackbarContent } from '@material-ui/core';
 import PlayerModal from './PlayerModal'
 const useRowStyles = makeStyles({
@@ -83,6 +87,23 @@ const createSymbol = (symbol) =>{
     return diamond
   }
 }
+const actionIcon = (action) =>{
+  if (action == "check"){
+    return check
+  }
+  if (action == "raise"){
+    return raise
+  }
+  if (action == "reraise"){
+    return reraise
+  }
+  if (action == "fold"){
+    return fold
+  }
+  else{
+    return ""
+  }
+}
 const createAction = (action) =>{
   if(action == "win2"){
     return "Heads up Win"
@@ -94,7 +115,7 @@ const createAction = (action) =>{
 }
 const colorRow = (action) =>{
   if (action == "loss"){
-    return {backgroundColor:'rgba(250,100,100,0.6)'}
+    return {backgroundColor:'rgba(250,100,100,0.9)'}
   }
   if (action == "win2"){
     return {backgroundColor:'rgba(100,200,100,0.99)'}
@@ -104,6 +125,12 @@ const colorRow = (action) =>{
   }
   if (action == "win1"){
     return {backgroundColor:'rgba(100,180,100,0.6)'}
+  }
+  if (action == "turnfold"){
+    return {backgroundColor:'rgba(220,120,120,0.6)'}
+  }
+  if (action == "riverfold"){
+    return {backgroundColor:'rgba(230,100,120,0.8)'}
   }
   else{
     return {backgroundColor:'rgba(220,120,120,0.5)'}
@@ -125,6 +152,7 @@ function createData(name, calories, fat, carbs, protein, price) {
 }
 
 function Row(props) {
+  console.log(props)
   const { row } = props;
   const [open, setOpen] = React.useState(false);
   const classes = useRowStyles();
@@ -159,8 +187,9 @@ function Row(props) {
                     <TableCell>No</TableCell>
                     <TableCell>Chips</TableCell>
                     <TableCell>Hand</TableCell>
+                    
                     <TableCell>Table</TableCell>
-                    <TableCell align="right">Action</TableCell>
+                    <TableCell align="right">Outcome</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -181,6 +210,7 @@ function Row(props) {
                           
                         )):""}
                       </TableCell>
+                      
                       <TableCell align="right">{createAction(historyRow.action)}</TableCell>
                       
                     </TableRow>

@@ -92,13 +92,54 @@ const PlayerHistory = (player,json) => {
     for (var i=0;i<json.length;i++){
         for(var j=0;j<json[i].intro.length;j++){
             if (json[i].intro[j].player == player){
+                               
                 try{
                     var action = json[i].summary[j].action
                 }
                 catch{
                     var action = "no action"
                 }
-                
+                var flop = []
+                var turn = []
+                var river = []
+                if (json[i].flop.Raise?.includes(player)){
+                    flop.push('raise')                    
+                }
+                if (json[i].flop.Reraise?.includes(player)){
+                    flop.push('reraise')                     
+                }
+                if (json[i].flop.Check?.includes(player)){
+                    flop.push('check')                      
+                }
+                if (json[i].flop.Fold?.includes(player)){
+                    flop.push('fold')                    
+                }
+                if (json[i].turn.Raise?.includes(player)){
+                    turn.push('raise')                 
+                }
+                if (json[i].turn.Reraise?.includes(player)){
+                    turn.push('reraise')                   
+                }
+                if (json[i].turn.Check?.includes(player)){
+                    turn.push('check')                    
+                }
+                if (json[i].turn.Fold?.includes(player)){
+                    turn.push('fold')                 
+                }
+                if (json[i].river.Raise?.includes(player)){
+                    river.push('raise')                    
+                }
+                if (json[i].river.Reraise?.includes(player)){
+                    river.push('reraise')                    
+                }
+                if (json[i].river.Check?.includes(player)){
+                    river.push('check')                    
+                }
+                if (json[i].river.Fold?.includes(player)){
+                    river.push('fold')                  
+                }
+                var play = [flop,turn,river]
+
                 if (json[i].showDown){
                     for(var k=0;k<json[i].showDown.length;k++){
                         if(json[i].showDown[k].includes(player)&&json[i].showDown[k].includes("[")){
@@ -125,6 +166,7 @@ const PlayerHistory = (player,json) => {
                 
                 
             }
+            hand.plays = play
             
         }
         if (!hand){
@@ -137,7 +179,7 @@ const PlayerHistory = (player,json) => {
             history.push(hand)
         }
         
-        console.log(hand)
+        //console.log(hand)
     }
     return {"player":player,history}
 }
