@@ -29,6 +29,27 @@ font: normal 14px/1.618em "Roboto", sans-serif;
   align-items: center;
 }
 
+.btnExample{
+  
+  
+  height: 40px;
+  width: 100px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 30px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnExample:hover{
+  color: #E0E0E0;
+  height: 50px;
+  width: 110px;
+  cursor: pointer;
+  background-image: radial-gradient(circle, rgb(41, 90, 126),rgb(81, 120, 166),rgb(121, 140, 226));
+  
+}
 .button:hover{
   height: 80px;
   width: 300px;

@@ -1,0 +1,2331 @@
+﻿PokerStars Παρτίδα #221001702720: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο I (15/30) - 2020/12/02 1:00:07 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:00:07 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #1 είναι το button
+Θέση 1: asdepique230 (5000 σε chips) 
+Θέση 2: dkaz99 (5000 σε chips) 
+Θέση 3: ramis.iusein (5000 σε chips) 
+Θέση 4: Carlog55 (5000 σε chips) 
+Θέση 5: juri_orlov1 (5000 σε chips) 
+Θέση 6: Solidproblem (5000 σε chips) 
+Θέση 7: hesher02 (5000 σε chips) 
+Θέση 8: Sanktu (5000 σε chips) 
+Θέση 9: MelanieSCH85 (5000 σε chips) 
+asdepique230: βάζει το ante 4
+dkaz99: βάζει το ante 4
+ramis.iusein: βάζει το ante 4
+Carlog55: βάζει το ante 4
+juri_orlov1: βάζει το ante 4
+Solidproblem: βάζει το ante 4
+hesher02: βάζει το ante 4
+Sanktu: βάζει το ante 4
+MelanieSCH85: βάζει το ante 4
+dkaz99: βάζει το small blind 15
+ramis.iusein: βάζει το big blind 30
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Qh 7s]
+Carlog55: fold 
+juri_orlov1: fold 
+Solidproblem: fold 
+hesher02: fold 
+Sanktu: call 30
+MelanieSCH85: fold 
+asdepique230: call 30
+dkaz99: call 15
+ramis.iusein: check 
+*** FLOP *** [8c 6c 2d]
+dkaz99: check 
+ramis.iusein: check 
+Sanktu: check 
+asdepique230: ποντάρει 117
+dkaz99: fold 
+ramis.iusein: call 117
+Sanktu: call 117
+*** TURN *** [8c 6c 2d] [3c]
+ramis.iusein: check 
+Sanktu: check 
+asdepique230: ποντάρει 254
+ramis.iusein: fold 
+Sanktu: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (254) επιστράφηκε στον asdepique230
+asdepique230 μάζεψε 507 από  pot
+asdepique230: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 507 | Rake 0 
+Ταμπλό [8c 6c 2d 3c]
+Θέση 1: asdepique230 (button) απεκόμισε (507)
+Θέση 2: dkaz99 (small blind) έκανε fold στο Flop
+Θέση 3: ramis.iusein (big blind) έκανε fold στο Turn
+Θέση 4: Carlog55 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: juri_orlov1 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: hesher02 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold στο Turn
+Θέση 9: MelanieSCH85 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221001732404: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο I (15/30) - 2020/12/02 1:01:03 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:01:03 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #2 είναι το button
+Θέση 1: asdepique230 (5356 σε chips) 
+Θέση 2: dkaz99 (4966 σε chips) 
+Θέση 3: ramis.iusein (4849 σε chips) 
+Θέση 4: Carlog55 (4996 σε chips) 
+Θέση 5: juri_orlov1 (4996 σε chips) 
+Θέση 6: Solidproblem (4996 σε chips) 
+Θέση 7: hesher02 (4996 σε chips) 
+Θέση 8: Sanktu (4849 σε chips) 
+Θέση 9: MelanieSCH85 (4996 σε chips) 
+asdepique230: βάζει το ante 4
+dkaz99: βάζει το ante 4
+ramis.iusein: βάζει το ante 4
+Carlog55: βάζει το ante 4
+juri_orlov1: βάζει το ante 4
+Solidproblem: βάζει το ante 4
+hesher02: βάζει το ante 4
+Sanktu: βάζει το ante 4
+MelanieSCH85: βάζει το ante 4
+ramis.iusein: βάζει το small blind 15
+Carlog55: βάζει το big blind 30
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [8s Jh]
+juri_orlov1: fold 
+Solidproblem: fold 
+hesher02: fold 
+Sanktu: fold 
+MelanieSCH85: fold 
+asdepique230: raise 75 σε 105
+dkaz99: fold 
+ramis.iusein: fold 
+Carlog55: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (75) επιστράφηκε στον asdepique230
+asdepique230 μάζεψε 111 από  pot
+asdepique230: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 111 | Rake 0 
+Θέση 1: asdepique230 απεκόμισε (111)
+Θέση 2: dkaz99 (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein (small blind) έκανε fold πριν Flop
+Θέση 4: Carlog55 (big blind) έκανε fold πριν Flop
+Θέση 5: juri_orlov1 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: hesher02 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: MelanieSCH85 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221001758588: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο I (15/30) - 2020/12/02 1:01:47 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:01:47 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #3 είναι το button
+Θέση 1: asdepique230 (5433 σε chips) 
+Θέση 2: dkaz99 (4962 σε chips) 
+Θέση 3: ramis.iusein (4830 σε chips) 
+Θέση 4: Carlog55 (4962 σε chips) 
+Θέση 6: Solidproblem (4992 σε chips) 
+Θέση 7: hesher02 (4992 σε chips) 
+Θέση 8: Sanktu (4845 σε chips) 
+Θέση 9: MelanieSCH85 (4992 σε chips) 
+asdepique230: βάζει το ante 4
+dkaz99: βάζει το ante 4
+ramis.iusein: βάζει το ante 4
+Carlog55: βάζει το ante 4
+Solidproblem: βάζει το ante 4
+hesher02: βάζει το ante 4
+Sanktu: βάζει το ante 4
+MelanieSCH85: βάζει το ante 4
+Carlog55: βάζει το small blind 15
+Solidproblem: βάζει το big blind 30
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [2d 6h]
+hesher02: fold 
+Sanktu: call 30
+MelanieSCH85: fold 
+asdepique230: fold 
+dkaz99: fold 
+ramis.iusein: call 30
+Carlog55: fold 
+Solidproblem: check 
+*** FLOP *** [4c 3h 8c]
+Solidproblem: check 
+Sanktu: check 
+ramis.iusein: ποντάρει 137
+Solidproblem: fold 
+Sanktu: call 137
+*** TURN *** [4c 3h 8c] [3d]
+Sanktu: check 
+ramis.iusein: ποντάρει 411
+Sanktu: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (411) επιστράφηκε στον ramis.iusein
+ramis.iusein μάζεψε 411 από  pot
+ramis.iusein: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 411 | Rake 0 
+Ταμπλό [4c 3h 8c 3d]
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein (button) απεκόμισε (411)
+Θέση 4: Carlog55 (small blind) έκανε fold πριν Flop
+Θέση 6: Solidproblem (big blind) έκανε fold στο Flop
+Θέση 7: hesher02 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold στο Turn
+Θέση 9: MelanieSCH85 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221001798667: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο I (15/30) - 2020/12/02 1:02:51 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:02:51 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #4 είναι το button
+Θέση 1: asdepique230 (5429 σε chips) 
+Θέση 2: dkaz99 (4958 σε chips) 
+Θέση 3: ramis.iusein (5070 σε chips) 
+Θέση 4: Carlog55 (4943 σε chips) 
+Θέση 5: perff (5000 σε chips) εκτός παρτίδας (μεταφέρθηκε από άλλο τραπέζι στο small blind)
+Θέση 6: Solidproblem (4958 σε chips) 
+Θέση 8: Sanktu (4674 σε chips) 
+Θέση 9: MelanieSCH85 (4988 σε chips) 
+perff θα επιτραπεί να παίξει μετά το button
+asdepique230: βάζει το ante 4
+dkaz99: βάζει το ante 4
+ramis.iusein: βάζει το ante 4
+Carlog55: βάζει το ante 4
+Solidproblem: βάζει το ante 4
+Sanktu: βάζει το ante 4
+MelanieSCH85: βάζει το ante 4
+Solidproblem: βάζει το small blind 15
+Sanktu: βάζει το big blind 30
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [2s 5h]
+MelanieSCH85: fold 
+asdepique230: raise 75 σε 105
+dkaz99: fold 
+ramis.iusein: call 105
+Carlog55: fold 
+Solidproblem: call 90
+Sanktu: fold 
+*** FLOP *** [7h Ac 4d]
+Solidproblem: check 
+asdepique230: ποντάρει 187
+ramis.iusein: fold 
+Solidproblem: raise 374 σε 561
+asdepique230: call 374
+*** TURN *** [7h Ac 4d] [3s]
+Solidproblem: check 
+asdepique230: ποντάρει 748
+Solidproblem: call 748
+*** RIVER *** [7h Ac 4d 3s] [7c]
+Solidproblem: check 
+asdepique230: check 
+*** SHOW DOWN ***
+Solidproblem: δείχνει [Ad Jh] (δύο ζευγάρια, Άσσους και Επτάρια)
+asdepique230: δε φανερώνει το χέρι του 
+Solidproblem μάζεψε 2991 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 2991 | Rake 0 
+Ταμπλό [7h Ac 4d 3s 7c]
+Θέση 1: asdepique230 mucked [8s As]
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold στο Flop
+Θέση 4: Carlog55 (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem (small blind)  έδειξε [Ad Jh] και κέρδισε (2991)  μέ δύο ζευγάρια, Άσσους και Επτάρια
+Θέση 8: Sanktu (big blind) έκανε fold πριν Flop
+Θέση 9: MelanieSCH85 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221001832437: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο I (15/30) - 2020/12/02 1:03:44 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:03:44 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #6 είναι το button
+Θέση 1: asdepique230 (4011 σε chips) 
+Θέση 2: dkaz99 (4954 σε chips) 
+Θέση 3: ramis.iusein (4961 σε chips) 
+Θέση 4: Carlog55 (4939 σε chips) 
+Θέση 5: perff (5000 σε chips) 
+Θέση 6: Solidproblem (6531 σε chips) 
+Θέση 7: XelaEkpaz (5000 σε chips) εκτός παρτίδας (μεταφέρθηκε από άλλο τραπέζι στο small blind)
+Θέση 8: Sanktu (4640 σε chips) 
+XelaEkpaz θα επιτραπεί να παίξει μετά το button
+asdepique230: βάζει το ante 4
+dkaz99: βάζει το ante 4
+ramis.iusein: βάζει το ante 4
+Carlog55: βάζει το ante 4
+perff: βάζει το ante 4
+Solidproblem: βάζει το ante 4
+Sanktu: βάζει το ante 4
+Sanktu: βάζει το small blind 15
+asdepique230: βάζει το big blind 30
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Jh 2s]
+dkaz99: fold 
+ramis.iusein: call 30
+Carlog55: fold 
+perff τελείωσε ο χρόνος
+perff: fold 
+perff κάθεται εκτός
+Solidproblem: fold 
+Sanktu: fold 
+perff επέστρεψε
+asdepique230: raise 90 σε 120
+ramis.iusein: call 90
+*** FLOP *** [Kd 2c 4h]
+asdepique230: ποντάρει 142
+ramis.iusein: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (142) επιστράφηκε στον asdepique230
+asdepique230 μάζεψε 283 από  pot
+asdepique230: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 283 | Rake 0 
+Ταμπλό [Kd 2c 4h]
+Θέση 1: asdepique230 (big blind) απεκόμισε (283)
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold στο Flop
+Θέση 4: Carlog55 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu (small blind) έκανε fold πριν Flop
+
+
+
+PokerStars Παρτίδα #221001886354: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο I (15/30) - 2020/12/02 1:05:08 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:05:08 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #8 είναι το button
+Θέση 1: asdepique230 (4170 σε chips) 
+Θέση 2: dkaz99 (4950 σε chips) 
+Θέση 3: ramis.iusein (4837 σε chips) 
+Θέση 4: Carlog55 (4935 σε chips) 
+Θέση 5: perff (4996 σε chips) 
+Θέση 6: Solidproblem (6527 σε chips) 
+Θέση 7: XelaEkpaz (5000 σε chips) 
+Θέση 8: Sanktu (4621 σε chips) 
+Θέση 9: Thenatch333 (5000 σε chips) εκτός παρτίδας (μεταφέρθηκε από άλλο τραπέζι στο small blind)
+Thenatch333 θα επιτραπεί να παίξει μετά το button
+asdepique230: βάζει το ante 4
+dkaz99: βάζει το ante 4
+ramis.iusein: βάζει το ante 4
+Carlog55: βάζει το ante 4
+perff: βάζει το ante 4
+Solidproblem: βάζει το ante 4
+XelaEkpaz: βάζει το ante 4
+Sanktu: βάζει το ante 4
+asdepique230: βάζει το small blind 15
+dkaz99: βάζει το big blind 30
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Qh 7s]
+ramis.iusein: fold 
+Carlog55: fold 
+perff τελείωσε ο χρόνος
+perff: fold 
+perff κάθεται εκτός
+Solidproblem: raise 60 σε 90
+XelaEkpaz: fold 
+Sanktu: call 90
+asdepique230: call 75
+dkaz99: fold 
+*** FLOP *** [8h 4c Ad]
+asdepique230: check 
+Solidproblem: ποντάρει 166
+Sanktu: fold 
+asdepique230: call 166
+*** TURN *** [8h 4c Ad] [Qd]
+asdepique230: check 
+perff επέστρεψε
+Solidproblem: check 
+*** RIVER *** [8h 4c Ad Qd] [Ks]
+asdepique230: check 
+Solidproblem: check 
+*** SHOW DOWN ***
+asdepique230: δείχνει [8s 5s] (ζευγάρι Οκτάρια)
+Solidproblem: δείχνει [Qs Td] (ζευγάρι Ντάμες)
+Solidproblem μάζεψε 664 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 664 | Rake 0 
+Ταμπλό [8h 4c Ad Qd Ks]
+Θέση 1: asdepique230 (small blind)  έδειξε [8s 5s] και έχασε  μέ ζευγάρι Οκτάρια
+Θέση 2: dkaz99 (big blind) έκανε fold πριν Flop
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: Carlog55 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem  έδειξε [Qs Td] και κέρδισε (664)  μέ ζευγάρι Ντάμες
+Θέση 7: XelaEkpaz έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu (button) έκανε fold στο Flop
+
+
+
+PokerStars Παρτίδα #221001945311: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο I (15/30) - 2020/12/02 1:06:40 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:06:40 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #1 είναι το button
+Θέση 1: asdepique230 (3910 σε chips) 
+Θέση 2: dkaz99 (4916 σε chips) 
+Θέση 3: ramis.iusein (4833 σε chips) 
+Θέση 4: Carlog55 (4931 σε chips) 
+Θέση 5: perff (4992 σε chips) 
+Θέση 6: Solidproblem (6931 σε chips) 
+Θέση 7: XelaEkpaz (4996 σε chips) 
+Θέση 8: Sanktu (4527 σε chips) 
+Θέση 9: Thenatch333 (5000 σε chips) 
+asdepique230: βάζει το ante 4
+dkaz99: βάζει το ante 4
+ramis.iusein: βάζει το ante 4
+Carlog55: βάζει το ante 4
+perff: βάζει το ante 4
+Solidproblem: βάζει το ante 4
+XelaEkpaz: βάζει το ante 4
+Sanktu: βάζει το ante 4
+Thenatch333: βάζει το ante 4
+dkaz99: βάζει το small blind 15
+ramis.iusein: βάζει το big blind 30
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [4c Jd]
+Carlog55: fold 
+perff: fold 
+Solidproblem: fold 
+XelaEkpaz: fold 
+Sanktu: fold 
+Thenatch333: call 30
+asdepique230: call 30
+dkaz99: fold 
+ramis.iusein: check 
+*** FLOP *** [Ac 4h 8h]
+ramis.iusein: check 
+Thenatch333: check 
+asdepique230: ποντάρει 71
+ramis.iusein: fold 
+Thenatch333: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (71) επιστράφηκε στον asdepique230
+asdepique230 μάζεψε 141 από  pot
+asdepique230: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 141 | Rake 0 
+Ταμπλό [Ac 4h 8h]
+Θέση 1: asdepique230 (button) απεκόμισε (141)
+Θέση 2: dkaz99 (small blind) έκανε fold πριν Flop
+Θέση 3: ramis.iusein (big blind) έκανε fold στο Flop
+Θέση 4: Carlog55 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: XelaEkpaz έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 έκανε fold στο Flop
+
+
+
+PokerStars Παρτίδα #221001968067: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο I (15/30) - 2020/12/02 1:07:16 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:07:16 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #2 είναι το button
+Θέση 1: asdepique230 (4017 σε chips) 
+Θέση 2: dkaz99 (4897 σε chips) 
+Θέση 3: ramis.iusein (4799 σε chips) 
+Θέση 5: perff (4988 σε chips) 
+Θέση 6: Solidproblem (6927 σε chips) 
+Θέση 7: XelaEkpaz (4992 σε chips) 
+Θέση 8: Sanktu (4523 σε chips) 
+Θέση 9: Thenatch333 (4966 σε chips) 
+asdepique230: βάζει το ante 4
+dkaz99: βάζει το ante 4
+ramis.iusein: βάζει το ante 4
+perff: βάζει το ante 4
+Solidproblem: βάζει το ante 4
+XelaEkpaz: βάζει το ante 4
+Sanktu: βάζει το ante 4
+Thenatch333: βάζει το ante 4
+ramis.iusein: βάζει το small blind 15
+perff: βάζει το big blind 30
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Jd 9d]
+Solidproblem: fold 
+XelaEkpaz: call 30
+Sanktu: fold 
+Thenatch333: raise 330 σε 360
+asdepique230: fold 
+dkaz99: fold 
+ramis.iusein: fold 
+perff: call 330
+XelaEkpaz: fold 
+*** FLOP *** [3c 5s Jc]
+perff: check 
+Thenatch333: check 
+*** TURN *** [3c 5s Jc] [Ah]
+perff: ποντάρει 398
+Thenatch333: raise 4204 σε 4602 και είναι all-in
+perff: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (4204) επιστράφηκε στον Thenatch333
+Thenatch333 μάζεψε 1593 από  pot
+Thenatch333: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 1593 | Rake 0 
+Ταμπλό [3c 5s Jc Ah]
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein (small blind) έκανε fold πριν Flop
+Θέση 5: perff (big blind) έκανε fold στο Turn
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: XelaEkpaz έκανε fold πριν Flop
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 απεκόμισε (1593)
+
+
+
+PokerStars Παρτίδα #221002005137: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο I (15/30) - 2020/12/02 1:08:14 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:08:14 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #3 είναι το button
+Θέση 1: asdepique230 (4013 σε chips) 
+Θέση 2: dkaz99 (4893 σε chips) 
+Θέση 3: ramis.iusein (4780 σε chips) 
+Θέση 4: JeanKurganov22 (5000 σε chips) εκτός παρτίδας (μεταφέρθηκε από άλλο τραπέζι στο small blind)
+Θέση 5: perff (4226 σε chips) 
+Θέση 6: Solidproblem (6923 σε chips) 
+Θέση 7: XelaEkpaz (4958 σε chips) 
+Θέση 8: Sanktu (4519 σε chips) 
+Θέση 9: Thenatch333 (5797 σε chips) 
+JeanKurganov22 θα επιτραπεί να παίξει μετά το button
+asdepique230: βάζει το ante 4
+dkaz99: βάζει το ante 4
+ramis.iusein: βάζει το ante 4
+perff: βάζει το ante 4
+Solidproblem: βάζει το ante 4
+XelaEkpaz: βάζει το ante 4
+Sanktu: βάζει το ante 4
+Thenatch333: βάζει το ante 4
+perff: βάζει το small blind 15
+Solidproblem: βάζει το big blind 30
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [2h As]
+XelaEkpaz: fold 
+Sanktu: call 30
+Thenatch333: call 30
+asdepique230: raise 210 σε 240
+dkaz99: fold 
+ramis.iusein: fold 
+perff: fold 
+Solidproblem: fold 
+Sanktu: fold 
+Thenatch333: call 210
+*** FLOP *** [6d 9d Jd]
+Thenatch333: check 
+asdepique230: ποντάρει 294
+Thenatch333: call 294
+*** TURN *** [6d 9d Jd] [6s]
+Thenatch333: check 
+asdepique230: check 
+*** RIVER *** [6d 9d Jd 6s] [3h]
+Thenatch333: check 
+asdepique230: check 
+*** SHOW DOWN ***
+Thenatch333: δείχνει [Jc Ac] (δύο ζευγάρια, Βαλέδες και Εξάρια)
+asdepique230: δε φανερώνει το χέρι του 
+Thenatch333 μάζεψε 1175 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 1175 | Rake 0 
+Ταμπλό [6d 9d Jd 6s 3h]
+Θέση 1: asdepique230 mucked [Td Ah]
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff (small blind) έκανε fold πριν Flop
+Θέση 6: Solidproblem (big blind) έκανε fold πριν Flop
+Θέση 7: XelaEkpaz έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop
+Θέση 9: Thenatch333  έδειξε [Jc Ac] και κέρδισε (1175)  μέ δύο ζευγάρια, Βαλέδες και Εξάρια
+
+
+
+PokerStars Παρτίδα #221002059557: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο I (15/30) - 2020/12/02 1:09:39 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:09:39 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #5 είναι το button
+Θέση 1: asdepique230 (3475 σε chips) 
+Θέση 2: dkaz99 (4889 σε chips) 
+Θέση 3: ramis.iusein (4776 σε chips) 
+Θέση 4: JeanKurganov22 (5000 σε chips) 
+Θέση 5: perff (4207 σε chips) 
+Θέση 6: Solidproblem (6889 σε chips) 
+Θέση 8: Sanktu (4485 σε chips) 
+Θέση 9: Thenatch333 (6434 σε chips) 
+asdepique230: βάζει το ante 4
+dkaz99: βάζει το ante 4
+ramis.iusein: βάζει το ante 4
+JeanKurganov22: βάζει το ante 4
+perff: βάζει το ante 4
+Solidproblem: βάζει το ante 4
+Sanktu: βάζει το ante 4
+Thenatch333: βάζει το ante 4
+Solidproblem: βάζει το small blind 15
+Sanktu: βάζει το big blind 30
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [7d 3h]
+Thenatch333: call 30
+asdepique230: call 30
+dkaz99: fold 
+ramis.iusein: call 30
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Sanktu: check 
+*** FLOP *** [Tc 4s As]
+Sanktu: check 
+Thenatch333: check 
+asdepique230: ποντάρει 84
+ramis.iusein: fold 
+Sanktu τελείωσε ο χρόνος
+Sanktu: fold 
+Sanktu κάθεται εκτός
+Thenatch333: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (84) επιστράφηκε στον asdepique230
+asdepique230 μάζεψε 167 από  pot
+asdepique230: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 167 | Rake 0 
+Ταμπλό [Tc 4s As]
+Θέση 1: asdepique230 απεκόμισε (167)
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold στο Flop
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem (small blind) έκανε fold πριν Flop
+Θέση 8: Sanktu (big blind) έκανε fold στο Flop
+Θέση 9: Thenatch333 έκανε fold στο Flop
+
+
+
+PokerStars Παρτίδα #221002119579: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:11:12 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:11:12 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #6 είναι το button
+Θέση 1: asdepique230 (3608 σε chips) 
+Θέση 2: dkaz99 (4885 σε chips) 
+Θέση 3: ramis.iusein (4742 σε chips) 
+Θέση 4: JeanKurganov22 (4996 σε chips) 
+Θέση 5: perff (4203 σε chips) 
+Θέση 6: Solidproblem (6870 σε chips) 
+Θέση 7: Skills So Fancy (5000 σε chips) εκτός παρτίδας (μεταφέρθηκε από άλλο τραπέζι στο small blind)
+Θέση 8: Sanktu (4451 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (6400 σε chips) 
+Skills So Fancy θα επιτραπεί να παίξει μετά το button
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+Sanktu: βάζει το small blind 20
+Thenatch333: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Qc 8d]
+asdepique230: fold 
+dkaz99: fold 
+ramis.iusein: call 40
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Sanktu: fold 
+Thenatch333: check 
+*** FLOP *** [Ah 4s 5s]
+Thenatch333: check 
+ramis.iusein: check 
+*** TURN *** [Ah 4s 5s] [5d]
+Thenatch333: check 
+ramis.iusein: check 
+*** RIVER *** [Ah 4s 5s 5d] [2c]
+Thenatch333: check 
+ramis.iusein: check 
+*** SHOW DOWN ***
+Thenatch333: δείχνει [Js Qh] (ζευγάρι Πεντάρια)
+ramis.iusein: δείχνει [Kh Jc] (ζευγάρι Πεντάρια - Άσσος+Ρήγας  kicker)
+ramis.iusein μάζεψε 140 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 140 | Rake 0 
+Ταμπλό [Ah 4s 5s 5d 2c]
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein  έδειξε [Kh Jc] και κέρδισε (140)  μέ ζευγάρι Πεντάρια
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu (small blind) έκανε fold πριν Flop
+Θέση 9: Thenatch333 (big blind)  έδειξε [Js Qh] και έχασε  μέ ζευγάρι Πεντάρια
+
+
+
+PokerStars Παρτίδα #221002142555: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:11:48 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:11:48 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #8 είναι το button
+Θέση 1: asdepique230 (3603 σε chips) 
+Θέση 2: dkaz99 (4880 σε chips) 
+Θέση 3: ramis.iusein (4837 σε chips) 
+Θέση 4: JeanKurganov22 (4991 σε chips) 
+Θέση 5: perff (4198 σε chips) 
+Θέση 6: Solidproblem (6865 σε chips) 
+Θέση 7: Skills So Fancy (5000 σε chips) 
+Θέση 8: Sanktu (4426 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (6355 σε chips) 
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Skills So Fancy: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+Thenatch333: βάζει το small blind 20
+asdepique230: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [9d 6s]
+dkaz99: call 40
+ramis.iusein τελείωσε ο χρόνος
+ramis.iusein: fold 
+ramis.iusein κάθεται εκτός
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+Sanktu: fold 
+Thenatch333: call 20
+asdepique230: raise 240 σε 280
+dkaz99: fold 
+Thenatch333: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (240) επιστράφηκε στον asdepique230
+asdepique230 μάζεψε 165 από  pot
+asdepique230: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 165 | Rake 0 
+Θέση 1: asdepique230 (big blind) απεκόμισε (165)
+Θέση 2: dkaz99 έκανε fold πριν Flop
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 (small blind) έκανε fold πριν Flop
+
+
+
+PokerStars Παρτίδα #221002189098: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:13:00 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:13:00 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #9 είναι το button
+Θέση 1: asdepique230 (3723 σε chips) 
+Θέση 2: dkaz99 (4835 σε chips) 
+Θέση 3: ramis.iusein (4832 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 4: JeanKurganov22 (4986 σε chips) 
+Θέση 5: perff (4193 σε chips) 
+Θέση 6: Solidproblem (6860 σε chips) 
+Θέση 7: Skills So Fancy (4995 σε chips) 
+Θέση 8: Sanktu (4421 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (6310 σε chips) 
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Skills So Fancy: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+asdepique230: βάζει το small blind 20
+dkaz99: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [3d 9d]
+ramis.iusein: fold 
+JeanKurganov22: raise 60 σε 100
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+Sanktu: fold 
+Thenatch333: call 100
+asdepique230: call 80
+dkaz99: fold 
+*** FLOP *** [3s 8d Kh]
+asdepique230: ποντάρει 193
+JeanKurganov22: fold 
+Thenatch333: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (193) επιστράφηκε στον asdepique230
+asdepique230 μάζεψε 385 από  pot
+asdepique230: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 385 | Rake 0 
+Ταμπλό [3s 8d Kh]
+Θέση 1: asdepique230 (small blind) απεκόμισε (385)
+Θέση 2: dkaz99 (big blind) έκανε fold πριν Flop
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 έκανε fold στο Flop
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 (button) έκανε fold στο Flop
+
+
+
+PokerStars Παρτίδα #221002214460: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:13:39 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:13:39 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #1 είναι το button
+Θέση 1: asdepique230 (4003 σε chips) 
+Θέση 2: dkaz99 (4790 σε chips) 
+Θέση 3: ramis.iusein (4827 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 4: JeanKurganov22 (4881 σε chips) 
+Θέση 5: perff (4188 σε chips) 
+Θέση 6: Solidproblem (6855 σε chips) 
+Θέση 7: Skills So Fancy (4990 σε chips) 
+Θέση 8: Sanktu (4416 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (6205 σε chips) 
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Skills So Fancy: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+dkaz99: βάζει το small blind 20
+ramis.iusein: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Jc 3s]
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: call 40
+Skills So Fancy: fold 
+Sanktu: fold 
+Thenatch333: fold 
+asdepique230: call 40
+dkaz99: fold 
+ramis.iusein: fold 
+*** FLOP *** [7d Kd As]
+Solidproblem: check 
+asdepique230: check 
+*** TURN *** [7d Kd As] [7h]
+Solidproblem: check 
+asdepique230: check 
+*** RIVER *** [7d Kd As 7h] [Ts]
+Solidproblem: ποντάρει 93
+asdepique230: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (93) επιστράφηκε στον Solidproblem
+Solidproblem μάζεψε 185 από  pot
+Solidproblem: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 185 | Rake 0 
+Ταμπλό [7d Kd As 7h Ts]
+Θέση 1: asdepique230 (button) έκανε fold στο River
+Θέση 2: dkaz99 (small blind) έκανε fold πριν Flop
+Θέση 3: ramis.iusein (big blind) έκανε fold πριν Flop
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem απεκόμισε (185)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002239415: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:14:18 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:14:18 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #2 είναι το button
+Θέση 1: asdepique230 (3958 σε chips) 
+Θέση 2: dkaz99 (4765 σε chips) 
+Θέση 3: ramis.iusein (4782 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 4: JeanKurganov22 (4876 σε chips) 
+Θέση 5: perff (4183 σε chips) 
+Θέση 6: Solidproblem (6995 σε chips) 
+Θέση 7: Skills So Fancy (4985 σε chips) 
+Θέση 8: Sanktu (4411 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (6200 σε chips) 
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Skills So Fancy: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+ramis.iusein: βάζει το small blind 20
+JeanKurganov22: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [8d 5h]
+ramis.iusein επέστρεψε
+Sanktu επέστρεψε
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+Sanktu τελείωσε ο χρόνος
+Sanktu: fold 
+Sanktu κάθεται εκτός
+Thenatch333: fold 
+Sanktu επέστρεψε
+asdepique230: raise 100 σε 140
+dkaz99: fold 
+ramis.iusein: fold 
+JeanKurganov22: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (100) επιστράφηκε στον asdepique230
+asdepique230 μάζεψε 145 από  pot
+asdepique230: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 145 | Rake 0 
+Θέση 1: asdepique230 απεκόμισε (145)
+Θέση 2: dkaz99 (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein (small blind) έκανε fold πριν Flop
+Θέση 4: JeanKurganov22 (big blind) έκανε fold πριν Flop
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002265783: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:15:00 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:15:00 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #3 είναι το button
+Θέση 1: asdepique230 (4058 σε chips) 
+Θέση 2: dkaz99 (4760 σε chips) 
+Θέση 3: ramis.iusein (4757 σε chips) 
+Θέση 4: JeanKurganov22 (4831 σε chips) 
+Θέση 5: perff (4178 σε chips) 
+Θέση 6: Solidproblem (6990 σε chips) 
+Θέση 7: Skills So Fancy (4980 σε chips) 
+Θέση 8: Sanktu (4406 σε chips) 
+Θέση 9: Thenatch333 (6195 σε chips) 
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Skills So Fancy: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+JeanKurganov22: βάζει το small blind 20
+perff: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [6h 8d]
+Solidproblem: fold 
+Skills So Fancy: fold 
+Sanktu: fold 
+Thenatch333: call 40
+asdepique230: call 40
+dkaz99: fold 
+ramis.iusein: call 40
+JeanKurganov22: call 20
+perff: check 
+*** FLOP *** [6s As Js]
+JeanKurganov22: check 
+perff: check 
+Thenatch333: check 
+asdepique230: check 
+ramis.iusein: check 
+*** TURN *** [6s As Js] [2s]
+JeanKurganov22: check 
+perff: check 
+Thenatch333: check 
+asdepique230: check 
+ramis.iusein: check 
+*** RIVER *** [6s As Js 2s] [Jh]
+JeanKurganov22: ποντάρει 140
+perff: fold 
+Thenatch333: fold 
+asdepique230: fold 
+ramis.iusein: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (140) επιστράφηκε στον JeanKurganov22
+JeanKurganov22 μάζεψε 245 από  pot
+JeanKurganov22: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 245 | Rake 0 
+Ταμπλό [6s As Js 2s Jh]
+Θέση 1: asdepique230 έκανε fold στο River
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein (button) έκανε fold στο River
+Θέση 4: JeanKurganov22 (small blind) απεκόμισε (245)
+Θέση 5: perff (big blind) έκανε fold στο River
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 έκανε fold στο River
+
+
+
+PokerStars Παρτίδα #221002297910: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:15:50 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:15:50 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #4 είναι το button
+Θέση 1: asdepique230 (4013 σε chips) 
+Θέση 2: dkaz99 (4755 σε chips) 
+Θέση 3: ramis.iusein (4712 σε chips) 
+Θέση 4: JeanKurganov22 (5031 σε chips) 
+Θέση 5: perff (4133 σε chips) 
+Θέση 6: Solidproblem (6985 σε chips) 
+Θέση 7: Skills So Fancy (4975 σε chips) 
+Θέση 8: Sanktu (4401 σε chips) 
+Θέση 9: Thenatch333 (6150 σε chips) 
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Skills So Fancy: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+perff: βάζει το small blind 20
+Solidproblem: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [4d Js]
+Skills So Fancy: fold 
+Sanktu: call 40
+Thenatch333: raise 440 σε 480
+asdepique230: fold 
+dkaz99: fold 
+ramis.iusein: fold 
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Sanktu: call 440
+*** FLOP *** [6s 7c 2c]
+Sanktu: check 
+Thenatch333: ποντάρει 560
+Sanktu: call 560
+*** TURN *** [6s 7c 2c] [Jc]
+Sanktu: check 
+Thenatch333: check 
+*** RIVER *** [6s 7c 2c Jc] [Th]
+Sanktu: check 
+Thenatch333: check 
+*** SHOW DOWN ***
+Sanktu: δείχνει [Qc Ac] (Χρώμα, Στο(η) Άσσος)
+Thenatch333: δε φανερώνει το χέρι του 
+Sanktu μάζεψε 2185 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 2185 | Rake 0 
+Ταμπλό [6s 7c 2c Jc Th]
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff (small blind) έκανε fold πριν Flop
+Θέση 6: Solidproblem (big blind) έκανε fold πριν Flop
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu  έδειξε [Qc Ac] και κέρδισε (2185)  μέ Χρώμα, Στο(η) Άσσος
+Θέση 9: Thenatch333 mucked [As Ks]
+
+
+
+PokerStars Παρτίδα #221002345280: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:17:04 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:17:04 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #5 είναι το button
+Θέση 1: asdepique230 (4008 σε chips) 
+Θέση 2: dkaz99 (4750 σε chips) 
+Θέση 3: ramis.iusein (4707 σε chips) 
+Θέση 4: JeanKurganov22 (5026 σε chips) 
+Θέση 5: perff (4108 σε chips) 
+Θέση 6: Solidproblem (6940 σε chips) 
+Θέση 7: Skills So Fancy (4970 σε chips) 
+Θέση 8: Sanktu (5541 σε chips) 
+Θέση 9: Thenatch333 (5105 σε chips) 
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Skills So Fancy: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+Solidproblem: βάζει το small blind 20
+Skills So Fancy: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [8h 4c]
+Sanktu: fold 
+Thenatch333: raise 440 σε 480
+asdepique230: fold 
+dkaz99: fold 
+ramis.iusein: fold 
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (440) επιστράφηκε στον Thenatch333
+Thenatch333 μάζεψε 145 από  pot
+Thenatch333: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 145 | Rake 0 
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem (small blind) έκανε fold πριν Flop
+Θέση 7: Skills So Fancy (big blind) έκανε fold πριν Flop
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 απεκόμισε (145)
+
+
+
+PokerStars Παρτίδα #221002359460: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:17:26 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:17:26 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #6 είναι το button
+Θέση 1: asdepique230 (4003 σε chips) 
+Θέση 2: dkaz99 (4745 σε chips) 
+Θέση 3: ramis.iusein (4702 σε chips) 
+Θέση 4: JeanKurganov22 (5021 σε chips) 
+Θέση 5: perff (4103 σε chips) 
+Θέση 6: Solidproblem (6915 σε chips) 
+Θέση 7: Skills So Fancy (4925 σε chips) 
+Θέση 8: Sanktu (5536 σε chips) 
+Θέση 9: Thenatch333 (5205 σε chips) 
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Skills So Fancy: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+Skills So Fancy: βάζει το small blind 20
+Sanktu: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [8d Th]
+Thenatch333: fold 
+asdepique230: fold 
+dkaz99: fold 
+ramis.iusein: raise 80 σε 120
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+Sanktu τελείωσε ο χρόνος
+Sanktu: fold 
+Sanktu κάθεται εκτός
+Το ποντάρισμα στο οποίο δεν έγινε call (80) επιστράφηκε στον ramis.iusein
+ramis.iusein μάζεψε 145 από  pot
+ramis.iusein: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 145 | Rake 0 
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein απεκόμισε (145)
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy (small blind) έκανε fold πριν Flop
+Θέση 8: Sanktu (big blind) έκανε fold πριν Flop
+Θέση 9: Thenatch333 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002383768: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:18:04 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:18:04 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #7 είναι το button
+Θέση 1: asdepique230 (3998 σε chips) 
+Θέση 2: dkaz99 (4740 σε chips) 
+Θέση 3: ramis.iusein (4802 σε chips) 
+Θέση 4: JeanKurganov22 (5016 σε chips) 
+Θέση 5: perff (4098 σε chips) 
+Θέση 6: Solidproblem (6910 σε chips) 
+Θέση 7: Skills So Fancy (4900 σε chips) 
+Θέση 8: Sanktu (5491 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (5200 σε chips) 
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Skills So Fancy: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+Sanktu: βάζει το small blind 20
+Thenatch333: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [7s 8c]
+asdepique230: call 40
+dkaz99: fold 
+ramis.iusein: call 40
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: raise 80 σε 120
+Sanktu: fold 
+Thenatch333: call 80
+asdepique230: call 80
+ramis.iusein: call 80
+*** FLOP *** [Kh Ks 6c]
+Thenatch333: check 
+asdepique230: check 
+ramis.iusein: check 
+Skills So Fancy: ποντάρει 280
+Thenatch333: fold 
+asdepique230: fold 
+ramis.iusein: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (280) επιστράφηκε στον Skills So Fancy
+Skills So Fancy μάζεψε 545 από  pot
+Skills So Fancy: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 545 | Rake 0 
+Ταμπλό [Kh Ks 6c]
+Θέση 1: asdepique230 έκανε fold στο Flop
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold στο Flop
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy (button) απεκόμισε (545)
+Θέση 8: Sanktu (small blind) έκανε fold πριν Flop
+Θέση 9: Thenatch333 (big blind) έκανε fold στο Flop
+
+
+
+PokerStars Παρτίδα #221002410852: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο II (20/40) - 2020/12/02 1:18:47 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:18:47 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #8 είναι το button
+Θέση 1: asdepique230 (3873 σε chips) 
+Θέση 2: dkaz99 (4735 σε chips) 
+Θέση 3: ramis.iusein (4677 σε chips) 
+Θέση 4: JeanKurganov22 (5011 σε chips) 
+Θέση 5: perff (4093 σε chips) 
+Θέση 6: Solidproblem (6905 σε chips) 
+Θέση 7: Skills So Fancy (5320 σε chips) 
+Θέση 8: Sanktu (5466 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (5075 σε chips) 
+asdepique230: βάζει το ante 5
+dkaz99: βάζει το ante 5
+ramis.iusein: βάζει το ante 5
+JeanKurganov22: βάζει το ante 5
+perff: βάζει το ante 5
+Solidproblem: βάζει το ante 5
+Skills So Fancy: βάζει το ante 5
+Sanktu: βάζει το ante 5
+Thenatch333: βάζει το ante 5
+Thenatch333: βάζει το small blind 20
+asdepique230: βάζει το big blind 40
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [9c 7h]
+dkaz99: fold 
+Sanktu επέστρεψε
+ramis.iusein: call 40
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: call 40
+Sanktu: call 40
+Thenatch333: call 20
+asdepique230: check 
+*** FLOP *** [Qh Kc 5d]
+Thenatch333: check 
+asdepique230: check 
+ramis.iusein: check 
+Skills So Fancy: check 
+Sanktu: check 
+*** TURN *** [Qh Kc 5d] [4h]
+Thenatch333: ποντάρει 360
+asdepique230: fold 
+ramis.iusein: fold 
+Skills So Fancy: fold 
+Sanktu τελείωσε ο χρόνος
+Sanktu: fold 
+Sanktu κάθεται εκτός
+Το ποντάρισμα στο οποίο δεν έγινε call (360) επιστράφηκε στον Thenatch333
+Thenatch333 μάζεψε 245 από  pot
+Thenatch333: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 245 | Rake 0 
+Ταμπλό [Qh Kc 5d 4h]
+Θέση 1: asdepique230 (big blind) έκανε fold στο Turn
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold στο Turn
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold στο Turn
+Θέση 8: Sanktu (button) έκανε fold στο Turn
+Θέση 9: Thenatch333 (small blind) απεκόμισε (245)
+
+
+
+PokerStars Παρτίδα #221002472883: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο III (25/50) - 2020/12/02 1:20:25 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:20:25 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #9 είναι το button
+Θέση 1: asdepique230 (3828 σε chips) 
+Θέση 2: dkaz99 (4730 σε chips) 
+Θέση 3: ramis.iusein (4632 σε chips) 
+Θέση 4: JeanKurganov22 (5006 σε chips) 
+Θέση 5: perff (4088 σε chips) 
+Θέση 6: Solidproblem (6900 σε chips) 
+Θέση 7: Skills So Fancy (5275 σε chips) 
+Θέση 8: Sanktu (5421 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (5275 σε chips) 
+asdepique230: βάζει το ante 6
+dkaz99: βάζει το ante 6
+ramis.iusein: βάζει το ante 6
+JeanKurganov22: βάζει το ante 6
+perff: βάζει το ante 6
+Solidproblem: βάζει το ante 6
+Skills So Fancy: βάζει το ante 6
+Sanktu: βάζει το ante 6
+Thenatch333: βάζει το ante 6
+asdepique230: βάζει το small blind 25
+dkaz99: βάζει το big blind 50
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [5s Jh]
+ramis.iusein: fold 
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+Sanktu: fold 
+Thenatch333: fold 
+asdepique230: raise 125 σε 175
+dkaz99: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (125) επιστράφηκε στον asdepique230
+asdepique230 μάζεψε 154 από  pot
+asdepique230: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 154 | Rake 0 
+Θέση 1: asdepique230 (small blind) απεκόμισε (154)
+Θέση 2: dkaz99 (big blind) έκανε fold πριν Flop
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 (button) έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002493249: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο III (25/50) - 2020/12/02 1:20:45 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:20:45 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #1 είναι το button
+Θέση 1: asdepique230 (3926 σε chips) 
+Θέση 2: dkaz99 (4674 σε chips) 
+Θέση 3: ramis.iusein (4626 σε chips) 
+Θέση 4: JeanKurganov22 (5000 σε chips) 
+Θέση 5: perff (4082 σε chips) 
+Θέση 6: Solidproblem (6894 σε chips) 
+Θέση 7: Skills So Fancy (5269 σε chips) 
+Θέση 8: Sanktu (5415 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (5269 σε chips) 
+asdepique230: βάζει το ante 6
+dkaz99: βάζει το ante 6
+ramis.iusein: βάζει το ante 6
+JeanKurganov22: βάζει το ante 6
+perff: βάζει το ante 6
+Solidproblem: βάζει το ante 6
+Skills So Fancy: βάζει το ante 6
+Sanktu: βάζει το ante 6
+Thenatch333: βάζει το ante 6
+dkaz99: βάζει το small blind 25
+ramis.iusein: βάζει το big blind 50
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Qd Ah]
+JeanKurganov22: raise 50 σε 100
+perff: fold 
+Solidproblem: raise 50 σε 150
+Skills So Fancy: fold 
+Sanktu: fold 
+Thenatch333: fold 
+asdepique230: fold 
+dkaz99: call 125
+ramis.iusein: fold 
+JeanKurganov22: call 50
+*** FLOP *** [5c 6c 3d]
+dkaz99: ποντάρει 450
+JeanKurganov22: fold 
+Solidproblem: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (450) επιστράφηκε στον dkaz99
+dkaz99 μάζεψε 554 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 554 | Rake 0 
+Ταμπλό [5c 6c 3d]
+Θέση 1: asdepique230 (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 (small blind) απεκόμισε (554)
+Θέση 3: ramis.iusein (big blind) έκανε fold πριν Flop
+Θέση 4: JeanKurganov22 έκανε fold στο Flop
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold στο Flop
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002514404: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο III (25/50) - 2020/12/02 1:21:19 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:21:19 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #2 είναι το button
+Θέση 1: asdepique230 (3920 σε chips) 
+Θέση 2: dkaz99 (5072 σε chips) 
+Θέση 3: ramis.iusein (4570 σε chips) 
+Θέση 4: JeanKurganov22 (4844 σε chips) 
+Θέση 5: perff (4076 σε chips) 
+Θέση 6: Solidproblem (6738 σε chips) 
+Θέση 7: Skills So Fancy (5263 σε chips) 
+Θέση 8: Sanktu (5409 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (5263 σε chips) 
+asdepique230: βάζει το ante 6
+dkaz99: βάζει το ante 6
+ramis.iusein: βάζει το ante 6
+JeanKurganov22: βάζει το ante 6
+perff: βάζει το ante 6
+Solidproblem: βάζει το ante 6
+Skills So Fancy: βάζει το ante 6
+Sanktu: βάζει το ante 6
+Thenatch333: βάζει το ante 6
+ramis.iusein: βάζει το small blind 25
+JeanKurganov22: βάζει το big blind 50
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Kc Ad]
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+Sanktu: fold 
+Thenatch333: fold 
+asdepique230: raise 125 σε 175
+dkaz99: call 175
+ramis.iusein: fold 
+JeanKurganov22: fold 
+*** FLOP *** [Qd Ks 6d]
+asdepique230: ποντάρει 240
+dkaz99: call 240
+*** TURN *** [Qd Ks 6d] [6s]
+asdepique230: ποντάρει 480
+dkaz99: call 480
+*** RIVER *** [Qd Ks 6d 6s] [4d]
+asdepique230: ποντάρει 960
+dkaz99: call 960
+*** SHOW DOWN ***
+asdepique230: δείχνει [5d 3d] (Χρώμα, Στο(η) Ντάμα)
+dkaz99: δε φανερώνει το χέρι του 
+asdepique230 μάζεψε 3839 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 3839 | Rake 0 
+Ταμπλό [Qd Ks 6d 6s 4d]
+Θέση 1: asdepique230  έδειξε [5d 3d] και κέρδισε (3839)  μέ Χρώμα, Στο(η) Ντάμα
+Θέση 2: dkaz99 (button) mucked [Kc Ad]
+Θέση 3: ramis.iusein (small blind) έκανε fold πριν Flop
+Θέση 4: JeanKurganov22 (big blind) έκανε fold πριν Flop
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002550957: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο III (25/50) - 2020/12/02 1:22:16 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:22:16 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #3 είναι το button
+Θέση 1: asdepique230 (5898 σε chips) 
+Θέση 2: dkaz99 (3211 σε chips) 
+Θέση 3: ramis.iusein (4539 σε chips) 
+Θέση 4: JeanKurganov22 (4788 σε chips) 
+Θέση 5: perff (4070 σε chips) 
+Θέση 6: Solidproblem (6732 σε chips) 
+Θέση 7: Skills So Fancy (5257 σε chips) 
+Θέση 8: Sanktu (5403 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 9: Thenatch333 (5257 σε chips) 
+asdepique230: βάζει το ante 6
+dkaz99: βάζει το ante 6
+ramis.iusein: βάζει το ante 6
+JeanKurganov22: βάζει το ante 6
+perff: βάζει το ante 6
+Solidproblem: βάζει το ante 6
+Skills So Fancy: βάζει το ante 6
+Sanktu: βάζει το ante 6
+Thenatch333: βάζει το ante 6
+JeanKurganov22: βάζει το small blind 25
+perff: βάζει το big blind 50
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [8h 9c]
+Solidproblem: fold 
+Skills So Fancy: fold 
+Sanktu: fold 
+Thenatch333: call 50
+asdepique230: raise 125 σε 175
+dkaz99: fold 
+ramis.iusein: call 175
+JeanKurganov22: fold 
+perff: fold 
+Thenatch333: call 125
+*** FLOP *** [3c 5s Kh]
+Thenatch333: check 
+asdepique230: check 
+ramis.iusein: check 
+*** TURN *** [3c 5s Kh] [Kc]
+Thenatch333: check 
+asdepique230: check 
+Sanktu επέστρεψε
+ramis.iusein: check 
+*** RIVER *** [3c 5s Kh Kc] [Ah]
+Thenatch333: check 
+asdepique230: ποντάρει 327
+ramis.iusein: call 327
+Thenatch333: fold 
+*** SHOW DOWN ***
+asdepique230: δείχνει [Ad 8d] (δύο ζευγάρια, Άσσους και Ρηγάδες)
+ramis.iusein: δείχνει [Tc As] (δύο ζευγάρια, Άσσους και Ρηγάδες - Δέκα  kicker)
+ramis.iusein μάζεψε 1308 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 1308 | Rake 0 
+Ταμπλό [3c 5s Kh Kc Ah]
+Θέση 1: asdepique230  έδειξε [Ad 8d] και έχασε  μέ δύο ζευγάρια, Άσσους και Ρηγάδες
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein (button)  έδειξε [Tc As] και κέρδισε (1308)  μέ δύο ζευγάρια, Άσσους και Ρηγάδες
+Θέση 4: JeanKurganov22 (small blind) έκανε fold πριν Flop
+Θέση 5: perff (big blind) έκανε fold πριν Flop
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 έκανε fold στο River
+
+
+
+PokerStars Παρτίδα #221002586742: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο III (25/50) - 2020/12/02 1:23:13 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:23:13 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #4 είναι το button
+Θέση 1: asdepique230 (5390 σε chips) 
+Θέση 2: dkaz99 (3205 σε chips) 
+Θέση 3: ramis.iusein (5339 σε chips) 
+Θέση 4: JeanKurganov22 (4757 σε chips) 
+Θέση 5: perff (4014 σε chips) 
+Θέση 6: Solidproblem (6726 σε chips) 
+Θέση 7: Skills So Fancy (5251 σε chips) 
+Θέση 8: Sanktu (5397 σε chips) 
+Θέση 9: Thenatch333 (5076 σε chips) 
+asdepique230: βάζει το ante 6
+dkaz99: βάζει το ante 6
+ramis.iusein: βάζει το ante 6
+JeanKurganov22: βάζει το ante 6
+perff: βάζει το ante 6
+Solidproblem: βάζει το ante 6
+Skills So Fancy: βάζει το ante 6
+Sanktu: βάζει το ante 6
+Thenatch333: βάζει το ante 6
+perff: βάζει το small blind 25
+Solidproblem: βάζει το big blind 50
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [3d Jc]
+Skills So Fancy: fold 
+Sanktu: call 50
+Thenatch333: fold 
+asdepique230: call 50
+dkaz99: fold 
+ramis.iusein: fold 
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: raise 229 σε 279
+Sanktu: call 229
+asdepique230: call 229
+*** FLOP *** [As Td Js]
+Solidproblem: check 
+Sanktu τελείωσε ο χρόνος
+Sanktu: check 
+asdepique230: check 
+*** TURN *** [As Td Js] [9s]
+Solidproblem: ποντάρει 458
+Sanktu: call 458
+asdepique230: fold 
+*** RIVER *** [As Td Js 9s] [3s]
+Solidproblem: ποντάρει 916
+Sanktu: call 916
+*** SHOW DOWN ***
+Solidproblem: δείχνει [Ks Kd] (Χρώμα, Στο(η) Άσσος)
+Sanktu: δε φανερώνει το χέρι του 
+Solidproblem μάζεψε 3664 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 3664 | Rake 0 
+Ταμπλό [As Td Js 9s 3s]
+Θέση 1: asdepique230 έκανε fold στο Turn
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff (small blind) έκανε fold πριν Flop
+Θέση 6: Solidproblem (big blind)  έδειξε [Ks Kd] και κέρδισε (3664)  μέ Χρώμα, Στο(η) Άσσος
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu mucked [7d 8d]
+Θέση 9: Thenatch333 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002654405: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο III (25/50) - 2020/12/02 1:24:52 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:24:52 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #5 είναι το button
+Θέση 1: asdepique230 (5105 σε chips) 
+Θέση 2: dkaz99 (3199 σε chips) 
+Θέση 3: ramis.iusein (5333 σε chips) 
+Θέση 4: JeanKurganov22 (4751 σε chips) 
+Θέση 5: perff (3983 σε chips) 
+Θέση 6: Solidproblem (8731 σε chips) 
+Θέση 7: Skills So Fancy (5245 σε chips) 
+Θέση 8: Sanktu (3738 σε chips) 
+Θέση 9: Thenatch333 (5070 σε chips) 
+asdepique230: βάζει το ante 6
+dkaz99: βάζει το ante 6
+ramis.iusein: βάζει το ante 6
+JeanKurganov22: βάζει το ante 6
+perff: βάζει το ante 6
+Solidproblem: βάζει το ante 6
+Skills So Fancy: βάζει το ante 6
+Sanktu: βάζει το ante 6
+Thenatch333: βάζει το ante 6
+Solidproblem: βάζει το small blind 25
+Skills So Fancy: βάζει το big blind 50
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Ts Td]
+Sanktu: fold 
+Thenatch333: fold 
+asdepique230: fold 
+dkaz99: raise 150 σε 200
+ramis.iusein: fold 
+JeanKurganov22: fold 
+perff: call 200
+Solidproblem: fold 
+Skills So Fancy: fold 
+*** FLOP *** [Kc Kd Th]
+dkaz99: check 
+perff: check 
+*** TURN *** [Kc Kd Th] [4c]
+dkaz99: ποντάρει 100
+perff: call 100
+*** RIVER *** [Kc Kd Th 4c] [6c]
+dkaz99: check 
+perff: ποντάρει 364
+dkaz99: raise 436 σε 800
+perff: call 436
+*** SHOW DOWN ***
+dkaz99: δείχνει [Ts Td] (Φουλ, Φουλ του Δεκάρια με Ρηγάδες)
+perff: δε φανερώνει το χέρι του 
+dkaz99 μάζεψε 2329 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 2329 | Rake 0 
+Ταμπλό [Kc Kd Th 4c 6c]
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99  έδειξε [Ts Td] και κέρδισε (2329)  μέ Φουλ, Φουλ του Δεκάρια με Ρηγάδες
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff (button) mucked [8s Ks]
+Θέση 6: Solidproblem (small blind) έκανε fold πριν Flop
+Θέση 7: Skills So Fancy (big blind) έκανε fold πριν Flop
+Θέση 8: Sanktu έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002700920: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο III (25/50) - 2020/12/02 1:26:06 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:26:06 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #6 είναι το button
+Θέση 1: asdepique230 (5099 σε chips) 
+Θέση 2: dkaz99 (4422 σε chips) 
+Θέση 3: ramis.iusein (5327 σε chips) 
+Θέση 4: JeanKurganov22 (4745 σε chips) 
+Θέση 5: perff (2877 σε chips) 
+Θέση 6: Solidproblem (8700 σε chips) 
+Θέση 7: Skills So Fancy (5189 σε chips) 
+Θέση 8: Sanktu (3732 σε chips) 
+Θέση 9: Thenatch333 (5064 σε chips) 
+asdepique230: βάζει το ante 6
+dkaz99: βάζει το ante 6
+ramis.iusein: βάζει το ante 6
+JeanKurganov22: βάζει το ante 6
+perff: βάζει το ante 6
+Solidproblem: βάζει το ante 6
+Skills So Fancy: βάζει το ante 6
+Sanktu: βάζει το ante 6
+Thenatch333: βάζει το ante 6
+Skills So Fancy: βάζει το small blind 25
+Sanktu: βάζει το big blind 50
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [2d As]
+Thenatch333: fold 
+asdepique230: fold 
+dkaz99: fold 
+ramis.iusein: fold 
+JeanKurganov22: raise 75 σε 125
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+Sanktu: call 75
+*** FLOP *** [3c 7s Jh]
+Sanktu: check 
+JeanKurganov22: ποντάρει 188
+Sanktu: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (188) επιστράφηκε στον JeanKurganov22
+JeanKurganov22 μάζεψε 329 από  pot
+JeanKurganov22: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 329 | Rake 0 
+Ταμπλό [3c 7s Jh]
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 απεκόμισε (329)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy (small blind) έκανε fold πριν Flop
+Θέση 8: Sanktu (big blind) έκανε fold στο Flop
+Θέση 9: Thenatch333 έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002735204: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο III (25/50) - 2020/12/02 1:27:02 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:27:02 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #7 είναι το button
+Θέση 1: asdepique230 (5093 σε chips) 
+Θέση 2: dkaz99 (4416 σε chips) 
+Θέση 3: ramis.iusein (5321 σε chips) 
+Θέση 4: JeanKurganov22 (4943 σε chips) 
+Θέση 5: perff (2871 σε chips) 
+Θέση 6: Solidproblem (8694 σε chips) 
+Θέση 7: Skills So Fancy (5158 σε chips) 
+Θέση 8: Sanktu (3601 σε chips) 
+Θέση 9: Thenatch333 (5058 σε chips) 
+asdepique230: βάζει το ante 6
+dkaz99: βάζει το ante 6
+ramis.iusein: βάζει το ante 6
+JeanKurganov22: βάζει το ante 6
+perff: βάζει το ante 6
+Solidproblem: βάζει το ante 6
+Skills So Fancy: βάζει το ante 6
+Sanktu: βάζει το ante 6
+Thenatch333: βάζει το ante 6
+Sanktu: βάζει το small blind 25
+Thenatch333: βάζει το big blind 50
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [7h 2h]
+asdepique230: fold 
+dkaz99: fold 
+ramis.iusein: fold 
+JeanKurganov22: fold 
+perff: call 50
+Solidproblem: raise 100 σε 150
+Skills So Fancy: fold 
+Sanktu: call 125
+Thenatch333: call 100
+perff: call 100
+*** FLOP *** [Jd 2c 8c]
+Sanktu: check 
+Thenatch333: check 
+perff: ποντάρει 654
+Solidproblem: fold 
+Sanktu: fold 
+Thenatch333: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (654) επιστράφηκε στον perff
+perff μάζεψε 654 από  pot
+perff: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 654 | Rake 0 
+Ταμπλό [Jd 2c 8c]
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff απεκόμισε (654)
+Θέση 6: Solidproblem έκανε fold στο Flop
+Θέση 7: Skills So Fancy (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu (small blind) έκανε fold στο Flop
+Θέση 9: Thenatch333 (big blind) έκανε fold στο Flop
+
+
+
+PokerStars Παρτίδα #221002774178: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο III (25/50) - 2020/12/02 1:28:04 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:28:04 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #8 είναι το button
+Θέση 1: asdepique230 (5087 σε chips) 
+Θέση 2: dkaz99 (4410 σε chips) 
+Θέση 3: ramis.iusein (5315 σε chips) 
+Θέση 4: JeanKurganov22 (4937 σε chips) 
+Θέση 5: perff (3369 σε chips) 
+Θέση 6: Solidproblem (8538 σε chips) 
+Θέση 7: Skills So Fancy (5152 σε chips) 
+Θέση 8: Sanktu (3445 σε chips) 
+Θέση 9: Thenatch333 (4902 σε chips) 
+asdepique230: βάζει το ante 6
+dkaz99: βάζει το ante 6
+ramis.iusein: βάζει το ante 6
+JeanKurganov22: βάζει το ante 6
+perff: βάζει το ante 6
+Solidproblem: βάζει το ante 6
+Skills So Fancy: βάζει το ante 6
+Sanktu: βάζει το ante 6
+Thenatch333: βάζει το ante 6
+Thenatch333: βάζει το small blind 25
+asdepique230: βάζει το big blind 50
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [8s 6s]
+dkaz99: call 50
+ramis.iusein: fold 
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+Sanktu τελείωσε ο χρόνος
+Sanktu: fold 
+Sanktu κάθεται εκτός
+Thenatch333: fold 
+asdepique230: check 
+*** FLOP *** [9d Td Kh]
+asdepique230: check 
+dkaz99: ποντάρει 100
+Sanktu επέστρεψε
+asdepique230: call 100
+*** TURN *** [9d Td Kh] [7h]
+asdepique230: check 
+dkaz99: check 
+*** RIVER *** [9d Td Kh 7h] [3c]
+asdepique230: check 
+dkaz99: ποντάρει 360
+asdepique230: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (360) επιστράφηκε στον dkaz99
+dkaz99 μάζεψε 379 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 379 | Rake 0 
+Ταμπλό [9d Td Kh 7h 3c]
+Θέση 1: asdepique230 (big blind) έκανε fold στο River
+Θέση 2: dkaz99 απεκόμισε (379)
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: Sanktu (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: Thenatch333 (small blind) έκανε fold πριν Flop
+
+
+
+PokerStars Παρτίδα #221002813331: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο III (25/50) - 2020/12/02 1:29:07 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:29:07 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #9 είναι το button
+Θέση 1: asdepique230 (4931 σε chips) 
+Θέση 2: dkaz99 (4633 σε chips) 
+Θέση 3: ramis.iusein (5309 σε chips) 
+Θέση 4: JeanKurganov22 (4931 σε chips) 
+Θέση 5: perff (3363 σε chips) 
+Θέση 6: Solidproblem (8532 σε chips) 
+Θέση 7: Skills So Fancy (5146 σε chips) 
+Θέση 8: Sanktu (3439 σε chips) 
+Θέση 9: Thenatch333 (4871 σε chips) 
+asdepique230: βάζει το ante 6
+dkaz99: βάζει το ante 6
+ramis.iusein: βάζει το ante 6
+JeanKurganov22: βάζει το ante 6
+perff: βάζει το ante 6
+Solidproblem: βάζει το ante 6
+Skills So Fancy: βάζει το ante 6
+Sanktu: βάζει το ante 6
+Thenatch333: βάζει το ante 6
+asdepique230: βάζει το small blind 25
+dkaz99: βάζει το big blind 50
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Kh 4h]
+ramis.iusein: fold 
+JeanKurganov22: fold 
+perff: fold 
+Solidproblem: fold 
+Skills So Fancy: raise 50 σε 100
+Sanktu: call 100
+Thenatch333: fold 
+asdepique230: fold 
+dkaz99: call 50
+*** FLOP *** [As 9c 8d]
+dkaz99: check 
+Skills So Fancy: ποντάρει 190
+Sanktu: call 190
+dkaz99: fold 
+*** TURN *** [As 9c 8d] [Td]
+Skills So Fancy: ποντάρει 500
+Sanktu: call 500
+*** RIVER *** [As 9c 8d Td] [9s]
+Skills So Fancy: check 
+Sanktu: check 
+*** SHOW DOWN ***
+Skills So Fancy: δείχνει [Ad 2h] (δύο ζευγάρια, Άσσους και Εννιάρια)
+Sanktu: δε φανερώνει το χέρι του 
+Skills So Fancy μάζεψε 1759 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 1759 | Rake 0 
+Ταμπλό [As 9c 8d Td 9s]
+Θέση 1: asdepique230 (small blind) έκανε fold πριν Flop
+Θέση 2: dkaz99 (big blind) έκανε fold στο Flop
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy  έδειξε [Ad 2h] και κέρδισε (1759)  μέ δύο ζευγάρια, Άσσους και Εννιάρια
+Θέση 8: Sanktu mucked [Jh Js]
+Θέση 9: Thenatch333 (button) έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002862253: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο IV (30/60) - 2020/12/02 1:30:26 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:30:26 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #1 είναι το button
+Θέση 1: asdepique230 (4900 σε chips) 
+Θέση 2: dkaz99 (4527 σε chips) 
+Θέση 3: ramis.iusein (5303 σε chips) 
+Θέση 4: JeanKurganov22 (4925 σε chips) 
+Θέση 5: perff (3357 σε chips) 
+Θέση 6: Solidproblem (8526 σε chips) 
+Θέση 7: Skills So Fancy (6109 σε chips) 
+Θέση 8: Sanktu (2643 σε chips) 
+Θέση 9: Thenatch333 (4865 σε chips) 
+asdepique230: βάζει το ante 8
+dkaz99: βάζει το ante 8
+ramis.iusein: βάζει το ante 8
+JeanKurganov22: βάζει το ante 8
+perff: βάζει το ante 8
+Solidproblem: βάζει το ante 8
+Skills So Fancy: βάζει το ante 8
+Sanktu: βάζει το ante 8
+Thenatch333: βάζει το ante 8
+dkaz99: βάζει το small blind 30
+ramis.iusein: βάζει το big blind 60
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [9h Th]
+JeanKurganov22: fold 
+perff: call 60
+Solidproblem: fold 
+Skills So Fancy: raise 120 σε 180
+Sanktu: call 180
+Thenatch333: call 180
+asdepique230: call 180
+dkaz99: call 150
+ramis.iusein τελείωσε ο χρόνος
+ramis.iusein: fold 
+ramis.iusein κάθεται εκτός
+perff: raise 3169 σε 3349 και είναι all-in
+Skills So Fancy: raise 2752 σε 6101 και είναι all-in
+Sanktu: call 2455 και είναι all-in
+Thenatch333: call 4677 και είναι all-in
+asdepique230: fold 
+dkaz99: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (1244) επιστράφηκε στον Skills So Fancy
+*** FLOP *** [7h 3h 4s]
+*** TURN *** [7h 3h 4s] [As]
+*** RIVER *** [7h 3h 4s As] [4h]
+*** SHOW DOWN ***
+Skills So Fancy: δείχνει [Jc Ah] (δύο ζευγάρια, Άσσους και Τεσσάρια)
+Thenatch333: δείχνει [8c 8s] (δύο ζευγάρια, Οκτάρια και Τεσσάρια)
+Skills So Fancy μάζεψε 3016 από  επιμέρους pot-2 
+perff: δείχνει [Qh Qc] (δύο ζευγάρια, Ντάμες και Τεσσάρια)
+Skills So Fancy μάζεψε 2142 από  επιμέρους pot-1 
+Sanktu: δείχνει [Kc Jd] (ζευγάρι Τεσσάρια)
+Skills So Fancy μάζεψε 11032 από  κεντρικό pot
+Ο Thenatch333 τελείωσε το τουρνουά
+Ο perff τελείωσε το τουρνουά
+Ο Sanktu τελείωσε το τουρνουά
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 16190 Κύριο pot 11032. Δευτερεύον pot-1 2142. Δευτερεύον pot-2 3016. | Rake 0 
+Ταμπλό [7h 3h 4s As 4h]
+Θέση 1: asdepique230 (button) έκανε fold πριν Flop
+Θέση 2: dkaz99 (small blind) έκανε fold πριν Flop
+Θέση 3: ramis.iusein (big blind) έκανε fold πριν Flop
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: perff  έδειξε [Qh Qc] και έχασε  μέ δύο ζευγάρια, Ντάμες και Τεσσάρια
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy  έδειξε [Jc Ah] και κέρδισε (16190)  μέ δύο ζευγάρια, Άσσους και Τεσσάρια
+Θέση 8: Sanktu  έδειξε [Kc Jd] και έχασε  μέ ζευγάρι Τεσσάρια
+Θέση 9: Thenatch333  έδειξε [8c 8s] και έχασε  μέ δύο ζευγάρια, Οκτάρια και Τεσσάρια
+
+
+
+PokerStars Παρτίδα #221002932072: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο IV (30/60) - 2020/12/02 1:32:20 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:32:20 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #2 είναι το button
+Θέση 1: asdepique230 (4712 σε chips) 
+Θέση 2: dkaz99 (4339 σε chips) 
+Θέση 3: ramis.iusein (5235 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 4: JeanKurganov22 (4917 σε chips) 
+Θέση 5: NotHereFish (4552 σε chips) 
+Θέση 6: Solidproblem (8518 σε chips) 
+Θέση 7: Skills So Fancy (17434 σε chips) 
+Θέση 8: aka crush (2296 σε chips) 
+asdepique230: βάζει το ante 8
+dkaz99: βάζει το ante 8
+ramis.iusein: βάζει το ante 8
+JeanKurganov22: βάζει το ante 8
+NotHereFish: βάζει το ante 8
+Solidproblem: βάζει το ante 8
+Skills So Fancy: βάζει το ante 8
+aka crush: βάζει το ante 8
+ramis.iusein: βάζει το small blind 30
+JeanKurganov22: βάζει το big blind 60
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Ad 5h]
+NotHereFish: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+aka crush: fold 
+asdepique230: fold 
+dkaz99: call 60
+ramis.iusein: fold 
+JeanKurganov22: check 
+*** FLOP *** [Td 7d 5d]
+JeanKurganov22: check 
+dkaz99: ποντάρει 180
+JeanKurganov22: call 180
+*** TURN *** [Td 7d 5d] [2h]
+JeanKurganov22: check 
+dkaz99: check 
+*** RIVER *** [Td 7d 5d 2h] [Th]
+JeanKurganov22: ποντάρει 540
+dkaz99: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (540) επιστράφηκε στον JeanKurganov22
+JeanKurganov22 μάζεψε 574 από  pot
+JeanKurganov22: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 574 | Rake 0 
+Ταμπλό [Td 7d 5d 2h Th]
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 (button) έκανε fold στο River
+Θέση 3: ramis.iusein (small blind) έκανε fold πριν Flop
+Θέση 4: JeanKurganov22 (big blind) απεκόμισε (574)
+Θέση 5: NotHereFish έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: aka crush έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002966465: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο IV (30/60) - 2020/12/02 1:33:16 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:33:16 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #3 είναι το button
+Θέση 1: asdepique230 (4704 σε chips) 
+Θέση 2: dkaz99 (4091 σε chips) 
+Θέση 3: ramis.iusein (5197 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 4: JeanKurganov22 (5243 σε chips) 
+Θέση 6: Solidproblem (8510 σε chips) 
+Θέση 7: Skills So Fancy (17426 σε chips) 
+Θέση 8: aka crush (2288 σε chips) 
+Θέση 9: AlissonGuruh (5000 σε chips) 
+asdepique230: βάζει το ante 8
+dkaz99: βάζει το ante 8
+ramis.iusein: βάζει το ante 8
+JeanKurganov22: βάζει το ante 8
+Solidproblem: βάζει το ante 8
+Skills So Fancy: βάζει το ante 8
+aka crush: βάζει το ante 8
+AlissonGuruh: βάζει το ante 8
+JeanKurganov22: βάζει το small blind 30
+Solidproblem: βάζει το big blind 60
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Ts 7h]
+Skills So Fancy: fold 
+aka crush: raise 90 σε 150
+AlissonGuruh: fold 
+asdepique230: call 150
+dkaz99: fold 
+ramis.iusein: fold 
+JeanKurganov22: fold 
+Solidproblem: fold 
+*** FLOP *** [8h 3h 8d]
+aka crush: ποντάρει 250
+asdepique230: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (250) επιστράφηκε στον aka crush
+aka crush μάζεψε 454 από  pot
+aka crush: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 454 | Rake 0 
+Ταμπλό [8h 3h 8d]
+Θέση 1: asdepique230 έκανε fold στο Flop
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 (small blind) έκανε fold πριν Flop
+Θέση 6: Solidproblem (big blind) έκανε fold πριν Flop
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: aka crush απεκόμισε (454)
+Θέση 9: AlissonGuruh έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221002984951: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο IV (30/60) - 2020/12/02 1:33:46 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:33:46 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #4 είναι το button
+Θέση 1: asdepique230 (4546 σε chips) 
+Θέση 2: dkaz99 (4083 σε chips) 
+Θέση 3: ramis.iusein (5189 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 4: JeanKurganov22 (5205 σε chips) 
+Θέση 6: Solidproblem (8442 σε chips) 
+Θέση 7: Skills So Fancy (17418 σε chips) 
+Θέση 8: aka crush (2584 σε chips) 
+Θέση 9: AlissonGuruh (4992 σε chips) 
+asdepique230: βάζει το ante 8
+dkaz99: βάζει το ante 8
+ramis.iusein: βάζει το ante 8
+JeanKurganov22: βάζει το ante 8
+Solidproblem: βάζει το ante 8
+Skills So Fancy: βάζει το ante 8
+aka crush: βάζει το ante 8
+AlissonGuruh: βάζει το ante 8
+Solidproblem: βάζει το small blind 30
+Skills So Fancy: βάζει το big blind 60
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [5c 5s]
+aka crush: fold 
+AlissonGuruh: fold 
+asdepique230: fold 
+dkaz99: raise 60 σε 120
+ramis.iusein: fold 
+JeanKurganov22: fold 
+Solidproblem: raise 364 σε 484
+Skills So Fancy: fold 
+dkaz99: call 364
+*** FLOP *** [9d Ad 3d]
+Solidproblem: ποντάρει 546
+dkaz99: raise 3045 σε 3591 και είναι all-in
+Solidproblem: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (3045) επιστράφηκε στον dkaz99
+dkaz99 μάζεψε 2184 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 2184 | Rake 0 
+Ταμπλό [9d Ad 3d]
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 απεκόμισε (2184)
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem (small blind) έκανε fold στο Flop
+Θέση 7: Skills So Fancy (big blind) έκανε fold πριν Flop
+Θέση 8: aka crush έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: AlissonGuruh έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221003019022: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο IV (30/60) - 2020/12/02 1:34:42 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:34:42 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #6 είναι το button
+Θέση 1: asdepique230 (4538 σε chips) 
+Θέση 2: dkaz99 (5229 σε chips) 
+Θέση 3: ramis.iusein (5181 σε chips) κάθεται εκτός παιχνιδιού
+Θέση 4: JeanKurganov22 (5197 σε chips) 
+Θέση 5: BlackairJackT (5000 σε chips) 
+Θέση 6: Solidproblem (7404 σε chips) 
+Θέση 7: Skills So Fancy (17350 σε chips) 
+Θέση 8: aka crush (2576 σε chips) 
+Θέση 9: AlissonGuruh (4984 σε chips) 
+asdepique230: βάζει το ante 8
+dkaz99: βάζει το ante 8
+ramis.iusein: βάζει το ante 8
+JeanKurganov22: βάζει το ante 8
+BlackairJackT: βάζει το ante 8
+Solidproblem: βάζει το ante 8
+Skills So Fancy: βάζει το ante 8
+aka crush: βάζει το ante 8
+AlissonGuruh: βάζει το ante 8
+Skills So Fancy: βάζει το small blind 30
+aka crush: βάζει το big blind 60
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [Kh 5c]
+AlissonGuruh: raise 60 σε 120
+asdepique230: fold 
+dkaz99: fold 
+ramis.iusein: fold 
+JeanKurganov22: fold 
+BlackairJackT: fold 
+Solidproblem: fold 
+Skills So Fancy: call 90
+aka crush: fold 
+*** FLOP *** [Jd 2d 7s]
+Skills So Fancy: check 
+AlissonGuruh: ποντάρει 179
+ramis.iusein επέστρεψε
+Skills So Fancy: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (179) επιστράφηκε στον AlissonGuruh
+AlissonGuruh μάζεψε 372 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 372 | Rake 0 
+Ταμπλό [Jd 2d 7s]
+Θέση 1: asdepique230 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: BlackairJackT έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy (small blind) έκανε fold στο Flop
+Θέση 8: aka crush (big blind) έκανε fold πριν Flop
+Θέση 9: AlissonGuruh απεκόμισε (372)
+
+
+
+PokerStars Παρτίδα #221003050355: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο IV (30/60) - 2020/12/02 1:35:34 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:35:34 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #7 είναι το button
+Θέση 1: asdepique230 (4530 σε chips) 
+Θέση 2: dkaz99 (5221 σε chips) 
+Θέση 3: ramis.iusein (5173 σε chips) 
+Θέση 4: JeanKurganov22 (5189 σε chips) 
+Θέση 5: BlackairJackT (4992 σε chips) 
+Θέση 6: Solidproblem (7396 σε chips) 
+Θέση 7: Skills So Fancy (17222 σε chips) 
+Θέση 8: aka crush (2508 σε chips) 
+Θέση 9: AlissonGuruh (5228 σε chips) 
+asdepique230: βάζει το ante 8
+dkaz99: βάζει το ante 8
+ramis.iusein: βάζει το ante 8
+JeanKurganov22: βάζει το ante 8
+BlackairJackT: βάζει το ante 8
+Solidproblem: βάζει το ante 8
+Skills So Fancy: βάζει το ante 8
+aka crush: βάζει το ante 8
+AlissonGuruh: βάζει το ante 8
+aka crush: βάζει το small blind 30
+AlissonGuruh: βάζει το big blind 60
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [5d 6c]
+asdepique230: call 60
+dkaz99: fold 
+ramis.iusein: fold 
+JeanKurganov22: fold 
+BlackairJackT: raise 300 σε 360
+Solidproblem: fold 
+Skills So Fancy: fold 
+aka crush: fold 
+AlissonGuruh: fold 
+asdepique230: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (300) επιστράφηκε στον BlackairJackT
+BlackairJackT μάζεψε 282 από  pot
+BlackairJackT: δε δείχνει το χέρι του 
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 282 | Rake 0 
+Θέση 1: asdepique230 έκανε fold πριν Flop
+Θέση 2: dkaz99 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: BlackairJackT απεκόμισε (282)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: aka crush (small blind) έκανε fold πριν Flop
+Θέση 9: AlissonGuruh (big blind) έκανε fold πριν Flop
+
+
+
+PokerStars Παρτίδα #221003071238: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο IV (30/60) - 2020/12/02 1:36:08 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:36:08 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #8 είναι το button
+Θέση 1: asdepique230 (4462 σε chips) 
+Θέση 2: dkaz99 (5213 σε chips) 
+Θέση 3: ramis.iusein (5165 σε chips) 
+Θέση 4: JeanKurganov22 (5181 σε chips) 
+Θέση 5: BlackairJackT (5206 σε chips) 
+Θέση 6: Solidproblem (7388 σε chips) 
+Θέση 7: Skills So Fancy (17214 σε chips) 
+Θέση 8: aka crush (2470 σε chips) 
+Θέση 9: AlissonGuruh (5160 σε chips) 
+asdepique230: βάζει το ante 8
+dkaz99: βάζει το ante 8
+ramis.iusein: βάζει το ante 8
+JeanKurganov22: βάζει το ante 8
+BlackairJackT: βάζει το ante 8
+Solidproblem: βάζει το ante 8
+Skills So Fancy: βάζει το ante 8
+aka crush: βάζει το ante 8
+AlissonGuruh: βάζει το ante 8
+AlissonGuruh: βάζει το small blind 30
+asdepique230: βάζει το big blind 60
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [As Ah]
+dkaz99: raise 173 σε 233
+ramis.iusein: fold 
+JeanKurganov22: call 233
+BlackairJackT: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+aka crush: fold 
+AlissonGuruh: fold 
+asdepique230: call 173
+*** FLOP *** [5d Jd 6d]
+asdepique230: check 
+dkaz99: ποντάρει 240
+JeanKurganov22: raise 360 σε 600
+asdepique230: fold 
+dkaz99: raise 4372 σε 4972 και είναι all-in
+JeanKurganov22: call 4340 και είναι all-in
+Το ποντάρισμα στο οποίο δεν έγινε call (32) επιστράφηκε στον dkaz99
+*** TURN *** [5d Jd 6d] [6s]
+*** RIVER *** [5d Jd 6d 6s] [7h]
+*** SHOW DOWN ***
+dkaz99: δείχνει [As Ah] (δύο ζευγάρια, Άσσους και Εξάρια)
+JeanKurganov22: δείχνει [Js Jh] (Φουλ, Φουλ του Βαλέδες με Εξάρια)
+JeanKurganov22 μάζεψε 10681 από  pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 10681 | Rake 0 
+Ταμπλό [5d Jd 6d 6s 7h]
+Θέση 1: asdepique230 (big blind) έκανε fold στο Flop
+Θέση 2: dkaz99  έδειξε [As Ah] και έχασε  μέ δύο ζευγάρια, Άσσους και Εξάρια
+Θέση 3: ramis.iusein έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 4: JeanKurganov22  έδειξε [Js Jh] και κέρδισε (10681)  μέ Φουλ, Φουλ του Βαλέδες με Εξάρια
+Θέση 5: BlackairJackT έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: aka crush (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: AlissonGuruh (small blind) έκανε fold πριν Flop
+
+
+
+PokerStars Παρτίδα #221003107073: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο IV (30/60) - 2020/12/02 1:37:08 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:37:08 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #9 είναι το button
+Θέση 1: asdepique230 (4221 σε chips) 
+Θέση 2: dkaz99 (32 σε chips) 
+Θέση 3: ramis.iusein (5157 σε chips) 
+Θέση 4: JeanKurganov22 (10681 σε chips) 
+Θέση 5: BlackairJackT (5198 σε chips) 
+Θέση 6: Solidproblem (7380 σε chips) 
+Θέση 7: Skills So Fancy (17206 σε chips) 
+Θέση 8: aka crush (2462 σε chips) 
+Θέση 9: AlissonGuruh (5122 σε chips) 
+asdepique230: βάζει το ante 8
+dkaz99: βάζει το ante 8
+ramis.iusein: βάζει το ante 8
+JeanKurganov22: βάζει το ante 8
+BlackairJackT: βάζει το ante 8
+Solidproblem: βάζει το ante 8
+Skills So Fancy: βάζει το ante 8
+aka crush: βάζει το ante 8
+AlissonGuruh: βάζει το ante 8
+asdepique230: βάζει το small blind 30
+dkaz99: βάζει το big blind 24 και είναι all-in
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [8d 8h]
+ramis.iusein: raise 216 σε 246
+JeanKurganov22: fold 
+BlackairJackT: fold 
+Solidproblem: fold 
+Skills So Fancy: fold 
+aka crush: fold 
+AlissonGuruh: fold 
+asdepique230: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (216) επιστράφηκε στον ramis.iusein
+*** FLOP *** [Jd 3d 4h]
+*** TURN *** [Jd 3d 4h] [7s]
+*** RIVER *** [Jd 3d 4h 7s] [4d]
+*** SHOW DOWN ***
+ramis.iusein: δείχνει [As Kc] (ζευγάρι Τεσσάρια)
+ramis.iusein μάζεψε 12 από  επιμέρους pot
+dkaz99: δείχνει [8d 8h] (δύο ζευγάρια, Οκτάρια και Τεσσάρια)
+dkaz99 μάζεψε 144 από  κεντρικό pot
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 156 Κύριο pot 144. Δευτερεύον pot 12. | Rake 0 
+Ταμπλό [Jd 3d 4h 7s 4d]
+Θέση 1: asdepique230 (small blind) έκανε fold πριν Flop
+Θέση 2: dkaz99 (big blind)  έδειξε [8d 8h] και κέρδισε (144)  μέ δύο ζευγάρια, Οκτάρια και Τεσσάρια
+Θέση 3: ramis.iusein  έδειξε [As Kc] και κέρδισε (12)  μέ ζευγάρι Τεσσάρια
+Θέση 4: JeanKurganov22 έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 5: BlackairJackT έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: aka crush έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 9: AlissonGuruh (button) έκανε fold πριν Flop (δεν πόνταρε)
+
+
+
+PokerStars Παρτίδα #221003127247: Τουρνουά #3059540574, $4.90+$0.60 USD Hold'em No Limit - Επίπεδο IV (30/60) - 2020/12/02 1:37:41 ΠΡΟΣΑΡΜΟΓΗ [2020/12/01 17:37:41 ET]
+Τραπέζι '3059540574 12' 9-max Η θέση #1 είναι το button
+Θέση 1: asdepique230 (4183 σε chips) 
+Θέση 2: dkaz99 (144 σε chips) 
+Θέση 4: JeanKurganov22 (10673 σε chips) 
+Θέση 5: BlackairJackT (5190 σε chips) 
+Θέση 6: Solidproblem (7372 σε chips) 
+Θέση 7: Skills So Fancy (17198 σε chips) 
+Θέση 8: aka crush (2454 σε chips) 
+Θέση 9: AlissonGuruh (5114 σε chips) 
+asdepique230: βάζει το ante 8
+dkaz99: βάζει το ante 8
+JeanKurganov22: βάζει το ante 8
+BlackairJackT: βάζει το ante 8
+Solidproblem: βάζει το ante 8
+Skills So Fancy: βάζει το ante 8
+aka crush: βάζει το ante 8
+AlissonGuruh: βάζει το ante 8
+dkaz99: βάζει το small blind 30
+JeanKurganov22: βάζει το big blind 60
+*** ΚΡΥΦΑ ΦΥΛΛΑ ***
+Μοίρασε στο dkaz99 [5s Ks]
+BlackairJackT: call 60
+Solidproblem: fold 
+Skills So Fancy: fold 
+aka crush: raise 240 σε 300
+AlissonGuruh: fold 
+asdepique230: fold 
+dkaz99: call 106 και είναι all-in
+JeanKurganov22: fold 
+BlackairJackT: fold 
+Το ποντάρισμα στο οποίο δεν έγινε call (164) επιστράφηκε στον aka crush
+*** FLOP *** [7s Tc 2h]
+*** TURN *** [7s Tc 2h] [4s]
+*** RIVER *** [7s Tc 2h 4s] [Ac]
+*** SHOW DOWN ***
+dkaz99: δείχνει [5s Ks] (Υψηλότερο Φύλλο Άσσος)
+aka crush: δείχνει [Jh Ah] (ζευγάρι Άσσους)
+aka crush μάζεψε 456 από  pot
+Ο dkaz99 τελείωσε το τουρνουά
+*** ΣΥΝΟΨΗ ***
+Συνολικό pot 456 | Rake 0 
+Ταμπλό [7s Tc 2h 4s Ac]
+Θέση 1: asdepique230 (button) έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 2: dkaz99 (small blind)  έδειξε [5s Ks] και έχασε  μέ Υψηλότερο Φύλλο Άσσος
+Θέση 4: JeanKurganov22 (big blind) έκανε fold πριν Flop
+Θέση 5: BlackairJackT έκανε fold πριν Flop
+Θέση 6: Solidproblem έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 7: Skills So Fancy έκανε fold πριν Flop (δεν πόνταρε)
+Θέση 8: aka crush  έδειξε [Jh Ah] και κέρδισε (456)  μέ ζευγάρι Άσσους
+Θέση 9: AlissonGuruh έκανε fold πριν Flop (δεν πόνταρε)
+
+
+

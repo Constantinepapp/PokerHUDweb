@@ -8,6 +8,7 @@ import {tableDataCalc} from './helperFunctions/statisticsTable'
 import './App.css'
 import add from './assets/img/add.png'
 import NavBar from './Components/Core/NavBar'
+import example from './assets/example.txt'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -39,10 +40,19 @@ function App() {
     const content = fileReader.result;
     const jsonFile = textToJson(content)
     console.log(jsonFile)
+    
     setJson(jsonFile)
     
   };
-  
+  const exampleText = () =>{
+    fetch(example)
+      .then(r => r.text())
+      .then(text => {
+        const jsonFile = textToJson(text)
+        console.log(jsonFile)
+        setJson(jsonFile)
+      });
+  }
   const handleFileChosen = (file) => {
     fileReader = new FileReader();
     fileReader.onloadend = handleFileRead;
@@ -104,7 +114,9 @@ function App() {
           onChange={e => handleFileChosen(e.target.files[0])}
         />
         <label class="button" for="fileInput"><img height="50px" src={add}></img></label>
+        <button class="btnExample" onClick={exampleText}>example</button>
         </Grid>
+        
       </Grid>
       
       
