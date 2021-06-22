@@ -189,6 +189,7 @@ function Row(props) {
                     <TableCell>Hand</TableCell>
                     
                     <TableCell>Table</TableCell>
+                    <TableCell>Actions</TableCell>
                     <TableCell align="right">Outcome</TableCell>
                   </TableRow>
                 </TableHead>

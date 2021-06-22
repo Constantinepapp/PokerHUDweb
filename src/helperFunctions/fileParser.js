@@ -4,29 +4,35 @@ function SplitRounds(text){
     return text.split("PokerStars")
 }
 
-function ActionClassifier(summary){
-    if (summary.includes("fold πριν Flop")){
+function ActionClassifier(summary,language){
+    var keywords = {
+        english:
+            ["folded before Flop","folded on the Flop","folded on the Turn","folded on the River","collected","won","lost"],
+        greek:
+            ["fold πριν Flop","fold στο Flop","fold στο Turn","fold στο River","απεκόμισε","κέρδισε","έχασε"]
+       }
+    if (summary.includes(keywords[language][0])){
         return 'preflopfold'
     }
-    if (summary.includes("fold στο Flop")){
+    if (summary.includes(keywords[language][1])){
         return 'flopfold'
     }
-    if (summary.includes("fold στο River")){
+    if (summary.includes(keywords[language][3])){
         return 'riverfold'
     }
-    if (summary.includes("fold στο Turn")){
+    if (summary.includes(keywords[language][2])){
         return 'turnfold'
     }
-    if (summary.includes("απεκόμισε")){
+    if (summary.includes(keywords[language][4])){
         return 'win1'
     }
-    if (summary.includes("κέρδισε")){
+    if (summary.includes(keywords[language][5])){
         return 'win2'
     }
     if (summary.includes("mucked")){
         return 'mucked'
     }
-    if (summary.includes("έχασε")){
+    if (summary.includes(keywords[language][6])){
         return 'loss'
     }
     else{
@@ -38,12 +44,17 @@ function ChipsClassifier(intro){
     var chips = intro.split(" ")[3].slice(1)
     return chips
 }
-function PreflopAnalyzer(players,preflopRound){
+function PreflopAnalyzer(players,preflopRound,language){
     //console.log(preflopRound)
     var playerRaise = []
     var playerReraise = []
     var playerHand = ""
-
+    var keywords = {
+        english:
+            ["Dealt"],
+        greek:
+            ["Μοίρασε"]
+       }
     for (var i=0;i<preflopRound.length;i++){
         if (preflopRound[i].includes("raise")){
             
@@ -59,7 +70,7 @@ function PreflopAnalyzer(players,preflopRound){
             }
     
         }   
-        if (preflopRound[i].includes("Μοίρασε")){
+        if (preflopRound[i].includes(keywords[language][0])){
             for (var j = 0; j<players.length;j++){
                 if (preflopRound[i].includes(players[j])){
                     var playerSelf = players[j]
@@ -76,16 +87,21 @@ function PreflopAnalyzer(players,preflopRound){
     return preflopRound
     
 }
-function FlopAnalyzer(players,flopRound){
+function FlopAnalyzer(players,flopRound,language){
     //console.log(flopRound)
     var playerRaise = []
     var playerReraise = []
     var playerCheck = []
     var playerFold = []
     var playerHand = ""
-
+    var keywords = {
+        english:
+            ["bets"],
+        greek:
+            ["ποντάρει"]
+       }
     for (var i=0;i<flopRound.length;i++){
-        if (flopRound[i].includes("raise")||flopRound[i].includes("ποντάρει")){
+        if (flopRound[i].includes("raise")||flopRound[i].includes(keywords[language][0])){
             
             for (var j = 0; j<players.length;j++){
                 if (flopRound[i].includes(players[j])){
@@ -129,16 +145,21 @@ function FlopAnalyzer(players,flopRound){
     return flopRound
     
 }
-function TurnAnalyzer(players,turnRound){
+function TurnAnalyzer(players,turnRound,language){
     //console.log(turnRound)
     var playerRaise = []
     var playerReraise = []
     var playerCheck = []
     var playerFold = []
     var playerHand = ""
-
+    var keywords = {
+        english:
+            ["bets"],
+        greek:
+            ["ποντάρει"]
+       }
     for (var i=0;i<turnRound.length;i++){
-        if (turnRound[i].includes("raise")||turnRound[i].includes("ποντάρει")){
+        if (turnRound[i].includes("raise")||turnRound[i].includes(keywords[language][0])){
             
             for (var j = 0; j<players.length;j++){
                 if (turnRound[i].includes(players[j])){
@@ -182,16 +203,21 @@ function TurnAnalyzer(players,turnRound){
     return turnRound
     
 }
-function RiverAnalyzer(players,riverRound){
+function RiverAnalyzer(players,riverRound,language){
     //console.log(riverRound)
     var playerRaise = []
     var playerReraise = []
     var playerCheck = []
     var playerFold = []
     var playerHand = ""
-
+    var keywords = {
+        english:
+            ["bets"],
+        greek:
+            ["ποντάρει"]
+       }
     for (var i=0;i<riverRound.length;i++){
-        if (riverRound[i].includes("raise")||riverRound[i].includes("ποντάρει")){
+        if (riverRound[i].includes("raise")||riverRound[i].includes(keywords[language][0])){
             
             for (var j = 0; j<players.length;j++){
                 if (riverRound[i].includes(players[j])){
@@ -236,10 +262,16 @@ function RiverAnalyzer(players,riverRound){
     return riverRound
     
 }
-function IntroAnalyzer(intro){
+function IntroAnalyzer(intro,language){
     var players = []
+    var keywords = {
+        english:
+            ["Seat"],
+        greek:
+            ["Θέση"]
+       }
     for (var i=0;i<intro.length;i++){
-        if (intro[i].includes("Θέση")){
+        if (intro[i].includes(keywords[language][0])){
             var splited = intro[i].split(" ")
             var chips = ChipsClassifier(intro[i])
             players.push({"player":splited[2],"chips":chips})
@@ -264,27 +296,39 @@ function IntroAnalyzer(intro){
     //console.log(players)
     return [players,ante,bblind,sblind]
 }
-function getPlayerList(summary){
+function getPlayerList(summary,language){
     var players = []    
+    var keywords = {
+        english:
+            ["Seat"],
+        greek:
+            ["Θέση"]
+       }
     for (var i=0;i<summary.length;i++){
-        if (summary[i].includes("Θέση")){
+        if (summary[i].includes(keywords[language][0])){
             var splited = summary[i].split(" ")
             players.push(splited[2])
         }
     }
     return players
 }
-function SummaryAnalyzer(summary){
+function SummaryAnalyzer(summary,language){
     var players = []    
+    var keywords = {
+        english:
+            ["Seat","Board"],
+        greek:
+            ["Θέση","Ταμπλό"]
+       }
     for (var i=0;i<summary.length;i++){
         //console.log(summary[i])
-        if (summary[i].includes("Θέση")){
+        if (summary[i].includes(keywords[language][0])){
             var splited = summary[i].split(" ")
-            var action = ActionClassifier(summary[i])
+            var action = ActionClassifier(summary[i],language)
             players.push({"player":splited[2],"action":action})
             //console.log(splited)
         }
-        if (summary[i].includes('Ταμπλό')){
+        if (summary[i].includes(keywords[language][1])){
             var cardsDown = summary[i].split("[")
             cardsDown = cardsDown[1].split("]")
             cardsDown = cardsDown[0] 
@@ -297,9 +341,20 @@ const SplitActions = (text) =>{
     
 
     text = text.split("\n")
-       
+    var language = "english"
+    var keywords = {english:
+                    ["*** HOLE CARDS ***","*** SUMMARY ***"],
+                    greek:
+                    ["*** ΚΡΥΦΑ ΦΥΛΛΑ ***","*** ΣΥΝΟΨΗ ***"]
+                   }
+    if (text[0].includes("Παρτίδα")){
+        language = "greek"
+    }
+    
+    var title = text[0].split(" ")
+    title = `${title[4]} ${title[5]} ${title[7]}`
     for (var i = 0; i<text.length;i++){
-        if (text[i].includes("*** ΚΡΥΦΑ ΦΥΛΛΑ ***")){
+        if (text[i].includes(keywords[language][0])){
             var preflop = i
         }
     }
@@ -324,7 +379,7 @@ const SplitActions = (text) =>{
         }
     }
     for (var i = 0; i<text.length;i++){
-        if (text[i].includes("*** ΣΥΝΟΨΗ ***")){
+        if (text[i].includes(keywords[language][1])){
             var summary = i
         }
     }
@@ -357,30 +412,30 @@ const SplitActions = (text) =>{
     }
 
     var summaryRound = text.slice(summary)
-    var players = getPlayerList(summaryRound)
-    var [summaryRound,cardsDown] = SummaryAnalyzer(summaryRound)
-    var preflopRound = PreflopAnalyzer(players,preflopRound)
-    var [introRound,ante,bblind,sblind] = IntroAnalyzer(introRound)
+    var players = getPlayerList(summaryRound,language)
+    var [summaryRound,cardsDown] = SummaryAnalyzer(summaryRound,language)
+    var preflopRound = PreflopAnalyzer(players,preflopRound,language)
+    var [introRound,ante,bblind,sblind] = IntroAnalyzer(introRound,language)
     if (flopRound){
-        var flopRound = FlopAnalyzer(players,flopRound)
+        var flopRound = FlopAnalyzer(players,flopRound,language)
     }
     else{
         var flopRound = ""
     }
     if (turnRound){
-        var turnRound = TurnAnalyzer(players,turnRound)
+        var turnRound = TurnAnalyzer(players,turnRound,language)
     }
     else{
         var turnRound = ""
     }
     if (riverRound){
-        var riverRound = RiverAnalyzer(players,riverRound)
+        var riverRound = RiverAnalyzer(players,riverRound,language)
     }
     else{
         var riverRound = ""
     }
     //console.log(flopRound)
-    var round = {"players":players,'ante':ante,'smallBlind':sblind,'bigBlind':bblind,'cardsDown':cardsDown,"intro":introRound,'preflop':preflopRound,"flop":flopRound,"turn":turnRound,"river":riverRound,"showDown":showDownRound,"summary":summaryRound}
+    var round = {"title":title,"players":players,'ante':ante,'smallBlind':sblind,'bigBlind':bblind,'cardsDown':cardsDown,"intro":introRound,'preflop':preflopRound,"flop":flopRound,"turn":turnRound,"river":riverRound,"showDown":showDownRound,"summary":summaryRound}
     
     return round
     
