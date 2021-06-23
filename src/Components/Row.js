@@ -21,9 +21,12 @@ import heart from '../assets/img/heart.png'
 import check from "../assets/img/check.png"
 import raise from '../assets/img/increase.png'
 import reraise from '../assets/img/double-up-arrow.png'
+import call from '../assets/img/right.png'
 import fold from '../assets/img/close.png'
 import { SnackbarContent } from '@material-ui/core';
 import PlayerModal from './PlayerModal'
+import RoundModal from './RoundModal';
+
 const useRowStyles = makeStyles({
   root: {
     '& > *': {
@@ -88,6 +91,7 @@ const createSymbol = (symbol) =>{
   }
 }
 const actionIcon = (action) =>{
+  
   if (action == "check"){
     return check
   }
@@ -99,6 +103,9 @@ const actionIcon = (action) =>{
   }
   if (action == "fold"){
     return fold
+  }
+  if (action == "call"){
+    return call
   }
   else{
     return ""
@@ -136,26 +143,15 @@ const colorRow = (action) =>{
     return {backgroundColor:'rgba(220,120,120,0.5)'}
   }
 }
-function createData(name, calories, fat, carbs, protein, price) {
-  return {
-    name,
-    calories,
-    fat,
-    carbs,
-    protein,
-    price,
-    history: [
-      { date: '2020-01-05', customerId: '11091700', amount: 3 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 1 },
-    ],
-  };
-}
+
 
 function Row(props) {
-  console.log(props)
+  //console.log(props)
   const { row } = props;
   const [open, setOpen] = React.useState(false);
   const classes = useRowStyles();
+
+  
   return (
     <React.Fragment >
       <TableRow className={classes.root} style={{backgroundColor:'rgb(70,70,70)',color:'rgb(255,255,255)'}}>
@@ -185,9 +181,10 @@ function Row(props) {
                 <TableHead>
                   <TableRow>
                     <TableCell>No</TableCell>
+                    <TableCell>Open</TableCell>
                     <TableCell>Chips</TableCell>
                     <TableCell>Hand</TableCell>
-                    
+                    <TableCell>Action</TableCell>
                     <TableCell>Table</TableCell>
                     
                     <TableCell align="right">Outcome</TableCell>
@@ -199,9 +196,44 @@ function Row(props) {
                       <TableCell component="th" scope="row">
                         {historyRow.hand}
                       </TableCell>
+                      <RoundModal historyRow={historyRow}/>
                       <TableCell>{historyRow.chips}</TableCell>
                       <TableCell component="th" scope="row">
                         {createHand(historyRow.cards)[0]}<img height="10px" src={createHand(historyRow.cards)[1]}></img>{createHand(historyRow.cards)[2]}<img height="10px" src={createHand(historyRow.cards)[3]}></img>{historyRow.type? historyRow.type :" "}
+                      </TableCell>
+                      <TableCell component="th" scope="row">
+                          <table >
+                              <tr>
+                                <th>P</th>
+                                <th>F</th>
+                                <th>T</th>
+                                <td>R</td>
+                              </tr>
+                              <tr>
+                                <td>{historyRow.plays?.preflop?.map((action)=>(
+                                  <div>
+                                  <img height="10px"src={actionIcon(action)}></img>
+                                  </div>
+                                ))}</td>
+                                <td>{historyRow.plays?.flop?.map((action)=>(
+                                  <div>
+                                  <img height="10px"src={actionIcon(action)}></img>
+                                  </div>
+                                ))}</td>
+                                <td>{historyRow.plays?.turn?.map((action)=>(
+                                  <div>
+                                  <img height="10px"src={actionIcon(action)}></img>
+                                  </div>
+                                ))}</td>
+                                <td>{historyRow.plays?.turn?.map((action)=>(
+                                  <div>
+                                  <img height="10px"src={actionIcon(action)}></img>
+                                  </div>
+                                ))}</td>
+                              </tr>
+                          </table>
+                            
+                          
                       </TableCell>
                       <TableCell component="th" scope="row">
                         {historyRow.table ? historyRow.table.split(" ").map((element)=>(

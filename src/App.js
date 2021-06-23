@@ -76,12 +76,12 @@ function App() {
   if (json.length>0){
     [recentPlayersTable,recentPlayersHistory] = tableDataCalc(json)
   }
-  
+  console.log(recentPlayersHistory)
     
   
   
   
-
+  console.log(json)
   return (
     <div className="App">
       <NavBar/>

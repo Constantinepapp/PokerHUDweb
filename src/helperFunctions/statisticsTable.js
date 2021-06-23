@@ -88,20 +88,43 @@ const PlayerMacros = (player,json) =>{
 const PlayerHistory = (player,json) => {
     var history = []
     var chips = 0
+    var action = "no action"
     
     for (var i=0;i<json.length;i++){
         for(var j=0;j<json[i].intro.length;j++){
+            //console.log(json[i].intro)
             if (json[i].intro[j].player == player){
-                               
-                try{
-                    var action = json[i].summary[j].action
+                //console.log(player)
+                          
+                
+                for(var l=0;l<json[i].summary.length;l++){
+                    if(json[i].summary[l].player==player){
+                        //console.log(player,json[i].summary[l])
+                        action = json[i].summary[l].action
+                    }
+                    //onsole.log(json[i].summary[l])
                 }
-                catch{
-                    var action = "no action"
-                }
+                    
+                var hand = {"hand":i+1,"chips":json[i].intro[j].chips,'table':json[i].cardsDown,"action":action}
+                var preflop = []
                 var flop = []
                 var turn = []
                 var river = []
+                if (json[i].preflop.Raise?.includes(player)){
+                    preflop.push('raise')                    
+                }
+                if (json[i].preflop.Reraise?.includes(player)){
+                    preflop.push('reraise')                     
+                }
+                if (json[i].preflop.Check?.includes(player)){
+                    preflop.push('check')                      
+                }
+                if (json[i].preflop.Fold?.includes(player)){
+                    preflop.push('fold')                    
+                }
+                if (json[i].preflop.Call?.includes(player)){
+                    preflop.push('call')                    
+                }
                 if (json[i].flop.Raise?.includes(player)){
                     flop.push('raise')                    
                 }
@@ -113,6 +136,9 @@ const PlayerHistory = (player,json) => {
                 }
                 if (json[i].flop.Fold?.includes(player)){
                     flop.push('fold')                    
+                }
+                if (json[i].flop.Call?.includes(player)){
+                    flop.push('call')                    
                 }
                 if (json[i].turn.Raise?.includes(player)){
                     turn.push('raise')                 
@@ -126,6 +152,9 @@ const PlayerHistory = (player,json) => {
                 if (json[i].turn.Fold?.includes(player)){
                     turn.push('fold')                 
                 }
+                if (json[i].turn.Call?.includes(player)){
+                    turn.push('call')                    
+                }
                 if (json[i].river.Raise?.includes(player)){
                     river.push('raise')                    
                 }
@@ -138,7 +167,10 @@ const PlayerHistory = (player,json) => {
                 if (json[i].river.Fold?.includes(player)){
                     river.push('fold')                  
                 }
-                var play = [flop,turn,river]
+                if (json[i].river.Call?.includes(player)){
+                    river.push('call')                    
+                }
+                var play = {preflop,flop,turn,river}
 
                 if (json[i].showDown){
                     for(var k=0;k<json[i].showDown.length;k++){
@@ -146,40 +178,48 @@ const PlayerHistory = (player,json) => {
                             var temp = json[i].showDown[k].split("[")
                             temp = temp[1].split(']')
                             //console.log(temp)
-                            var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":temp[0],'table':json[i].cardsDown,'type':temp[1],"action":action}
+                            hand.cards = temp[0]
+                            hand.type = temp[1]
                         }
                         
                     }
                 }
                 else{
-                    var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":"",'table':json[i].cardsDown,"action":action}
+                    hand.cards = []
                 }
                 if (player == json[i].preflop.Player){
-                    if (hand && hand.cards.length == 0){
-                        var hand = {"hand":i+1,"chips":json[i].intro[j].chips,"cards":json[i].preflop.PlayerHand,'table':json[i].cardsDown,"action":action}
-                    }
+                    
+                    hand.cards = json[i].preflop.PlayerHand
+                    
                     
                 }
-                
+                hand.plays = play
+                hand.preflop = json[i].preflop?.round
+                hand.flop = json[i].flop?.round
+                hand.turn = json[i].turn?.round
+                hand.river = json[i].river?.round
+                hand.summaryRound = json[i].summaryRound
                 
                     
                 
                 
             }
-            hand.plays = play
+            
+            
             
         }
         if (!hand){
             hand = {"hand":"-","chips":'0'.chips,"action":"--"}   
         }
-        if (history[history.length-1] && history[history.length-1].hand == hand.hand){
-            //console.log("here")
-        }
-        else{
-            history.push(hand)
-        }
+        
+        
+        history.push(hand)
+        
+        //console.log(hand)
+        //console.log("-------------------------------------")
         
         //console.log(hand)
     }
+    
     return {"player":player,history}
 }
