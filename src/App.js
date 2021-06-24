@@ -1,4 +1,4 @@
-import React, { useState }  from 'react';
+import React, { useState,useEffect }  from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import BottomNav from './Components/Core/BottomNav'
 import Table from './Components/Table'
@@ -12,8 +12,7 @@ import example from './assets/example.txt'
 import ReactGA from 'react-ga';
 
 
-const trackingId = "G-6812XC9XL0"; // Replace with your Google Analytics tracking ID
-ReactGA.initialize(trackingId);
+ 
 
 
 const useStyles = makeStyles((theme) => ({
@@ -40,7 +39,11 @@ function App() {
   const handleChange = (event) => {
     setSpacing(Number(event.target.value));
   };
-  
+  useEffect(()=>{
+    ReactGA.initialize('G-65CTVENER1');
+    ReactGA.pageview('/')
+
+  },[])
   let fileReader;
   const handleFileRead = (e) => {
     const content = fileReader.result;
