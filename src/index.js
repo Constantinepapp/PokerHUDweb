@@ -20,14 +20,14 @@ const injectGA = () => {
   }
   gtag('js', new Date());
 
-  gtag('config', 'G-65CTVENER1');
+  gtag('config', 'UA-168226120-1');
 };
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-65CTVENER1"
+      src="https://www.googletagmanager.com/gtag/js?id=UA-168226120-1"
     />
     <script>{injectGA()}</script>
   </React.StrictMode>

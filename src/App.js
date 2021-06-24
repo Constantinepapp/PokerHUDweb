@@ -40,8 +40,8 @@ function App() {
     setSpacing(Number(event.target.value));
   };
   useEffect(()=>{
-    ReactGA.initialize('G-65CTVENER1');
-    ReactGA.pageview('/')
+    ReactGA.initialize('UA-168226120-1');
+    ReactGA.pageview('pokerstats/')
 
   },[])
   let fileReader;
