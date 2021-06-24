@@ -74,7 +74,30 @@ const createSymbol = (symbol) =>{
 const writeText = (text,start) =>{
   var textFinal = []
   for (var i=start;i<text.length;i++){
-    textFinal.push(text[i])
+    if (text[i].includes("fold")||text[i].includes("folds")){
+      var splited = text[i].split(":")
+      var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(240,80,80)'}}>{splited[1]}</span></>
+      textFinal.push(output)
+    }
+    else if (text[i].includes("check")||text[i].includes("checks")){
+      var splited = text[i].split(":")
+      var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(80,80,240)'}}>{splited[1]}</span></>
+      textFinal.push(output)
+    }
+    else if (text[i].includes("raise")||text[i].includes("raises")){
+      var splited = text[i].split(":")
+      var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(80,240,80)'}}>{splited[1]}</span></>
+      textFinal.push(output)
+    }
+    else if (text[i].includes("call")||text[i].includes("calls")){
+      var splited = text[i].split(":")
+      var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(80,80,240)'}}>{splited[1]}</span></>
+      textFinal.push(output)
+    }
+    else{
+      textFinal.push(text[i])
+    }
+    
   }
   return textFinal
 }
@@ -100,6 +123,30 @@ const preflop = (text) => {
   
 }
 
+const ftr = (text,stage) =>{
+  if (text){
+    var cards = text[0].split("***")[2].split("[")[1].split("]")[0].split(" ")
+    
+    
+    return (
+      <div>
+        <h3>{stage}</h3>
+        {cards ? cards.map((element)=>(
+                          <>
+                            <span style={{'fontSize':'20px','color':'rgb(240,240,240)'}}>{element[0] =="T"?"10":element[0]}</span><img height="20px"src={createSymbol(element[1])}></img>
+                          </>
+                          
+                        )):""}
+        {writeText(text,1).map(line =>(
+          <div>{line}</div>
+        ))}
+      </div>
+    )
+  }
+  else{
+    return ""
+  }
+}
 
 
 
@@ -128,15 +175,14 @@ const RoundModal = (props) => {
         <div class="form-group">
         
         {preflop(props.historyRow?.preflop)}
-        {props.historyRow.flop?.map((line) => (
-            <p style={{'color':'rgb(255,255,255)'}}>{line}</p>
-        ))} 
-        {props.historyRow.turn?.map((line) => (
-            <p style={{'color':'rgb(255,0,255)'}}>{line}</p>
-        ))}    
-        {props.historyRow.river?.map((line) => (
-            <p style={{'color':'rgb(0,255,255)'}}>{line}</p>
-        ))} 
+        <br/>
+        {ftr(props.historyRow?.flop,"Flop")}
+        <br/>
+        {ftr(props.historyRow?.turn,"Turn")}
+        <br/>
+        {ftr(props.historyRow?.river,"River")}
+        <br/>
+        
         {props.historyRow.summaryRound?.map((line) => (
             <p style={{'color':'rgb(255,255,0)'}}>{line}</p>
         ))}      
