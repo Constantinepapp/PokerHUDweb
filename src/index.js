@@ -11,10 +11,28 @@ import ReactGA from 'react-ga';
 const trackingId = "G-65CTVENER1"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
+const injectGA = () => {
+  if (typeof window == 'undefined') {
+    return;
+  }
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-65CTVENER1');
+};
 ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-65CTVENER1"
+    />
+    <script>{injectGA()}</script>
+  </React.StrictMode>
+  ,
   document.getElementById('root')
 );
 
