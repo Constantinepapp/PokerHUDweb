@@ -8,8 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import ReactGA from 'react-ga';
 
 
-const trackingId = "G-65CTVENER1"; // Replace with your Google Analytics tracking ID
-ReactGA.initialize(trackingId);
+
 
 const injectGA = () => {
   if (typeof window == 'undefined') {
