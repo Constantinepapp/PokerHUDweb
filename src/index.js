@@ -8,13 +8,9 @@ import reportWebVitals from './reportWebVitals';
 import ReactGA from 'react-ga';
 
 
-const trackingId = "G-65CTVENER1"; // Replace with your Google Analytics tracking ID
+const trackingId = "G-6812XC9XL0"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
-ReactGA.set({
-  
-  // any data that is relevant to the user session
-  // that you would like to track with google analytics
-})
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
