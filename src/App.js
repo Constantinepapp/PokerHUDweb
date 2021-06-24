@@ -9,6 +9,12 @@ import './App.css'
 import add from './assets/img/add.png'
 import NavBar from './Components/Core/NavBar'
 import example from './assets/example.txt'
+import ReactGA from 'react-ga';
+
+
+const trackingId = "G-6812XC9XL0"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
