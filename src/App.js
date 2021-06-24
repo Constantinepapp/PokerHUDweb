@@ -96,13 +96,13 @@ function App() {
           <Grid item xs={1}>
             
           </Grid>
-        <Grid item xs={1}>
+        <Grid item md={1}xs={0}>
           
         </Grid>
-        <Grid item xs={10}>
+        <Grid item m={10}xs={12}>
           <Table data={recentPlayersTable} history={recentPlayersHistory}/>
         </Grid>
-        <Grid item xs={1}>
+        <Grid item md={1}xs={0}>
           
         </Grid>
         <Grid item xs={12}>
