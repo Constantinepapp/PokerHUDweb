@@ -40,7 +40,7 @@ function App() {
     setSpacing(Number(event.target.value));
   };
   useEffect(()=>{
-    ReactGA.initialize('UA-168226120-1');
+    ReactGA.initialize('UA-168226120-2');
     ReactGA.pageview('pokerstats/')
 
   },[])
