@@ -74,6 +74,7 @@ const createSymbol = (symbol) =>{
 const writeText = (text,start) =>{
   var textFinal = []
   for (var i=start;i<text.length;i++){
+    
     if (text[i].includes("fold")||text[i].includes("folds")){
       var splited = text[i].split(":")
       var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(240,80,80)'}}>{splited[1]}</span></>
@@ -94,11 +95,13 @@ const writeText = (text,start) =>{
       var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(80,80,240)'}}>{splited[1]}</span></>
       textFinal.push(output)
     }
+    
     else{
       textFinal.push(text[i])
     }
     
   }
+  
   return textFinal
 }
 const preflop = (text) => {
@@ -109,8 +112,13 @@ const preflop = (text) => {
     var player = text[1]?.split(" ")[2]
     return (
       <div>
-        <h3>{text[0]}</h3>
-        {player} : <span style={{'fontSize':'30px'}}>{createHand(cards)[0]}</span><img height="30px" src={createHand(cards)[1]}></img><span style={{'fontSize':'30px'}}>{createHand(cards)[2]}</span><img height="30px" src={createHand(cards)[3]}></img>
+        <h3>Preflop</h3>
+        
+        
+        <div style={{'display':'flex','justifyContent':'center'}}>
+        <span style={{'fontSize':'30px','color':'rgb(240,240,240)'}}>{createHand(cards)[0]}</span><img height="30px" src={createHand(cards)[1]}></img><span style={{'fontSize':'30px','color':'rgb(240,240,240)'}}>{createHand(cards)[2]}</span><img height="30px" src={createHand(cards)[3]}></img>
+        
+        </div>
         {writeText(text,2).map(line =>(
           <div>{line}</div>
         ))}
@@ -122,7 +130,59 @@ const preflop = (text) => {
   }
   
 }
-
+const summary = (text) => {
+  
+  
+  if (text){
+    
+      var pot = text[1]?.split("pot")[1]?.split(" ")[1]
+      var rake = text[1].split("Rake")[1]
+      var cards = text[2]?.split("[")[1]?.split("]")[0].split(" ")
+    
+    
+    return (
+      <div>
+        
+        <h3>Summary</h3>
+        <div class="form-group">
+            <div className="cardDisplay">
+                <div className="actions">
+                    <div className="follow-info">
+                        <h2><a href="#">
+                            <span className="text-white" style={{fontSize:'20px'}}>{pot}</span>
+                            <small>Total Pot</small>
+                            
+                            </a>
+                        </h2>
+                        <h2><a href="#">
+                            <span className="text-white" style={{fontSize:'20px'}}>{rake}</span>
+                            <small>Rake</small>
+                            
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{'display':'flex','justifyContent':'center'}}>
+        {cards ? cards.map((element)=>(
+                          <>
+                            <span style={{'fontSize':'20px','color':'rgb(240,240,240)'}}>{element[0] =="T"?"10":element[0]}</span><img height="20px"src={createSymbol(element[1])}></img>
+                          </>
+                          
+                        )):""}
+        </div>
+        {writeText(text,3).map(line =>(
+          <div style={{'color':'rgb(60,250,255)','fontWeight':'700'}}>{line}</div>
+        ))}
+      </div>
+    )
+  }
+  else{
+    return ""
+  }
+  
+}
 const ftr = (text,stage) =>{
   if (text){
     var cards = text[0].split("***")[2].split("[")[1].split("]")[0].split(" ")
@@ -131,15 +191,18 @@ const ftr = (text,stage) =>{
     return (
       <div>
         <h3>{stage}</h3>
-        {cards ? cards.map((element)=>(
-                          <>
-                            <span style={{'fontSize':'20px','color':'rgb(240,240,240)'}}>{element[0] =="T"?"10":element[0]}</span><img height="20px"src={createSymbol(element[1])}></img>
-                          </>
-                          
-                        )):""}
-        {writeText(text,1).map(line =>(
-          <div>{line}</div>
-        ))}
+        <div style={{'display':'flex','justifyContent':'center'}}>
+          {cards ? cards.map((element)=>(
+                            <>
+                              <span style={{'fontSize':'20px','color':'rgb(240,240,240)'}}>{element[0] =="T"?"10":element[0]}</span><img height="20px"src={createSymbol(element[1])}></img>
+                            </>
+                            
+                          )):""}
+          </div>
+          {writeText(text,1).map(line =>(
+            <div>{line}</div>
+          ))}
+        
       </div>
     )
   }
@@ -182,10 +245,8 @@ const RoundModal = (props) => {
         <br/>
         {ftr(props.historyRow?.river,"River")}
         <br/>
-        
-        {props.historyRow.summaryRound?.map((line) => (
-            <p style={{'color':'rgb(255,255,0)'}}>{line}</p>
-        ))}      
+        {summary(props.historyRow?.summaryRound)}
+            
         </div>
 
     
