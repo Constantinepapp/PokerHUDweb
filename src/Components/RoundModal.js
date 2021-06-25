@@ -116,6 +116,7 @@ const preflop = (text) => {
         
         
         <div style={{'display':'flex','justifyContent':'center'}}>
+        <span style={{'marginRight':'20px','fontSize':'20px'}}>{player} -></span>
         <span style={{'fontSize':'30px','color':'rgb(240,240,240)'}}>{createHand(cards)[0]}</span><img height="30px" src={createHand(cards)[1]}></img><span style={{'fontSize':'30px','color':'rgb(240,240,240)'}}>{createHand(cards)[2]}</span><img height="30px" src={createHand(cards)[3]}></img>
         
         </div>
