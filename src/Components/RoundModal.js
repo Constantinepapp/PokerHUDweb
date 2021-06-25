@@ -231,7 +231,7 @@ const RoundModal = (props) => {
 
   return (
     <div>
-      <button onClick={toggle}>Open</button>
+      <button onClick={toggle} style={{'borderRadius':'15px','backgroundColor':'rgb(40,40,40)','color':'rgb(240,240,240)','marginTop':'10px'}}>Show</button>
       <Modal isOpen={modal} toggle={toggle} className={className} style={{backgroundColor:'rgb(40,40,40)'}}>
         <ModalHeader className="modalHeader"  style={{backgroundColor:'rgb(40,40,40)',color:'rgb(48, 189, 255)'}}></ModalHeader>
         <ModalBody style={{backgroundColor:'rgb(40,40,40)',color:'rgb(48, 189, 255)'}}>
