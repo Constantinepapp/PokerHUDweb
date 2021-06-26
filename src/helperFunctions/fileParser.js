@@ -412,14 +412,26 @@ function SummaryAnalyzer(summary,language){
         //console.log(summary[i])
         if (summary[i].includes(keywords[language][0])){
             var splited = summary[i].split(" ")
-            console.log("-----------------------")
-            console.log(i+1)
+            //console.log("-----------------------")
+            
             
             var action = ActionClassifier(summary[i],language)
-            players.push({"player":splited[2],"action":action})
-            console.log(summary[i])
+            if(summary[i].includes("small")){
+                players.push({"player":splited[2],"action":action,"position":'sb'})
+            }
+            else if (summary[i].includes("big")){
+                players.push({"player":splited[2],"action":action,"position":'bb'})
+            }
+            else if (summary[i].includes("button")){
+                players.push({"player":splited[2],"action":action,"position":'btn'})
+            }
+            else{
+                players.push({"player":splited[2],"action":action,"position":'other'})
+            }
             
-            console.log(splited[2],action)
+            //console.log(summary[i],splited)
+            
+            console.log(players)
         }
         if (summary[i].includes(keywords[language][1])){
             var cardsDown = summary[i].split("[")

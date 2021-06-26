@@ -120,6 +120,17 @@ const createAction = (action) =>{
   }
   return action
 }
+const createPosition = (position) =>{
+  if(position == 'btn'){
+    return <span style={{'fontSize':'10px',"fontWeight":'600','backgroundColor':'rgb(250,200,70)','borderRadius':'15px','padding':'10px'}}>Bt</span>
+  }
+  if(position == 'sb'){
+    return <span style={{'fontSize':'10px',"fontWeight":'600','backgroundColor':'rgb(80,80,250)','borderRadius':'15px','padding':'10px'}}>Sb</span>
+  }
+  if(position == 'bb'){
+    return <span style={{'fontSize':'10px',"fontWeight":'600','backgroundColor':'rgb(80,250,80)','borderRadius':'15px','padding':'10px'}}>Bb</span>
+  }
+}
 const colorRow = (action) =>{
   if (action == "loss"){
     return {backgroundColor:'rgba(250,100,100,0.9)'}
@@ -182,6 +193,7 @@ function Row(props) {
                   <TableRow>
                     <TableCell>No</TableCell>
                     <TableCell>Open</TableCell>
+                    <TableCell>Position</TableCell>
                     <TableCell>Chips</TableCell>
                     <TableCell>Hand</TableCell>
                     <TableCell>Action</TableCell>
@@ -196,7 +208,11 @@ function Row(props) {
                       <TableCell component="th" scope="row">
                         {historyRow.hand}
                       </TableCell>
-                      <RoundModal historyRow={historyRow}/>
+                      <TableCell>
+                          <RoundModal historyRow={historyRow}/>
+                      </TableCell>
+                      
+                      <TableCell align="right">{createPosition(historyRow.position)}</TableCell>
                       <TableCell>{historyRow.chips}</TableCell>
                       <TableCell component="th" scope="row">
                         {createHand(historyRow.cards)[0]}<img height="10px" src={createHand(historyRow.cards)[1]}></img>{createHand(historyRow.cards)[2]}<img height="10px" src={createHand(historyRow.cards)[3]}></img>{historyRow.type? historyRow.type :" "}

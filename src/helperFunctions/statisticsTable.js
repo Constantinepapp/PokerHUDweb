@@ -89,6 +89,7 @@ const PlayerHistory = (player,json) => {
     var history = []
     var chips = 0
     var action = "no action"
+    var position = "other"
     
     for (var i=0;i<json.length;i++){
         for(var j=0;j<json[i].intro.length;j++){
@@ -101,11 +102,12 @@ const PlayerHistory = (player,json) => {
                     if(json[i].summary[l].player==player){
                         //console.log(player,json[i].summary[l])
                         action = json[i].summary[l].action
+                        position = json[i].summary[l].position
                     }
-                    //onsole.log(json[i].summary[l])
+                    //console.log(json[i].summary[l])
                 }
                     
-                var hand = {"hand":i+1,"chips":json[i].intro[j].chips,'table':json[i].cardsDown,"action":action}
+                var hand = {"hand":i+1,"chips":json[i].intro[j].chips,'table':json[i].cardsDown,"action":action,'position':position}
                 var preflop = []
                 var flop = []
                 var turn = []
