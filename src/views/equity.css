@@ -1,0 +1,43 @@
+
+.equity-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-tiles{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 455px;
+    
+}
+
+.propability{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ivory;
+    margin-top: 50px;
+}
+
+.propability-item{
+    padding: 40px;
+}
+
+.cards{
+    display: flex;
+    margin-bottom: 100px;
+    margin-right: 200px;
+}
+.card{
+    margin-left: 20px;
+    background-color: rgb(226, 225, 225);
+    height: 100px;
+    width: 80px;
+}
+
+.slider{
+    width:50%;
+    
+}

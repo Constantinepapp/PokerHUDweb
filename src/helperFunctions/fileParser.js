@@ -356,7 +356,9 @@ function IntroAnalyzer(intro,language){
         english:
             ["Seat"],
         greek:
-            ["Θέση"]
+            ["Θέση"],
+        german:
+            ["Platz"]
        }
     for (var i=0;i<intro.length;i++){
         if (intro[i].includes(keywords[language][0])){
@@ -390,7 +392,9 @@ function getPlayerList(summary,language){
         english:
             ["Seat"],
         greek:
-            ["Θέση"]
+            ["Θέση"],
+        german:
+            ["Platz"]
        }
     for (var i=0;i<summary.length;i++){
         if (summary[i].includes(keywords[language][0])){
@@ -406,7 +410,9 @@ function SummaryAnalyzer(summary,language){
         english:
             ["Seat","Board"],
         greek:
-            ["Θέση","Ταμπλό"]
+            ["Θέση","Ταμπλό"],
+        german:
+            ["Platz","Board"]
        }
     for (var i=0;i<summary.length;i++){
         //console.log(summary[i])
@@ -450,10 +456,15 @@ const SplitActions = (text) =>{
     var keywords = {english:
                     ["*** HOLE CARDS ***","*** SUMMARY ***"],
                     greek:
-                    ["*** ΚΡΥΦΑ ΦΥΛΛΑ ***","*** ΣΥΝΟΨΗ ***"]
+                    ["*** ΚΡΥΦΑ ΦΥΛΛΑ ***","*** ΣΥΝΟΨΗ ***"],
+                    german:
+                    ["*** HOLE CARDS ***","*** ZUSAMMENFASSUNG ***"]
                    }
     if (text[0].includes("Παρτίδα")){
         language = "greek"
+    }
+    if (text.includes("Tisch")){
+        language = "german"
     }
     
     var title = text[0].split(" ")
