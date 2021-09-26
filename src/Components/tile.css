@@ -28,8 +28,8 @@
   }
   .form-element {
     position:relative;
-    width:35px;
-    height:35px;
+    width:30px;
+    height:30px;
   }
   .form-element input {
     display:none;
