@@ -31,7 +31,7 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>
             <NavItem className="NavItem">
-              <Link to="/">Home</Link>
+              <Link to="/">File Reader</Link>
             </NavItem>
             <NavItem>
               <Link to="/about">Equity</Link>
