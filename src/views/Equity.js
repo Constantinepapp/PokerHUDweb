@@ -111,7 +111,7 @@ const Equity = () =>{
                     ))}
                 </div>
             </div>
-            <div style={{'display':'flex','flexDirection':'column'}}>
+            <div className="position-container">
                 <button onClick={e=>setSlider(combosState.length *10/100)} className='button-position' style={{'backgroundColor':'rgb(100,180,210)'}}>UTG+1</button>
                 <button onClick={e=>setSlider(combosState.length *15/100)} className='button-position' style={{'backgroundColor':'rgb(150,200,190)'}}>UTG+2</button>
                 <button onClick={e=>setSlider(combosState.length *19/100)} className='button-position' style={{'backgroundColor':'rgb(100,220,150)'}}>LJ</button>

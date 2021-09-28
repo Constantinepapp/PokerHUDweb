@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar/>
+        <NavBar color="dark" dark expand="lg"/>
         <Switch>
           <Route exact path="/">
             <Home/>

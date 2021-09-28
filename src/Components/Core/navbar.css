@@ -153,11 +153,34 @@ for relatively smaller and smaller viewports:
 - start by hiding the pseudo element responsible for the string 
 - continue by removing the header bearing the "logo" as well 
 */
-
+.navbar-toggler-icon{
+  background-image:url(../../assets/img/square.png);
+  position: absolute;
+  right:0;
+  top:0;
+  height:100%;
+  width:50px;
+}
+.navbar-toggler{
+  width: 0%;
+  height: 0%;
+  padding: 0px;
+  background-color: rgba(0,0,0,0);
+  color:rgba(0,0,0,0);
+  border:0px;
+  border-color:rgba(0,0,0,0);
+}
 @media (max-width: 750px) {
   .App .Navbar h2:before {
     display: none;
+    
   }
+  
+  .App .Navbar ul li {
+    
+    margin-top: 10px;
+  }
+  
 }
 
 @media (max-width: 400px) {
@@ -168,11 +191,14 @@ for relatively smaller and smaller viewports:
   .App .Navbar ul {
     grid-column: 1/3;
     flex-direction: column;
+    
     align-items: center;
   }
   .App .Navbar ul li {
     margin: 0.5rem 0;
+    
   }
+  
 }
 
 
