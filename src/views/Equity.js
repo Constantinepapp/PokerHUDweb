@@ -111,7 +111,16 @@ const Equity = () =>{
                     ))}
                 </div>
             </div>
-            
+            <div style={{'display':'flex','flexDirection':'column'}}>
+                <button onClick={e=>setSlider(combosState.length *10/100)} className='button-position' style={{'backgroundColor':'rgb(100,180,210)'}}>UTG+1</button>
+                <button onClick={e=>setSlider(combosState.length *15/100)} className='button-position' style={{'backgroundColor':'rgb(150,200,190)'}}>UTG+2</button>
+                <button onClick={e=>setSlider(combosState.length *19/100)} className='button-position' style={{'backgroundColor':'rgb(100,220,150)'}}>LJ</button>
+                <button onClick={e=>setSlider(combosState.length *23/100)} className='button-position' style={{'backgroundColor':'rgb(100,250,100)'}}>HJ</button>
+                <button onClick={e=>setSlider(combosState.length *27/100)} className='button-position' style={{'backgroundColor':'rgb(250,250,100)'}}>CO</button>
+                <button onClick={e=>setSlider(combosState.length *43/100)} className='button-position' style={{'backgroundColor':'rgb(250,160,100)'}}>BTN</button>
+                <button onClick={e=>setSlider(combosState.length *52/100)} className='button-position' style={{'backgroundColor':'rgb(250,100,100)'}}>SB</button>
+                <button onClick={e=>setSlider(combosState.length *60/100)} className='button-position' style={{'backgroundColor':'rgb(250,50,50)'}}>BB</button>
+            </div>
             
             
             

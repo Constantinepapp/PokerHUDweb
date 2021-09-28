@@ -8,12 +8,10 @@ const Tile = (props) =>{
       if(status){
         return "rgb(120,170,250)"
       }
-      return "rgb(255,255,255)"
+      return "rgba(255,255,255,0.9)"
     }
     return(
-        
-        
-        
+
           <div className="form-element">
             <input onClick={e => props.changeState(props.combo,props.status)} type="checkbox" name="platform" defaultValue="instagram" id={props.combo} />
             <label htmlFor={props.combo} style={{"backgroundColor":colorPicker(props.status)}}>
@@ -25,8 +23,7 @@ const Tile = (props) =>{
               </div>
             </label>
           </div>
-        
-      
+
     )
 }
 export default Tile;
