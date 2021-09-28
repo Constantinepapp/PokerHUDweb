@@ -34,7 +34,7 @@ const Example = (props) => {
               <Link to="/">File Reader</Link>
             </NavItem>
             <NavItem>
-              <Link to="/about">Equity</Link>
+              <Link to="/equity">Equity</Link>
             </NavItem>
             
           </Nav>

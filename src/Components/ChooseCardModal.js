@@ -47,12 +47,12 @@ const ChooseCardModal = (props) => {
         <span style={{'fontSize':'30px','fontWeight':'500'}}>{props.card[0] == 'T'?10:props.card[0]}</span><img  height="30px" src={chooseIcon(props.card[1])}/>              
       </div>
       <Modal isOpen={modal} toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+        <ModalHeader toggle={toggle}>Choose Card</ModalHeader>
         <ModalBody>
         <div style={{'display':'flex','flexDirection':'row'}}>
             {cards.map(card =>(
                 <div className="radio-container">
-                <div className="form-element">
+                <div className="form-element2">
                     <input onClick={e=>setCard(card)} type="radio" name="cd" defaultValue="cards" id={card} />
                     <label htmlFor={card} style={{'height':'50px','width':'30px','borderRadius':'5px','marginLeft':'5px'}} >
                     <div className="icon">
@@ -70,7 +70,7 @@ const ChooseCardModal = (props) => {
         <div style={{'display':'flex','flexDirection':'row','marginTop':'30px'}}>
             {symbols.map(symbol =>(
                 <div className="radio-container">
-                <div className="form-element">
+                <div className="form-element2">
                     <input onClick={e=>setSymbol(symbol)} type="radio" name="sb" defaultValue="symbols" id={symbol} />
                     <label htmlFor={symbol} style={{'height':'50px','width':'30px','borderRadius':'5px','marginLeft':'5px'}} >
                     <div className="icon">
@@ -89,7 +89,7 @@ const ChooseCardModal = (props) => {
           
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={e =>props.setCard(c+s)} >submit</Button>{' '}
+          <Button color="primary" onClick={e =>props.setCard(c+s)} >Submit</Button>{' '}
           <Button color="secondary" onClick={toggle}>Cancel</Button>
         </ModalFooter>
       </Modal>
