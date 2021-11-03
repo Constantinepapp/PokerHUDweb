@@ -73,26 +73,50 @@ const createSymbol = (symbol) =>{
 
 const writeText = (text,start) =>{
   var textFinal = []
+  let language = localStorage.getItem("language")
+  var keywords = {
+    english:
+        ["bets","raise","calls","checks","folds","won","lost","mucked"],
+    greek:
+        ["ποντάρει","raise","call","check","fold","κέρδισε","έχασε","mucked"],
+    german:
+        ["setzt","erhöht","geht mit","checkt","passt","gewinnt","verliert","mucked"]
+   }
+
   for (var i=start;i<text.length;i++){
     
-    if (text[i].includes("fold")||text[i].includes("folds")){
+    if (text[i].includes(keywords[language][4])){
       var splited = text[i].split(":")
-      var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(240,80,80)'}}>{splited[1]}</span></>
+      var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(200,180,80)'}}>{splited[1]}</span></>
       textFinal.push(output)
     }
-    else if (text[i].includes("check")||text[i].includes("checks")){
+    else if (text[i].includes(keywords[language][3])){
       var splited = text[i].split(":")
       var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(80,80,240)'}}>{splited[1]}</span></>
       textFinal.push(output)
     }
-    else if (text[i].includes("raise")||text[i].includes("raises")){
+    else if (text[i].includes(keywords[language][1]||text[i].includes(keywords[language][0]))){
       var splited = text[i].split(":")
       var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(80,240,80)'}}>{splited[1]}</span></>
       textFinal.push(output)
     }
-    else if (text[i].includes("call")||text[i].includes("calls")){
+    else if (text[i].includes(keywords[language][2])){
       var splited = text[i].split(":")
       var output = <><span style={{'color':'rgb(240,240,240)'}}>{splited[0]}</span> -> <span style={{'color':'rgb(80,80,240)'}}>{splited[1]}</span></>
+      textFinal.push(output)
+    }
+    else if (text[i].includes("[")){
+      var color = "rgb(240,240,240)"
+      if (text[i].includes(keywords[language][5])){
+        color = "rgb(100,250,100)"
+      }
+      if (text[i].includes(keywords[language][6])||text[i].includes(keywords[language][7])){
+        color = "rgb(250,50,50)"
+      }
+      var splited = text[i].split("[")[0]
+      var cards = text[i].split("[")[1].split("]")[0]
+      var splited2 = text[i].split("[")[1].split("]")[1]
+      var output = <><span style={{color:color}}>{splited}</span> <span style={{'fontSize':'20px','color':'rgb(240,240,240)'}}>{createHand(cards)[0]}</span><img height="20px" src={createHand(cards)[1]}></img><span style={{'fontSize':'20px','color':'rgb(240,240,240)'}}>{createHand(cards)[2]}</span><img height="20px" src={createHand(cards)[3]}></img><span style={{color:color}}>{splited2}</span></>
       textFinal.push(output)
     }
     
@@ -135,9 +159,16 @@ const summary = (text) => {
   
   
   if (text){
-    
-      var pot = text[1]?.split("pot")[1]?.split(" ")[1]
-      var rake = text[1].split("Rake")[1]
+    var keywords = {english:
+      ["pot","Rake"],
+      greek:
+      ["pot","Rake"],
+      german:
+      ["Pot gesamt:","Rake:"]
+     }
+    let language = localStorage.getItem("language")
+      var pot = text[1]?.split(keywords[language][0])[1]?.split(" ")[1]
+      var rake = text[1].split(keywords[language][1])[1]
       var cards = text[2]?.split("[")[1]?.split("]")[0].split(" ")
     
     

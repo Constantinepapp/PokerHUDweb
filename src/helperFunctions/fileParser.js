@@ -471,6 +471,7 @@ const SplitActions = (text) =>{
     text = text.split("\n")
     //console.log(text[0])
     var language = "english"
+    localStorage.setItem("language","english")
     var keywords = {english:
                     ["*** HOLE CARDS ***","*** SUMMARY ***"],
                     greek:
@@ -480,9 +481,11 @@ const SplitActions = (text) =>{
                    }
     if (text[0].includes("Παρτίδα")){
         language = "greek"
+        localStorage.setItem("language","greek")
     }
     if (text[0].includes("Nr.")){
         language = "german"
+        localStorage.setItem("language","german")
     }
     
     var title = text[0].split(" ")
