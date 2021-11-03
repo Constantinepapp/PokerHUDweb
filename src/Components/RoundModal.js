@@ -108,7 +108,7 @@ const preflop = (text) => {
   
   
   if (text){
-    var cards = text[1]?.split("[")[1].split("]")[0]
+    var cards = text[1]?.split("[")[1]?.split("]")[0]
     var player = text[1]?.split(" ")[2]
     return (
       <div>

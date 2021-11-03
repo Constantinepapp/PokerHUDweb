@@ -26,6 +26,7 @@ import fold from '../assets/img/close.png'
 import { SnackbarContent } from '@material-ui/core';
 import PlayerModal from './PlayerModal'
 import RoundModal from './RoundModal';
+import EquityModal from '../Components/EquityModal'
 
 const useRowStyles = makeStyles({
   root: {
@@ -178,6 +179,7 @@ function Row(props) {
         <TableCell align="right" style={{color:'rgb(255,255,255)'}}>{row.calories}</TableCell>
         <TableCell align="right" style={{color:'rgb(255,255,255)'}}>{row.fat}</TableCell>
         <TableCell align="right" style={{color:'rgb(255,215,80)'}}>{row.carbs}</TableCell>
+        <TableCell align="right" style={{color:'rgb(255,215,80)'}}><EquityModal percent={row.protein}/></TableCell>
         <TableCell align="right" style={{color:'rgb(255,115,80)'}}>{row.protein}</TableCell>
         <TableCell align="right" style={{color:'rgb(115,215,180)'}}>{row.winFold}</TableCell>
       </TableRow>

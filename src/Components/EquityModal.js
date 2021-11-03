@@ -3,18 +3,27 @@ import Tile from '../Components/Tile'
 import ChooseCardModal from '../Components/ChooseCardModal';
 import {cardCombos, rangeBuilder} from '../helperFunctions/cardCombos'
 import {TexasHoldem, SixPlusHoldem, Omaha} from '../../node_modules/poker-odds-calc';
-import './equity.css'
+import '../views/equity.css'
 import  Slider  from 'rc-slider';
 import 'rc-slider/assets/index.css';
-
+import './playerModal.css'
+import { Button,Row,Col, Modal, ModalHeader, ModalBody, ModalFooter ,Table} from 'reactstrap';
 const { raceRange, rates } = require('pec')
 
 
 
 
-const Equity = () =>{
+
+
+
+
+
+
+
+
+const EquityModal = (props) => {
     const [combosState,setCombosState] = useState([{'combo': 'AA', 'status': false}, {'combo': 'AKs', 'status': false}, {'combo': 'AQs', 'status': false}, {'combo': 'AJs', 'status': false}, {'combo': 'ATs', 'status': false}, {'combo': 'A9s', 'status': false}, {'combo': 'A8s', 'status': false}, {'combo': 'A7s', 'status': false}, {'combo': 'A6s', 'status': false}, {'combo': 'A5s', 'status': false}, {'combo': 'A4s', 'status': false}, {'combo': 'A3s', 'status': false}, {'combo': 'A2s', 'status': false}, {'combo': 'AKo', 'status': false}, {'combo': 'KK', 'status': false}, {'combo': 'KQs', 'status': false}, {'combo': 'KJs', 'status': false}, {'combo': 'KTs', 'status': false}, {'combo': 'K9s', 'status': false}, {'combo': 'K8s', 'status': false}, {'combo': 'K7s', 'status': false}, {'combo': 'K6s', 'status': false}, {'combo': 'K5s', 'status': false}, {'combo': 'K4s', 'status': false}, {'combo': 'K3s', 'status': false}, {'combo': 'K2s', 'status': false}, {'combo': 'AQo', 'status': false}, {'combo': 'KQo', 'status': false}, {'combo': 'QQ', 'status': false}, {'combo': 'QJs', 'status': false}, {'combo': 'QTs', 'status': false}, {'combo': 'Q9s', 'status': false}, {'combo': 'Q8s', 'status': false}, {'combo': 'Q7s', 'status': false}, {'combo': 'Q6s', 'status': false}, {'combo': 'Q5s', 'status': false}, {'combo': 'Q4s', 'status': false}, {'combo': 'Q3s', 'status': false}, {'combo': 'Q2s', 'status': false}, {'combo': 'AJo', 'status': false}, {'combo': 'KJo', 'status': false}, {'combo': 'QJo', 'status': false}, {'combo': 'JJ', 'status': false}, {'combo': 'JTs', 'status': false}, {'combo': 'J9s', 'status': false}, {'combo': 'J8s', 'status': false}, {'combo': 'J7s', 'status': false}, {'combo': 'J6s', 'status': false}, {'combo': 'J5s', 'status': false}, {'combo': 'J4s', 'status': false}, {'combo': 'J3s', 'status': false}, {'combo': 'J2s', 'status': false}, {'combo': 'ATo', 'status': false}, {'combo': 'KTo', 'status': false}, {'combo': 'QTo', 'status': false}, {'combo': 'JTo', 'status': false}, {'combo': 'TT', 'status': false}, {'combo': 'T9s', 'status': false}, {'combo': 'T8s', 'status': false}, {'combo': 'T7s', 'status': false}, {'combo': 'T6s', 'status': false}, {'combo': 'T5s', 'status': false}, {'combo': 'T4s', 'status': false}, {'combo': 'T3s', 'status': false}, {'combo': 'T2s', 'status': false}, {'combo': 'A9o', 'status': false}, {'combo': 'K9o', 'status': false}, {'combo': 'Q9o', 'status': false}, {'combo': 'J9o', 'status': false}, {'combo': 'T9o', 'status': false}, {'combo': '99', 'status': false}, {'combo': '98s', 'status': false}, {'combo': '97s', 'status': false}, {'combo': '96s', 'status': false}, {'combo': '95s', 'status': false}, {'combo': '94s', 'status': false}, {'combo': '93s', 'status': false}, {'combo': '92s', 'status': false}, {'combo': 'A8o', 'status': false}, {'combo': 'K8o', 'status': false}, {'combo': 'Q8o', 'status': false}, {'combo': 'J8o', 'status': false}, {'combo': 'T8o', 'status': false}, {'combo': '98o', 'status': false}, {'combo': '88', 'status': false}, {'combo': '87s', 'status': false}, {'combo': '86s', 'status': false}, {'combo': '85s', 'status': false}, {'combo': '84s', 'status': false}, {'combo': '83s', 'status': false}, {'combo': '82s', 'status': false}, {'combo': 'A7o', 'status': false}, {'combo': 'K7o', 'status': false}, {'combo': 'Q7o', 'status': false}, {'combo': 'J7o', 'status': false}, {'combo': 'T7o', 'status': false}, {'combo': '97o', 'status': false}, {'combo': '87o', 'status': false}, {'combo': '77', 'status': false}, {'combo': '76s', 'status': false}, {'combo': '75s', 'status': false}, {'combo': '74s', 'status': false}, {'combo': '73s', 'status': false}, {'combo': '72s', 'status': false}, {'combo': 'A6o', 'status': false}, {'combo': 'K6o', 'status': false}, {'combo': 'Q6o', 'status': false}, {'combo': 'J6o', 'status': false}, {'combo': 'T6o', 'status':false}, {'combo': '96o', 'status': false}, {'combo': '86o', 'status': false}, {'combo': '76o', 'status': false}, {'combo': '66', 'status': false}, {'combo': '65s', 'status': false}, {'combo': '64s', 'status': false}, {'combo': '63s', 'status': false}, {'combo': '62s', 'status': false}, {'combo': 'A5o','status': false}, {'combo': 'K5o', 'status': false}, {'combo': 'Q5o', 'status': false}, {'combo': 'J5o', 'status': false}, {'combo': 'T5o', 'status': false}, {'combo': '95o', 'status': false}, {'combo': '85o', 'status': false}, {'combo': '75o', 'status': false}, {'combo': '65o', 'status': false}, {'combo': '55', 'status': false}, {'combo': '54s', 'status': false}, {'combo': '53s', 'status': false}, {'combo': '52s', 'status': false}, {'combo': 'A4o', 'status': false}, {'combo': 'K4o', 'status': false}, {'combo': 'Q4o', 'status': false}, {'combo': 'J4o', 'status': false}, {'combo': 'T4o', 'status': false}, {'combo': '94o', 'status': false}, {'combo': '84o', 'status': false}, {'combo': '74o', 'status': false}, {'combo': '64o', 'status': false}, {'combo': '54o', 'status': false}, {'combo': '44', 'status': false}, {'combo': '43s', 'status': false}, {'combo': '42s', 'status': false}, {'combo': 'A3o', 'status': false}, {'combo': 'K3o', 'status': false}, {'combo': 'Q3o', 'status': false}, {'combo': 'J3o', 'status': false}, {'combo': 'T3o', 'status': false}, {'combo': '93o', 'status': false}, {'combo': '83o', 'status': false}, {'combo': '73o', 'status': false}, {'combo': '63o', 'status': false}, {'combo':'53o', 'status': false}, {'combo': '43o', 'status': false}, {'combo': '33', 'status': false}, {'combo': '32s', 'status': false}, {'combo': 'A2o', 'status': false}, {'combo': 'K2o', 'status': false}, {'combo': 'Q2o', 'status': false}, {'combo': 'J2o', 'status': false}, {'combo': 'T2o', 'status': false},{'combo': '92o', 'status': false}, {'combo': '82o', 'status': false}, {'combo': '72o', 'status': false}, {'combo': '62o', 'status': false}, {'combo': '52o', 'status': false}, {'combo': '42o', 'status': false}, {'combo': '32o', 'status': false}, {'combo': '22', 'status': false}]) 
-    const [slider,setSlider] = useState(0)
+    const [slider,setSlider] = useState(combosState.length *props.percent/100)
     const [card1,setCard1] = useState('Ah')
     const [card2,setCard2] = useState('Ac')
     const cardComb = cardCombos()
@@ -67,9 +76,26 @@ const Equity = () =>{
         })
         setCombosState(newArr)
     }
-    
-    //console.log(combosState)
-    return(
+  //console.log(props)
+  const {
+    buttonLabel,
+    className
+  } = props;
+
+  const toggle = () => setModal(!modal);
+ 
+
+
+  const [modal, setModal] = useState(false);
+  //console.log(props.activity)
+
+  return (
+    <div>
+      <button style={{borderRadius:'15px',backgroundColor:"rgb(100,180,200)",padding:'5px'}} onClick={toggle}>Equity vs </button>
+      <Modal isOpen={modal} toggle={toggle} className={className} style={{backgroundColor:'rgb(40,40,40)'}}>
+        <ModalHeader className="modalHeader"  style={{backgroundColor:'rgb(40,40,40)',color:'rgb(48, 189, 255)'}}></ModalHeader>
+        <ModalBody style={{backgroundColor:'rgb(40,40,40)',color:'rgb(48, 189, 255)'}}>
+            
         <div className="page-container">
         <div className="propability">
             <div className="propability-item">
@@ -88,9 +114,8 @@ const Equity = () =>{
             
         </div>
         
-        
         <div className="equity-container">
-            
+            <h5 style={{marginBottom:'20px',color:'rgb(100,255,140)'}}>Choose your cards</h5>
             <div className="cards">
                     
                     <ChooseCardModal card={card1} setCard={setCard1} buttonLabel="Choose Card"/>
@@ -99,6 +124,8 @@ const Equity = () =>{
                     <ChooseCardModal card={card2} setCard={setCard2} buttonLabel="Choose Card"/>
                     
             </div>
+            <h5 style={{marginBottom:'20px' ,color:'rgb(250,105,140)'}}>Opponent cards</h5>
+            <p>Based on the assumption that the user <span style={{fontWeight:'1000',color:'rgb(200,100,100)'}}>Raises</span> : <span style={{fontWeight:'1000',color:'rgb(200,200,180)'}}> {props.percent} %</span> of his hands on the preflop phase</p>
             <div className="right-container">
                 <div  className="slider">
                     <label style={{'fontSize':'20px','color':'rgb(200,200,200)'}}>{slider == bestCombo.length-1 ? 100 : (slider*100/combosState.length).toFixed(2)}% Best Hands</label>
@@ -111,21 +138,25 @@ const Equity = () =>{
                     ))}
                 </div>
             </div>
-            <div className="position-container">
-                <button onClick={e=>setSlider(combosState.length *10/100)} className='button-position' style={{'backgroundColor':'rgb(100,180,210)'}}>UTG+1</button>
-                <button onClick={e=>setSlider(combosState.length *15/100)} className='button-position' style={{'backgroundColor':'rgb(150,200,190)'}}>UTG+2</button>
-                <button onClick={e=>setSlider(combosState.length *19/100)} className='button-position' style={{'backgroundColor':'rgb(100,220,150)'}}>LJ</button>
-                <button onClick={e=>setSlider(combosState.length *23/100)} className='button-position' style={{'backgroundColor':'rgb(100,250,100)'}}>HJ</button>
-                <button onClick={e=>setSlider(combosState.length *27/100)} className='button-position' style={{'backgroundColor':'rgb(250,250,100)'}}>CO</button>
-                <button onClick={e=>setSlider(combosState.length *43/100)} className='button-position' style={{'backgroundColor':'rgb(250,160,100)'}}>BTN</button>
-                <button onClick={e=>setSlider(combosState.length *52/100)} className='button-position' style={{'backgroundColor':'rgb(250,100,100)'}}>SB</button>
-                <button onClick={e=>setSlider(combosState.length *60/100)} className='button-position' style={{'backgroundColor':'rgb(250,50,50)'}}>BB</button>
-            </div>
+            
             
             
             
         </div>
         </div>
-    )
+    
+        </ModalBody>
+        <ModalFooter className="footer" style={{backgroundColor:'rgb(40,40,40)',color:'rgb(48, 189, 255)'}}>
+            
+            <Button className="buttonCancel" onClick={toggle}>Cancel</Button>
+             
+          
+        </ModalFooter>
+      </Modal>
+    </div>
+  );
 }
-export default Equity;
+
+export default EquityModal;
+
+

@@ -9,7 +9,9 @@ function ActionClassifier(summary,language){
         english:
             ["folded before Flop","folded on the Flop","folded on the Turn","folded on the River","collected","won","lost"],
         greek:
-            ["fold πριν Flop","fold στο Flop","fold στο Turn","fold στο River","απεκόμισε","κέρδισε","έχασε"]
+            ["fold πριν Flop","fold στο Flop","fold στο Turn","fold στο River","απεκόμισε","κέρδισε","έχασε"],
+        german:
+            ["passt vor dem Flop","passt auf: Flop","passt auf: Turn","passt auf: River","gewinnt","und gewinnt","verliert"],
        }
     if (summary.includes(keywords[language][0])){
         return 'preflopfold'
@@ -23,11 +25,11 @@ function ActionClassifier(summary,language){
     if (summary.includes(keywords[language][2])){
         return 'turnfold'
     }
-    if (summary.includes(keywords[language][4])){
-        return 'win1'
-    }
     if (summary.includes(keywords[language][5])){
         return 'win2'
+    }
+    if (summary.includes(keywords[language][4])){
+        return 'win1'
     }
     if (summary.includes("mucked")){
         return 'mucked'
@@ -55,13 +57,16 @@ function PreflopAnalyzer(players,preflopRound,language){
     var playerHand = ""
     var keywords = {
         english:
-            ["Dealt"],
+            ["bets","raise","calls","checks","folds"],
         greek:
-            ["Μοίρασε"]
+            ["ποντάρει","raise","call","check","fold"],
+        german:
+            ["setzt","erhöht","geht mit","checkt","passt"]
        }
+    
     for (var i=0;i<preflopRound.length;i++){
         round.push(preflopRound[i])
-        if (preflopRound[i].includes("raise")){
+        if (preflopRound[i].includes(keywords[language][1])){
             
             for (var j = 0; j<players.length;j++){
                 if (preflopRound[i].includes(players[j])){
@@ -75,7 +80,7 @@ function PreflopAnalyzer(players,preflopRound,language){
             }
     
         }
-        if (preflopRound[i].includes("call")||preflopRound[i].includes("calls")){
+        if (preflopRound[i].includes(keywords[language][2])){
             if (!preflopRound[i].includes("δεν έγινε")){
                 for (var j = 0; j<players.length;j++){
                     if (preflopRound[i].includes(players[j])){
@@ -88,7 +93,7 @@ function PreflopAnalyzer(players,preflopRound,language){
             }
     
         }
-        if (preflopRound[i].includes("check")||preflopRound[i].includes("checks")){
+        if (preflopRound[i].includes(keywords[language[3]])){
             
             for (var j = 0; j<players.length;j++){
                 if (preflopRound[i].includes(players[j])){
@@ -99,7 +104,7 @@ function PreflopAnalyzer(players,preflopRound,language){
             }
     
         } 
-        if (preflopRound[i].includes("fold")||preflopRound[i].includes("folds")){
+        if (preflopRound[i].includes(keywords[language[4]])){
             
             for (var j = 0; j<players.length;j++){
                 if (preflopRound[i].includes(players[j])){
@@ -138,14 +143,16 @@ function FlopAnalyzer(players,flopRound,language){
     var playerHand = ""
     var keywords = {
         english:
-            ["bets"],
+            ["bets","raise","calls","checks","folds"],
         greek:
-            ["ποντάρει"]
+            ["ποντάρει","raise","call","check","fold"],
+        german:
+            ["setzt","erhöht","geht mit","checkt","passt"]
        }
     
     for (var i=0;i<flopRound.length;i++){
         round.push(flopRound[i])
-        if (flopRound[i].search("raise")!=-1||flopRound[i].search(keywords[language][0])!=-1){
+        if (flopRound[i].search(keywords[language][1])!=-1||flopRound[i].search(keywords[language][0])!=-1){
             
             for (var j = 0; j<players.length;j++){
                 if (flopRound[i].includes(players[j])){
@@ -159,7 +166,7 @@ function FlopAnalyzer(players,flopRound,language){
             }
     
         }
-        if (flopRound[i].includes("check")||flopRound[i].includes("checks")){
+        if (flopRound[i].includes(keywords[language][3])){
             
             for (var j = 0; j<players.length;j++){
                 if (flopRound[i].includes(players[j])){
@@ -170,7 +177,7 @@ function FlopAnalyzer(players,flopRound,language){
             }
     
         } 
-        if (flopRound[i].includes("call")||flopRound[i].includes("calls")){
+        if (flopRound[i].includes(keywords[language][2])){
             if (!flopRound[i].includes("δεν έγινε")){
                 for (var j = 0; j<players.length;j++){
                     if (flopRound[i].includes(players[j])){
@@ -183,7 +190,7 @@ function FlopAnalyzer(players,flopRound,language){
             
     
         }
-        if (flopRound[i].includes("fold")||flopRound[i].includes("folds")){
+        if (flopRound[i].includes(keywords[language][4])){
             
             for (var j = 0; j<players.length;j++){
                 if (flopRound[i].includes(players[j])){
@@ -213,13 +220,17 @@ function TurnAnalyzer(players,turnRound,language){
     var playerHand = ""
     var keywords = {
         english:
-            ["bets"],
+            ["bets","raise","calls","checks","folds"],
         greek:
-            ["ποντάρει"]
+            ["ποντάρει","raise","call","check","fold"],
+        german:
+            ["setzt","erhöht","geht mit","checkt","passt"]
        }
+    
+    
     for (var i=0;i<turnRound.length;i++){
         round.push(turnRound[i])
-        if (turnRound[i].includes("raise")||turnRound[i].includes(keywords[language][0])){
+        if (turnRound[i].includes(keywords[language][1])||turnRound[i].includes(keywords[language][0])){
             
             for (var j = 0; j<players.length;j++){
                 if (turnRound[i].includes(players[j])){
@@ -233,7 +244,7 @@ function TurnAnalyzer(players,turnRound,language){
             }
     
         }
-        if (turnRound[i].includes("check")||turnRound[i].includes("checks")){
+        if (turnRound[i].includes(keywords[language][3])){
             
             for (var j = 0; j<players.length;j++){
                 if (turnRound[i].includes(players[j])){
@@ -244,7 +255,7 @@ function TurnAnalyzer(players,turnRound,language){
             }
     
         } 
-        if (turnRound[i].includes("call")||turnRound[i].includes("calls")){
+        if (turnRound[i].includes(keywords[language][2])){
             if (!turnRound[i].includes("δεν έγινε")){
                 for (var j = 0; j<players.length;j++){
                     if (turnRound[i].includes(players[j])){
@@ -256,7 +267,7 @@ function TurnAnalyzer(players,turnRound,language){
             }
     
         } 
-        if (turnRound[i].includes("fold")||turnRound[i].includes("folds")){
+        if (turnRound[i].includes(keywords[language][4])){
             
             for (var j = 0; j<players.length;j++){
                 if (turnRound[i].includes(players[j])){
@@ -286,13 +297,16 @@ function RiverAnalyzer(players,riverRound,language){
     var playerHand = ""
     var keywords = {
         english:
-            ["bets"],
+            ["bets","raise","calls","checks","folds"],
         greek:
-            ["ποντάρει"]
+            ["ποντάρει","raise","call","check","fold"],
+        german:
+            ["setzt","erhöht","geht mit","checkt","passt"]
        }
+    
     for (var i=0;i<riverRound.length;i++){
         round.push(riverRound[i])
-        if (riverRound[i].includes("raise")||riverRound[i].includes(keywords[language][0])){
+        if (riverRound[i].includes(keywords[language][1])||riverRound[i].includes(keywords[language][0])){
             
             for (var j = 0; j<players.length;j++){
                 if (riverRound[i].includes(players[j])){
@@ -307,7 +321,7 @@ function RiverAnalyzer(players,riverRound,language){
             }
     
         }
-        if (riverRound[i].includes("check")||riverRound[i].includes("checks")){
+        if (riverRound[i].includes(keywords[language][3])){
             //console.log(riverRound)
             for (var j = 0; j<players.length;j++){
                 if (riverRound[i].includes(players[j])){
@@ -318,7 +332,7 @@ function RiverAnalyzer(players,riverRound,language){
             }
     
         } 
-        if (riverRound[i].includes("call")||riverRound[i].includes("calls")){
+        if (riverRound[i].includes(keywords[language][2])){
             //console.log(riverRound)
             if (!riverRound[i].includes("δεν έγινε")){
                 for (var j = 0; j<players.length;j++){
@@ -331,7 +345,7 @@ function RiverAnalyzer(players,riverRound,language){
             }
     
         }
-        if (riverRound[i].includes("fold")||riverRound[i].includes("folds")){
+        if (riverRound[i].includes(keywords[language][4])){
             
             for (var j = 0; j<players.length;j++){
                 if (riverRound[i].includes(players[j])){
@@ -354,11 +368,11 @@ function IntroAnalyzer(intro,language){
     var players = []
     var keywords = {
         english:
-            ["Seat"],
+            ["Seat","small blind","big blind"],
         greek:
-            ["Θέση"],
+            ["Θέση","small blind","big blind"],
         german:
-            ["Platz"]
+            ["Platz","Small Blind","Big Blind"]
        }
     for (var i=0;i<intro.length;i++){
         if (intro[i].includes(keywords[language][0])){
@@ -372,12 +386,12 @@ function IntroAnalyzer(intro,language){
             //console.log(ante)
             ante = ante[ante.length-1].replace(/\D/g,'');
         }
-        if (intro[i].includes("big blind")){
+        if (intro[i].includes(keywords[language][2])){
             var bblind = intro[i].split(" ")
             //console.log(ante)
             bblind = bblind[bblind.length-1].replace(/\D/g,'');
         }
-        if (intro[i].includes("small blind")){
+        if (intro[i].includes(keywords[language][1])){
             var sblind = intro[i].split(" ")
             //console.log(ante)
             sblind = sblind[sblind.length-1].replace(/\D/g,'');
@@ -405,15 +419,17 @@ function getPlayerList(summary,language){
     return players
 }
 function SummaryAnalyzer(summary,language){
+    console.log(language)
     var players = []    
     var keywords = {
         english:
-            ["Seat","Board"],
+            ["Seat","Board","small","big","button"],
         greek:
-            ["Θέση","Ταμπλό"],
+            ["Θέση","Ταμπλό","small","big","button"],
         german:
-            ["Platz","Board"]
+            ["Platz","Board","Small","Big","Dealer"]
        }
+       
     for (var i=0;i<summary.length;i++){
         //console.log(summary[i])
         if (summary[i].includes(keywords[language][0])){
@@ -422,13 +438,13 @@ function SummaryAnalyzer(summary,language){
             
             
             var action = ActionClassifier(summary[i],language)
-            if(summary[i].includes("small")){
+            if(summary[i].includes(keywords[language][2])){
                 players.push({"player":splited[2],"action":action,"position":'sb'})
             }
-            else if (summary[i].includes("big")){
+            else if (summary[i].includes(keywords[language][3])){
                 players.push({"player":splited[2],"action":action,"position":'bb'})
             }
-            else if (summary[i].includes("button")){
+            else if (summary[i].includes(keywords[language][4])){
                 players.push({"player":splited[2],"action":action,"position":'btn'})
             }
             else{
@@ -450,8 +466,9 @@ function SummaryAnalyzer(summary,language){
 }
 const SplitActions = (text) =>{
     
-
+    
     text = text.split("\n")
+    console.log(text[0])
     var language = "english"
     var keywords = {english:
                     ["*** HOLE CARDS ***","*** SUMMARY ***"],
@@ -463,7 +480,7 @@ const SplitActions = (text) =>{
     if (text[0].includes("Παρτίδα")){
         language = "greek"
     }
-    if (text.includes("Tisch")){
+    if (text[0].includes("Nr.")){
         language = "german"
     }
     
@@ -559,7 +576,7 @@ const SplitActions = (text) =>{
 
 export const textToJson = (array) => {
     const text = SplitRounds(array)
-
+    console.log(text)
     var hands = []
 
 

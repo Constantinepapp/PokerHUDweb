@@ -59,6 +59,7 @@ export default function CollapsibleTable(props) {
             <TableCell align="right">Chips</TableCell>
             <TableCell align="right">Hands</TableCell>
             <TableCell align="right">See Flop %</TableCell>
+            <TableCell align="right">Equity vs Raise %</TableCell>
             <TableCell align="right">Raise Flop %</TableCell>
             <TableCell align="right">Win by Fold</TableCell>
           </TableRow>
