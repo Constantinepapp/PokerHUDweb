@@ -79,8 +79,11 @@ const writeText = (text,start) =>{
         ["bets","raise","calls","checks","folds","won","lost","mucked"],
     greek:
         ["ποντάρει","raise","call","check","fold","κέρδισε","έχασε","mucked"],
+        
     german:
-        ["setzt","erhöht","geht mit","checkt","passt","gewinnt","verliert","mucked"]
+        ["setzt","erhöht","geht mit","checkt","passt","gewinnt","verliert","mucked"], 
+        spanish:
+        ["apuesta","sube","iguala","pasa","se retiró","ganó","perdió","mucked"]
    }
 
   for (var i=start;i<text.length;i++){
@@ -164,7 +167,9 @@ const summary = (text) => {
       greek:
       ["pot","Rake"],
       german:
-      ["Pot gesamt:","Rake:"]
+      ["Pot gesamt:","Rake:"],
+      spanish:
+      ["Bote total","Comisión"]
      }
     let language = localStorage.getItem("language")
       var pot = text[1]?.split(keywords[language][0])[1]?.split(" ")[1]

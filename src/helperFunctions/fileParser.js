@@ -11,7 +11,9 @@ function ActionClassifier(summary,language){
         greek:
             ["fold πριν Flop","fold στο Flop","fold στο Turn","fold στο River","απεκόμισε","κέρδισε","έχασε"],
         german:
-            ["passt vor dem Flop","passt auf: Flop","passt auf: Turn","passt auf: River","gewinnt","und gewinnt","verliert"],
+            ["passt vor dem Flop","passt auf: Flop","passt auf: Turn","passt auf: River","gewinnt","und gewinnt","verliert"],   
+        spanish:
+            ["se retiró antes del Flop","se retiró en el Flop","se retiró en el Turn","se retiró en el River","recaudó","ganó","perdió"]
        }
     if (summary.includes(keywords[language][0])){
         return 'preflopfold'
@@ -61,7 +63,9 @@ function PreflopAnalyzer(players,preflopRound,language){
         greek:
             ["ποντάρει","raise","call","check","fold","Μοίρασε"],
         german:
-            ["setzt","erhöht","geht mit","checkt","passt","bekommt:"]
+            ["setzt","erhöht","geht mit","checkt","passt","bekommt:"],
+        spanish:
+            ["apuesta","sube","iguala","pasa","se retira"]
        }
     
     for (var i=0;i<preflopRound.length;i++){
@@ -148,7 +152,9 @@ function FlopAnalyzer(players,flopRound,language){
         greek:
             ["ποντάρει","raise","call","check","fold"],
         german:
-            ["setzt","erhöht","geht mit","checkt","passt"]
+            ["setzt","erhöht","geht mit","checkt","passt"],
+        spanish:
+            ["apuesta","sube","iguala","pasa","se retira"]
        }
     
     for (var i=0;i<flopRound.length;i++){
@@ -225,7 +231,9 @@ function TurnAnalyzer(players,turnRound,language){
         greek:
             ["ποντάρει","raise","call","check","fold"],
         german:
-            ["setzt","erhöht","geht mit","checkt","passt"]
+            ["setzt","erhöht","geht mit","checkt","passt"],
+        spanish:
+            ["apuesta","sube","iguala","pasa","se retira"]
        }
     
     
@@ -302,7 +310,9 @@ function RiverAnalyzer(players,riverRound,language){
         greek:
             ["ποντάρει","raise","call","check","fold"],
         german:
-            ["setzt","erhöht","geht mit","checkt","passt"]
+            ["setzt","erhöht","geht mit","checkt","passt"],
+        spanish:
+            ["apuesta","sube","iguala","pasa","se retira"]
        }
     
     for (var i=0;i<riverRound.length;i++){
@@ -373,7 +383,9 @@ function IntroAnalyzer(intro,language){
         greek:
             ["Θέση","small blind","big blind"],
         german:
-            ["Platz","Small Blind","Big Blind"]
+            ["Platz","Small Blind","Big Blind"],
+        spanish:
+            ["Asiento","pequeña","grande"]
        }
     for (var i=0;i<intro.length;i++){
         if (intro[i].includes(keywords[language][0])){
@@ -409,7 +421,9 @@ function getPlayerList(summary,language){
         greek:
             ["Θέση"],
         german:
-            ["Platz"]
+            ["Platz"],
+        spanish:
+            ["Asiento"]
        }
     for (var i=0;i<summary.length;i++){
         if (summary[i].includes(keywords[language][0])){
@@ -428,7 +442,9 @@ function SummaryAnalyzer(summary,language){
         greek:
             ["Θέση","Ταμπλό","small","big","button"],
         german:
-            ["Platz","Board","Small","Big","Dealer"]
+            ["Platz","Board","Small","Big","Dealer"],
+        spanish:
+            ["Asiento","Comunitarias","pequeña","grande","botón"]
        }
        
     for (var i=0;i<summary.length;i++){
@@ -477,7 +493,9 @@ const SplitActions = (text) =>{
                     greek:
                     ["*** ΚΡΥΦΑ ΦΥΛΛΑ ***","*** ΣΥΝΟΨΗ ***"],
                     german:
-                    ["*** HOLE CARDS ***","*** ZUSAMMENFASSUNG ***"]
+                    ["*** HOLE CARDS ***","*** ZUSAMMENFASSUNG ***"],
+                    spanish:
+                    ["*** CARTAS DE MANO ***","*** RESUMEN ***"]
                    }
     if (text[0].includes("Παρτίδα")){
         language = "greek"
@@ -486,6 +504,10 @@ const SplitActions = (text) =>{
     if (text[0].includes("Nr.")){
         language = "german"
         localStorage.setItem("language","german")
+    }
+    if (text[0].includes("Torneo")){
+        language = "spanish"
+        localStorage.setItem("language","spanish")
     }
     
     var title = text[0].split(" ")
