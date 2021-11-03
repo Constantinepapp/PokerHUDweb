@@ -57,16 +57,16 @@ function PreflopAnalyzer(players,preflopRound,language){
     var playerHand = ""
     var keywords = {
         english:
-            ["bets","raise","calls","checks","folds"],
+            ["bets","raise","calls","checks","folds","Dealt"],
         greek:
-            ["ποντάρει","raise","call","check","fold"],
+            ["ποντάρει","raise","call","check","fold","Μοίρασε"],
         german:
-            ["setzt","erhöht","geht mit","checkt","passt"]
+            ["setzt","erhöht","geht mit","checkt","passt","bekommt:"]
        }
     
     for (var i=0;i<preflopRound.length;i++){
         round.push(preflopRound[i])
-        if (preflopRound[i].includes(keywords[language][1])){
+        if (preflopRound[i].includes(keywords[language][1])||preflopRound[i].includes(keywords[language][0])){
             
             for (var j = 0; j<players.length;j++){
                 if (preflopRound[i].includes(players[j])){
@@ -115,14 +115,15 @@ function PreflopAnalyzer(players,preflopRound,language){
             }
     
         }     
-        if (preflopRound[i].includes(keywords[language][0])){
+        if (preflopRound[i].includes(keywords[language][5])){
+            console.log(preflopRound[i])
             for (var j = 0; j<players.length;j++){
                 if (preflopRound[i].includes(players[j])){
                     var playerSelf = players[j]
                 }
             }
             var temp = preflopRound[i].split('[')
-            var temp = temp[1].split("]")
+            var temp = temp[1]?.split("]")
             playerHand = temp[0]
         }        
         
@@ -453,7 +454,7 @@ function SummaryAnalyzer(summary,language){
             
             //console.log(summary[i],splited)
             
-            console.log(players)
+            //console.log(players)
         }
         if (summary[i].includes(keywords[language][1])){
             var cardsDown = summary[i].split("[")
@@ -468,7 +469,7 @@ const SplitActions = (text) =>{
     
     
     text = text.split("\n")
-    console.log(text[0])
+    //console.log(text[0])
     var language = "english"
     var keywords = {english:
                     ["*** HOLE CARDS ***","*** SUMMARY ***"],
@@ -576,7 +577,7 @@ const SplitActions = (text) =>{
 
 export const textToJson = (array) => {
     const text = SplitRounds(array)
-    console.log(text)
+    //console.log(text)
     var hands = []
 
 

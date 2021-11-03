@@ -125,7 +125,7 @@ const EquityModal = (props) => {
                     
             </div>
             <h5 style={{marginBottom:'20px' ,color:'rgb(250,105,140)'}}>Opponent cards</h5>
-            <p>Based on the assumption that the user <span style={{fontWeight:'1000',color:'rgb(200,100,100)'}}>Raises</span> : <span style={{fontWeight:'1000',color:'rgb(200,200,180)'}}> {props.percent} %</span> of his hands on the preflop phase</p>
+            <p>Based on the assumption that the player <span style={{fontWeight:'1000',color:'rgb(200,100,100)'}}>Raises</span> : <span style={{fontWeight:'1000',color:'rgb(200,200,180)'}}> {props.percent} %</span> of his hands on the preflop phase</p>
             <div className="right-container">
                 <div  className="slider">
                     <label style={{'fontSize':'20px','color':'rgb(200,200,200)'}}>{slider == bestCombo.length-1 ? 100 : (slider*100/combosState.length).toFixed(2)}% Best Hands</label>
